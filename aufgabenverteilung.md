@@ -72,10 +72,16 @@ docker/
 
 # Projektübersicht
 
-Hier ist das Architekturdiagramm des Full-Stack Projekts:
+Architekturdiagramm des Full-Stack Projekts:
 
 ![Full-Stack Projektstruktur](images/image1.png)
 
-Und hier die Rollenverteilung + Basis Projektstruktur:
+Rollenverteilung + Basis Projektstruktur:
 
-![Aufgabenverteilung und Projektstruktur](images/image2.png)
+![Rollenverteilung und Projektstruktur](images/image2.png)
+
+Aufgabenabhängigkeiten:
+
+![Aufgabenverteilung](images/image3.png)
+
+
