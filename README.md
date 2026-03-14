@@ -32,4 +32,12 @@ Willkommen im Vorbereitungs-Repo für die IHK-Prüfungen. Hier findest du alle 1
 
 ---
 
+## ⚖️ Rechtliche Hinweise
+
+Die in diesem Wiki verwendeten Prüfungsfragen und Antworten (insbesondere im Modul 02) wurden aus den Probeklausuren von **Hypercampus** entnommen. Sämtliche Urheberrechte an diesen Inhalten liegen ausschließlich bei **Hypercampus**. Dieses Projekt dient lediglich als persönliche Lernunterstützung und Wissensdatenbank im Rahmen der Vorbereitung auf die Prüfung zum **IT-Administrator (IHK)**.
+
+Jegliche gewerbliche Nutzung ist ausgeschlossen.
+
+---
+
 Crafted by The_Bozgun
