@@ -69,7 +69,7 @@ export default function App() {
 
         <div className="flex-1 overflow-y-auto p-10">
           <div className="max-w-4xl mx-auto">
-            <article className="prose prose-invert prose-blue max-w-none 
+            <article className="prose prose-invert prose-blue max-w-none
               prose-h1:text-white prose-h1:text-4xl prose-h1:font-black prose-h1:tracking-tighter prose-h1:border-b prose-h1:border-white/10 prose-h1:pb-6
               prose-p:text-slate-400 prose-p:leading-relaxed
               prose-strong:text-blue-400 prose-strong:font-bold
@@ -79,6 +79,16 @@ export default function App() {
                 {selected?.content || "# Veri Yükleniyor..."}
               </ReactMarkdown>
             </article>
+            <footer className="mt-12 pt-8 border-t border-slate-800 text-[11px] text-slate-500 pb-12 leading-relaxed">
+              <div className="flex items-start gap-2 italic">
+                <span className="font-bold text-slate-400 text-xs">RECHTLICHER HINWEIS:</span>
+                <p>
+                  Die Inhalte der Prüfungssimulationen (Fragen/Antworten) stammen von
+                  <span className="text-blue-400/80 mx-1">Hypercampus</span>.
+                  Sämtliche Urheberrechte liegen bei Hypercampus. Dieses Wiki dient rein privaten Lernzwecken.
+                </p>
+              </div>
+            </footer>
           </div>
         </div>
       </main>
