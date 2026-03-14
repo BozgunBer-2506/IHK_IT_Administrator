@@ -66,4 +66,4 @@ Dieses Projekt dient lediglich als persönliche Lernunterstützung und Wissensda
 
 ---
 
-**Crafted by The_Bozgun**
+**Crafted by The_Bozgun - 2026**
