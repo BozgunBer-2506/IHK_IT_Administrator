@@ -25,8 +25,8 @@ const MODULE_INFO = {
 
 function HomePage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
-      <div className="mb-10 text-center">
+    <div className="max-w-4xl mx-auto px-4 py-6">
+      <div className="mb-6 text-center">
         <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/20 rounded-full px-4 py-1.5 mb-6">
           <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
           <span className="text-xs text-green-400 font-bold uppercase tracking-widest">IHK Prüfungsvorbereitung</span>
@@ -175,7 +175,7 @@ export default function App() {
       </aside>
 
       {/* MAIN CONTENT */}
-      <main className="flex-1 flex flex-col bg-[#0d0d0f] min-w-0">
+      <main className="flex-1 flex flex-col bg-brand-dark min-w-0">
         <header className="h-14 border-b border-brand-border bg-brand-dark/80 backdrop-blur-md flex items-center justify-between px-4 md:px-8 shrink-0">
           <div className="flex items-center gap-2 min-w-0">
             <button
