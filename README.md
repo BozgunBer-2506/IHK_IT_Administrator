@@ -60,7 +60,7 @@ Die Anwendung läuft dann unter: [http://localhost:5173](https://www.google.com/
 
 ## ⚖️ Rechtliche Hinweise
 
-Die in diesem Wiki verwendeten Prüfungsfragen und Antworten (insbesondere im Modul 02) wurden aus den Probeklausuren von **Hypercampus** entnommen. Sämtliche Urheberrechte an diesen Inhalten liegen ausschließlich bei **Hypercampus**.
+Die in diesem Wiki verwendeten Prüfungsfragen und Antworten wurden aus den Probeklausuren von **Hypercampus** entnommen. Sämtliche Urheberrechte an diesen Inhalten liegen ausschließlich bei **Hypercampus**.
 
 Dieses Projekt dient lediglich als persönliche Lernunterstützung und Wissensdatenbank im Rahmen der Vorbereitung auf die Prüfung zum **IT-Administrator (IHK)**. Jegliche gewerbliche Nutzung ist ausgeschlossen.
 
