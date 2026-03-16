@@ -88,13 +88,17 @@ export default function App() {
 
         <div className="p-4 border-t border-brand-border flex justify-center">
           <a
-            href="https://github.com/BozgunBer-2506"
+           href="https://github.com/BozgunBer-2506"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-[11px] text-slate-500 hover:text-blue-400 transition-colors"
+            className="flex items-center gap-2 group transition-all duration-300"
           >
-            <span className="font-bold">The_Bozgun</span>
-            <span className="text-slate-700">@ GitHub</span>
+            <span className="text-white font-bold tracking-tight text-lg group-hover:text-teal-400 transition-colors">
+              The_Bozgun
+            </span>
+            <span className="font-mono text-slate-500 text-xs tracking-tight opacity-90">
+              @ GitHub
+            </span>
           </a>
         </div>
       </aside>
