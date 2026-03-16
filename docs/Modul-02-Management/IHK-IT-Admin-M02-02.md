@@ -1,4 +1,6 @@
-# M02 Teil 2: IHK IT Administration – Prüfungssimulation
+# M02 Teil 2: IHK IT Administration
+
+---
 
 ### Frage 1
 
@@ -341,3 +343,5 @@ Was wird dort gespeichert?
 Wie wird diese meist im Ticketsystem gemessen?
 
 - **Durch automatisierte Kurzumfragen nach Abschluss eines Tickets.**
+
+---

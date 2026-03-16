@@ -1,4 +1,4 @@
-# M01 Teil 1: IHK IT Administration – Prüfungssimulation
+# M01 Teil 1: IHK IT Administration
 
 ---
 
@@ -344,3 +344,5 @@ Was beschreibt das OSI-Modell?
 
 Die IP-Adresse dient im Netzwerk zur:
 **Logischen Adressierung und Identifizierung von Geräten.**
+
+---

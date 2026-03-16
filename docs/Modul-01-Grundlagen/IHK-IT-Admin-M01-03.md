@@ -1,4 +1,4 @@
-# M01 Teil 3: IHK IT Administration – Prüfungssimulation
+# M01 Teil 3: IHK IT Administration
 
 ---
 
@@ -393,3 +393,5 @@ Ein Rechenzentrum besteht ausschließlich aus vernetzten Servern.
 
 Die Stromversorgung eines Rechenzentrums kann mit USV in Form von Akkus gesichert werden.
 **Wahr**
+
+---

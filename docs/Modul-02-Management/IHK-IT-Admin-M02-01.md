@@ -1,4 +1,4 @@
-# M02 Teil 1: IHK IT Administration – Prüfungssimulation
+# M02 Teil 1: IHK IT Administration
 
 ---
 
@@ -338,3 +338,5 @@ Reproduzierbare Fehler sind oft leichter zu lösen als nicht reproduzierbare Feh
 
 Der First-Level-Support hat Zugriff auf alle Unternehmensbereiche.
 **Antwort: Falsch**
+
+---

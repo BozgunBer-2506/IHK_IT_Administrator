@@ -1,4 +1,4 @@
-# M01 Teil 2: IHK IT Administration – Prüfungssimulation
+# M01 Teil 2: IHK IT Administration
 
 ---
 
@@ -320,3 +320,5 @@ SSDs sind robuster, leiser und haben schnellere Zugriffszeiten im Vergleich zu H
 
 Ein Cache speichert Daten ausschließlich dauerhaft, um sie langfristig verfügbar zu machen.
 **Falsch**
+
+---
