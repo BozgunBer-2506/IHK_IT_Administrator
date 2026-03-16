@@ -14,19 +14,19 @@
 
 ### Frage 2: GPO Computer-Konfiguration
 
-GPOs ermöglichen die Steuerung von **Windows-Updates**, um Geräte aktuell zu halten. Administratoren können **Software** bereitstellen ve **Energiesparoptionen** (Ruhezustand) konfigurieren. **Benutzerprofile** werden direkt im Active Directory verwaltet, nicht per GPO.
+GPOs ermöglichen die Steuerung von **Windows-Updates**, um Geräte aktuell zu halten. Administratoren können **Software** bereitstellen und **Energiesparoptionen** (Ruhezustand) konfigurieren. **Benutzerprofile** werden direkt im Active Directory verwaltet, nicht per GPO.
 
 ---
 
 ### Frage 3: Organisationseinheiten (OUs)
 
-OUs dienen der Verwaltung von **Objekten** ve bieten eine **logische Struktur**. Sie enthalten keine **Benutzerkennwörter** (diese liegen in der AD-Datenbank) ve erlauben die **Vererbung** von GPOs.
+OUs dienen der Verwaltung von **Objekten** und bieten eine **logische Struktur**. Sie enthalten keine **Benutzerkennwörter** (diese liegen in der AD-Datenbank) und erlauben die **Vererbung** von GPOs.
 
 ---
 
 ### Frage 4: AD-Kontosicherheit
 
-Das Löschen von **Protokollen** erschwert die Nachverfolgung. 2FA bietet eine zusätzliche **Sicherheitsebene**. **Komplexe** Passwörter schützen vor Hacks. Mehr Gruppenmitgliedschaften geben **mehr Rechte**, ama güvenliği artırmaz.
+Das Löschen von **Protokollen** erschwert die Nachverfolgung. 2FA bietet eine zusätzliche **Sicherheitsebene**. **Komplexe** Passwörter schützen vor Hacks. Mehr Gruppenmitgliedschaften geben **mehr Rechte**, verbessert jedoch nicht die Sicherheit.
 
 ---
 
@@ -38,13 +38,13 @@ Das Löschen von **Protokollen** erschwert die Nachverfolgung. 2FA bietet eine z
 
 ### Frage 6: Domänenbeitritt Voraussetzungen
 
-Nötig sind: **Netzwerkverbindung** zum DC, **DNS-Einstellungen** auf den DC zeigend, eindeutiger **Computername** ve ein **domänenfähig** Betriebssystem (Pro/Enterprise).
+Nötig sind: **Netzwerkverbindung** zum DC, **DNS-Einstellungen** auf den DC zeigend, eindeutiger **Computername** und ein **domänenfähig** Betriebssystem (Pro/Enterprise).
 
 ---
 
 ### Frage 7: DHCP-Einrichtung
 
-Ablauf: Neuen **DHCP-Bereich** anlegen, **Bereichsnamen** vergeben, **Adressbereich** (IP-Pool) definieren, **Ausschlussbereiche** festlegen ve **Leasedauer** (z.B. 8h) bestimmen.
+Ablauf: Neuen **DHCP-Bereich** anlegen, **Bereichsnamen** vergeben, **Adressbereich** (IP-Pool) definieren, **Ausschlussbereiche** festlegen und **Leasedauer** (z.B. 8h) bestimmen.
 
 ---
 
@@ -77,7 +77,7 @@ VM herunterfahren, unter **SCSI-Controller** neue VHD erzeugen. Typ: **Dynamisch
 
 ### Frage 12: GPO Zuordnungen
 
-GPOs werden auf OUs in der **Active Directory-Struktur** angewendet. Sie binden **Netzlaufwerke** ein ve gelten für Benutzer ve **Computer**. GPOs gelten für OUs/Domänen, nicht für einzelne **Gruppen**. Sie legen **Passwortrichtlinien** fest.
+GPOs werden auf OUs in der **Active Directory-Struktur** angewendet. Sie binden **Netzlaufwerke** ein und gelten für Benutzer und **Computer**. GPOs gelten für OUs/Domänen, nicht für einzelne **Gruppen**. Sie legen **Passwortrichtlinien** fest.
 
 ---
 
@@ -100,7 +100,7 @@ GPOs werden auf OUs in der **Active Directory-Struktur** angewendet. Sie binden 
 
 ### Frage 15: Hyper-V Begriffe II
 
-- **Generation 2:** Nutzt UEFI ve moderne Features.
+- **Generation 2:** Nutzt UEFI undmoderne Features.
 - **Default Switch:** Erzeugt automatisch NAT für Internet.
 - **Dynamischer Arbeitsspeicher:** Skaliert RAM automatisch.
 - **vCPU:** Virtuelle Prozessorkerne.
@@ -110,31 +110,31 @@ GPOs werden auf OUs in der **Active Directory-Struktur** angewendet. Sie binden 
 
 ### Frage 16: Server-Manager Tools
 
-Zur Domänenverwaltung gehören: **Gruppenrichtlinienverwaltung** (GPOs) ve **Ressourcen-Manager für Dateiserver** (Speicherkontingente).
+Zur Domänenverwaltung gehören: **Gruppenrichtlinienverwaltung** (GPOs) und **Ressourcen-Manager für Dateiserver** (Speicherkontingente).
 
 ---
 
 ### Frage 17: Vor DC-Heraufstufung nötig
 
-Der Server muss einen **eindeutigen Namen** ve eine **feste IP** (statisch) haben. DNS wird automatisch mitinstalliert.
+Der Server muss einen **eindeutigen Namen** und eine **feste IP** (statisch) haben. DNS wird automatisch mitinstalliert.
 
 ---
 
 ### Frage 18: Rolle des Domain Controllers (DC)
 
-Der DC **verwaltet Benutzerkonten und Gruppen** ve **speichert/repliziert die AD-Datenbank** mit anderen DCs.
+Der DC **verwaltet Benutzerkonten und Gruppen** und **speichert/repliziert die AD-Datenbank** mit anderen DCs.
 
 ---
 
 ### Frage 19: GPO Zuweisungsobjekte
 
-GPOs können zugewiesen werden: **Auf alle Benutzer und Computer in OUs** ve **Alle Benutzer und Computer in Domänen**.
+GPOs können zugewiesen werden: **Auf alle Benutzer und Computer in OUs** und **Alle Benutzer und Computer in Domänen**.
 
 ---
 
 ### Frage 20: Aufgaben von Gruppenrichtlinien
 
-Sie dienen der **Steuerung von Software-Installationen** ve der **Verwaltung von Benutzerrechten und Sicherheitseinstellungen**.
+Sie dienen der **Steuerung von Software-Installationen** undder **Verwaltung von Benutzerrechten und Sicherheitseinstellungen**.
 
 ---
 
@@ -152,7 +152,7 @@ Wenn zwei GPOs widersprüchliche Einstellungen enthalten, entscheidet die **Prio
 
 ### Frage 23: Hyperkonvergente Infrastruktur (HCI)
 
-HCI integriert Komponenten in einer softwarebasierten **Architektur**. Durch Kombination physischer **Nodes** entsteht ein Cluster. Bestandteile: **Datenebene** ve **Management**. Arbeitet mit **VMs** veya Containern.
+HCI integriert Komponenten in einer softwarebasierten **Architektur**. Durch Kombination physischer **Nodes** entsteht ein Cluster. Bestandteile: **Datenebene** und **Management**. Arbeitet mit **VMs** oder Containern.
 
 ---
 
@@ -164,13 +164,13 @@ HCI integriert Komponenten in einer softwarebasierten **Architektur**. Durch Kom
 
 ### Frage 25: Cloud Backup Varianten
 
-**Direktes Cloudbackup** (vom Gerät), **Backup as a Service** (BaaS - Provider verwaltet her şeyi), **Multi Region Backup** (mehrere Standorte), **Cloud to Cloud Backup** (Cloud-Sicherung), **Self hosted Backup** (eigene Cloud-Server).
+**Direktes Cloudbackup** (vom Gerät), **Backup as a Service** (BaaS - Provider verwaltet alles), **Multi Region Backup** (mehrere Standorte), **Cloud to Cloud Backup** (Cloud-Sicherung), **Self hosted Backup** (eigene Cloud-Server).
 
 ---
 
 ### Frage 26: Disaster Recovery Details
 
-Ziel ist die Wiederherstellung vor dem **Datenverlust**. Dazu braucht man systematische **Backups**, genug **Speicherkapazität** ve rechtssicheren **WORM**-Speicher. **Protokolle** helfen bei der Nachverfolgung.
+Ziel ist die Wiederherstellung vor dem **Datenverlust**. Dazu braucht man systematische **Backups**, genug **Speicherkapazität** undrechtssicheren **WORM**-Speicher. **Protokolle** helfen bei der Nachverfolgung.
 
 ---
 
@@ -207,43 +207,43 @@ Ziel ist die Wiederherstellung vor dem **Datenverlust**. Dazu braucht man system
 
 ### Frage 31: Typ 2 Hypervisor
 
-Softwarebasiert, wird **oberhalb** des Host-OS ausgeführt. Interagiert **nicht direkt** mit der Hardware ve hat keinen unmittelbaren Zugriff auf Hardware-Ressourcen.
+Softwarebasiert, wird **oberhalb** des Host-OS ausgeführt. Interagiert **nicht direkt** mit der Hardware und hat keinen unmittelbaren Zugriff auf Hardware-Ressourcen.
 
 ---
 
 ### Frage 32: HCI Nachteile
 
-Meist Kauf der kompletten Einheit nötig, **Abhängigkeit** von einem Hersteller ve begrenzte **Anpassbarkeit**.
+Meist Kauf der kompletten Einheit nötig, **Abhängigkeit** von einem Hersteller und begrenzte **Anpassbarkeit**.
 
 ---
 
 ### Frage 33: RAID 0 Merkmale
 
-Bietet **schnellere Geschwindigkeit** ve verbindet 2 Platten zu bir Volume. Bietet **keinen** Ausfallschutz.
+Bietet **schnellere Geschwindigkeit** undverbindet 2 Platten zu einem Volume. Bietet **keinen** Ausfallschutz.
 
 ---
 
 ### Frage 34: Virtualisierungs-Sicherheit
 
-Ein Schwachpunkt im **Hypervisor** kann tüm VM'leri gefährden. **Isolierte VMs** bieten ek bir Sicherheitsschicht.
+Ein Schwachpunkt im **Hypervisor** kann alle VMs gefährden. **Isolierte VMs** bieten eine zusätzliche Sicherheitsschicht.
 
 ---
 
 ### Frage 35: Systemeigenschaften (Windows)
 
-Man kann dort den **Computernamen**, die **Domäne** ve den Ort für **temporäre Dateien** ändern.
+Man kann dort den **Computernamen**, die **Domäne** und den Ort für **temporäre Dateien** ändern.
 
 ---
 
 ### Frage 36: Systemsteuerung Tools
 
-Beinhaltet: **Netzwerk- und Freigabecenter**, **Programme und Features** ve den **Geräte-Manager**.
+Beinhaltet: **Netzwerk- und Freigabecenter**, **Programme und Features** und den **Geräte-Manager**.
 
 ---
 
 ### Frage 37: Windows-Features
 
-Dazu gehören **Hyper-V**, **Windows-Subsystem für Linux** ve **Druck- und Dokumentendienste**.
+Dazu gehören **Hyper-V**, **Windows-Subsystem für Linux** und **Druck- und Dokumentendienste**.
 
 ---
 

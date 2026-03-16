@@ -1,348 +1,205 @@
 # M01 Teil 1: IHK IT Administration
 
----
+### Frage 1: Aufgaben der IT-Systemadministration
 
-### Frage 1
+Die IT-Systemadministration ist verantwortlich für die **[Wartung]** und Konfiguration von Servern. Eine ihrer Kernaufgaben ist die Sicherstellung der **[Netzwerkverfügbarkeit]** für alle Nutzer. Darüber hinaus gehört die Durchführung von **[Systemoptimierung]** zur Verbesserung von Systemen dazu. Ein wichtiger Bereich ist außerdem die Umsetzung von **[IT‑Sicherheitsmaßnahmen und Compliance]**, um Daten und Systeme zu schützen. Aufgaben wie **[Personalverwaltung in der HR‑Abteilung]** oder die Organisation von Firmenevents gehören jedoch nicht zu den typischen Tätigkeiten.
 
-Die IT-Systemadministration ist verantwortlich für die **[Wartung]** und Konfiguration von Servern.
-Eine ihrer Kernaufgaben ist die Sicherstellung der **[Netzwerkverfügbarkeit]** für alle Nutzer.
-Darüber hinaus gehört die Durchführung von **[Systemoptimierung]** zur Verbesserung von Systemen dazu.
-Ein wichtiger Bereich ist außerdem die Umsetzung von **[IT‑Sicherheitsmaßnahmen und Compliance]**, um Daten und Systeme zu schützen.
-Aufgaben wie **[Personalverwaltung in der HR‑Abteilung]** oder die Organisation von Firmenevents gehören jedoch nicht zu den typischen Tätigkeiten.
+### Frage 2: Hardware-Komponenten
 
----
+Die zentrale Verarbeitungseinheit, die alle Rechenoperationen durchführt, ist die **[CPU (Prozessor)]**. Daten werden dauerhaft auf der **[Festplatte]** gespeichert, während der **[RAM (Arbeitsspeicher)]** als schneller Zwischenspeicher dient. Die **[Grafikkarte]** ist für die Darstellung von Bildern und Videos zuständig, während die **[Mainboard]** die Kommunikation mit Peripheriegeräten ermöglicht.
 
-### Frage 2
-
-Ein Computer besteht aus verschiedenen Hardware-Komponenten. Die zentrale Verarbeitungseinheit, die alle Rechenoperationen durchführt, ist die **[CPU (Prozessor)]**.
-Daten werden dauerhaft auf der **[Festplatte]** gespeichert, während der **[RAM (Arbeitsspeicher)]** als schneller Zwischenspeicher dient.
-Die **[Grafikkarte]** ist für die Darstellung von Bildern und Videos zuständig, während die **[Mainboard]** die Kommunikation mit Peripheriegeräten wie Tastatur und Maus ermöglicht.
-
----
-
-### Frage 3
+### Frage 3: KIS-Abkürzung
 
 Wofür steht die Abkürzung „KIS“ im Krankenhaus?
 **[Krankenhaus]-[Informations]-[System]**
 
----
-
-### Frage 4
+### Frage 4: Radiologie & Befundung
 
 In der **[Radiologie]** werden Aufnahmen mit **[Befundungsmonitore]** begutachtet. Der **[Befundungsarbeitsplatz]** darf im Aufbau nicht verändert werden, ohne neu kalibriert und freigegeben zu werden.
 
----
-
-### Frage 5
+### Frage 5: RIS-Abkürzung
 
 Wofür steht die Abkürzung „RIS“ im Krankenhaus?
 **[Radiologie]-[Informations]-[System]**
 
----
+### Frage 6: Prozessoreinheiten
 
-### Frage 6
+Das **[ALU]** ist für arithmetische und logische Operationen zuständig. Das **[Steuerwerk]** interpretiert Maschinenbefehle und steuert deren Ausführung. **[Register]** dienen als extrem schneller Zwischenspeicher. Ein moderner Prozessor kann mehrere **[Kerne]** enthalten. Um die Leistung weiter zu steigern, greifen Prozessoren auf einen mehrstufigen **[Cache]** zurück.
 
-Ein Prozessor besteht aus mehreren Funktionseinheiten. Das **[ALU]** ist für arithmetische und logische Operationen zuständig. Das **[Steuerwerk]** interpretiert Maschinenbefehle und steuert deren Ausführung. **[Register]** dienen als extrem schneller Zwischenspeicher für Daten und Befehle.
-Ein moderner Prozessor kann mehrere **[Kerne]** enthalten, die unabhängig voneinander Befehle ausführen können. Um die Leistung weiter zu steigern, greifen Prozessoren häufig auf einen mehrstufigen **[Cache]** zurück.
-
----
-
-### Frage 7
+### Frage 7: Zahlensysteme Basen
 
 Im **[Dezimalsystem]** ist die Basis 10, im **[Binärsystem]** die Basis 2, im **[Oktalsystem]** die Basis 8 und im **[Hexadezimalsystem]** die Basis 16.
 
----
-
-### Frage 8
+### Frage 8: ASCII-Code Grundlagen
 
 ASCII ist ein **[7]**-Bit-Code. Damit sind **[128]** Zeichen möglich.
 
----
-
-### Frage 9
+### Frage 9: Dateneinheiten
 
 Ein **[Bit]** ist die kleinste Informationseinheit. 8 **[Bit]** ergeben 1 **[Byte]**.
 
----
+### Frage 10: Hardware & Peripherie (Desktop PC)
 
-### Frage 10
+Die **[CPU]** ist das zentrale Rechenelement. Der **[RAM]** ist verantwortlich für die temporäre Speicherung. Die **[Festplatte]** stellt die dauerhafte Speicherung sicher. Zur Bildausgabe wird die **[Grafikkarte]** verwendet. Alle Komponenten sind auf dem **[Mainboard]** verbunden. **[Maus]**, **[WLAN‑Stick]** ve **[Bildschirmreiniger]** sind keine internen Hardwarekomponenten.
 
-Ein typischer Desktop-Computer besteht aus mehreren grundlegenden Hardwarekomponenten.
-Die **[CPU]** ist das zentrale Rechenelement und führt alle Rechenoperationen aus.
-Der **[RAM]** ist verantwortlich für die temporäre Speicherung von Daten während der Programmausführung.
-Die **[Festplatte]** stellt die dauerhafte Speicherung von Programmen und Dateien sicher.
-Zur Verarbeitung und Ausgabe von Bildsignalen wird die **[Grafikkarte]** verwendet.
-Alle diese Komponenten sind auf dem **[Mainboard]** miteinander verbunden.
-Begriffe wie **[Maus]** als Eingabegerät, **[WLAN‑Stick]** als drahtlose Erweiterung und **[Bildschirmreiniger]**, ein Reinigungswerkzeug, sind nicht als klassische interne Hardwarekomponenten eines Computers zu betrachten.
-
----
-
-### Frage 11
+### Frage 11: Hexadezimalsystem
 
 Das Hexadezimalsystem hat die Basis **[16]** und verwendet **[0–9 und A–F]**.
 
----
+### Frage 12: Sicherheit im Krankenhaus
 
-### Frage 12
+Das Gast-WLAN sollte vom **[allgemeinen Netzwerk]** abgekapselt sein. USB-Ports sollten **[gesperrt]** sein und nur nach **[Authentifizierung]** freigegeben werden.
 
-Im Krankenhaus sollte das Gast-WLAN vom **[allgemeinen Netzwerk]** abgekapselt sein. USB-Ports sollten **[gesperrt]** sein und nur nach **[Authentifizierung]** freigegeben werden.
+### Frage 13: CPU-Komponenten & Abgrenzung
 
----
+- **[ALU]**: Arithmetisch-logische Operationen.
+- **[Steuerwerk]**: Befehlsinterpretation.
+- **[Register]**: Schnelle Speicher im Prozessor.
+- **[Kerne]**: Parallele Bearbeitung.
+- **[Cache]**: Schneller Zwischenspeicher.
+- _Kein Teil der CPU:_ **[Festplatte]**, **[Netzwerkkarte]**, **[Bluetooth]**.
 
-### Frage 13
-
-Ein Prozessor, auch CPU genannt, ist das zentrale Rechenelement eines Computers. Er besteht aus mehreren Komponenten, die bestimmte Aufgaben übernehmen.
-Die **[ALU]** führt arithmetisch-logische Operationen aus.
-Das **[Steuerwerk]** interpretiert Befehle und steuert deren Ausführung.
-**[Register]** dienen als kleine, sehr schnelle Speicherbereiche innerhalb des Prozessors.
-Moderne Prozessoren besitzen oft mehrere **[Kerne]**, um Aufgaben parallel zu bearbeiten.
-Der **[Cache]** beschleunigt den Datenzugriff durch schnellen Zwischenspeicher.
-Eine **[Festplatte]** ist ein Speichermedium, nicht Bestandteil des Prozessors.
-Eine **[Netzwerkkarte]** dient zur Kommunikation, nicht zur Berechnung.
-**[Bluetooth]** ist ein drahtloser Übertragungsstandard und kein Teil der CPU.
-
----
-
-### Frage 14
-
-**Ordnen Sie die ASCII-Kategorien den Beschreibungen zu:**
+### Frage 14: ASCII-Kategorien
 
 - Sonderzeichen → **Druckbar, aber weder Buchstaben noch Ziffern**
 - Steuerzeichen → **Nicht druckbar (z. B. 0–31 und 127)**
 - Buchstaben → **A–Z und a–z (65–90 / 97–122)**
 - Ziffern → **0–9 (48–57)**
 
----
+### Frage 15: Krankenhaus (KH) vs. Unternehmen (HU)
 
-### Frage 15
+- Büroarbeitsplätze → **Herkömmliches Unternehmen**
+- Sensible Patientendaten → **Krankenhaus**
+- CT/EKG Integration → **Krankenhaus**
+- ERP-Systeme (Lager/Logistik) → **Herkömmliches Unternehmen**
+- Wirtschaftliche Effizienz → **Herkömmliches Unternehmen**
 
-**Ordne den folgenden Aussagen zu, ob sie Krankenhaus (KH) oder Herkömmliches Unternehmen (HU) sind:**
+### Frage 16: IT-Sicherheit Krankenhäuser (Trifft zu / nicht zu)
 
-- IT-Abteilung betreut vor allem klassische Büroarbeitsplätze. → **Herkömmliches Unternehmen**
-- Starke Abhängigkeit von Datenschutz im Umgang mit sensiblen Patientendaten. → **Krankenhaus**
-- Muss medizinische Geräte wie CT oder EKG in IT-Systeme integrieren. → **Krankenhaus**
-- Nutzung von ERP-Systemen für Lager, Logistik und Buchhaltung. → **Herkömmliches Unternehmen**
-- Primär auf wirtschaftliche Effizienz und Kostensenkung fokussiert. → **Herkömmliches Unternehmen**
+- Keine attraktiven Ziele → **Trifft nicht zu**
+- DSGVO-Vorgaben → **Trifft zu**
+- Medizinische Geräte (Infusionspumpen) → **Trifft zu**
+- Hackerangriff legt Betrieb lahm → **Trifft zu**
+- Personalschulungen irrelevant → **Trifft nicht zu**
 
----
-
-### Frage 16
-
-**IT-Sicherheit in Krankenhäusern (Trifft zu / Trifft nicht zu):**
-
-- Krankenhäuser sind keine attraktiven Ziele für Cyberangriffe. → **Trifft nicht zu**
-- Patientendaten unterliegen besonders strengen Datenschutzvorgaben (z. B. DSGVO). → **Trifft zu**
-- IT-Sicherheit in Krankenhäusern betrifft auch medizinische Geräte (z. B. Infusionspumpen). → **Trifft zu**
-- Ein erfolgreicher Hackerangriff kann den Klinikbetrieb lahmlegen. → **Trifft zu**
-- Regelmäßige Schulungen des Personals sind irrelevant für die IT-Sicherheit. → **Trifft nicht zu**
-
----
-
-### Frage 17
-
-**Bereich und typisches Beispiel:**
+### Frage 17: Medizinische Bereiche
 
 - Funktioneller Bereich → **Radiologieinformationssystem**
 - Ambulanter Bereich → **Ambulanzmanagement**
 - Administrativer Bereich → **Dokumentenmanagement und digitale Archivierung**
 - Klinischer Bereich → **Medizinische Daten und Medikamentenmanagement**
 
----
+### Frage 18: Motherboard & BIOS
 
-### Frage 18
+- BIOS = Basic Infrastructure Output and Security → **Falsch**
+- CMOS Batterie vorhanden → **Richtig**
+- BIOS = Basic Input Output System → **Richtig**
+- Motherboard versorgt PC mit Gleichstrom → **Falsch** (Netzteil macht das)
+- BIOS testet Hardware beim Einschalten → **Richtig**
 
-**Motherboard bzw. BIOS (Richtig/Falsch):**
-
-- BIOS steht für Basic Infrastructure Output and Security → **Falsch**
-- Auf dem Motherboard befindet sich eine CMOS Batterie → **Richtig**
-- BIOS steht für Basic Input Output System → **Richtig**
-- Das Motherboard versorgt den ganzen PC mit Gleichstrom → **Falsch**
-- Das BIOS ist verantwortlich für Hardware-Tests beim Einschalten und OS-Start → **Richtig**
-
----
-
-### Frage 19
-
-**Begriffe und Bedeutungen:**
+### Frage 19: Krankenhaus Begriffe
 
 - PACS → **Bildarchivierungs- und Kommunikationssystem**
 - Elektronische Patientenakte → **Zentrale Patientendaten digital**
 - KIS → **Krankenhausinformationssystem**
 - RIS → **Radiologieinformationssystem**
 
----
+### Frage 20: Grafikkarten (Trifft zu / nicht zu)
 
-### Frage 20
+- Steuert Drucker an → **Trifft nicht zu**
+- Eigener Speicher (VRAM) → **Trifft zu**
+- Verarbeitet Bilddaten → **Trifft zu**
+- Kann CPU entlasten → **Trifft zu**
+- Audioverarbeitung → **Trifft nicht zu**
 
-**Grafikkarten (Trifft zu / Trifft nicht zu):**
+### Frage 21: Grafikkarten Details (R/F)
 
-- Eine Grafikkarte steuert den Drucker an. → **Trifft nicht zu**
-- Moderne Grafikkarten besitzen einen eigenen Speicher (VRAM). → **Trifft zu**
-- Eine Grafikkarte verarbeitet Grafik- und Bilddaten. → **Trifft zu**
-- Eine Grafikkarte kann die CPU entlasten. → **Trifft zu**
-- Eine Grafikkarte ist für die Audioverarbeitung zuständig. → **Trifft nicht zu**
+- Eigener VRAM vs. normaler Arbeitsspeicher → **Richtig**
+- Synonym GUI → **Falsch**
+- GPU = Graphics Processing Unit → **Richtig**
+- CPU-Entlastung → **Richtig**
+- Drucker-Ansteuerung → **Falsch**
 
----
+### Frage 22: Digitalisierung Lückentext
 
-### Frage 21
+**[Digitalisierung]** ist die Umwandlung analoger Formate. Sie hat nahezu alle **[Lebensbereiche]** verändert. Unternehmen gestalten ihre **[Prozesse]** effizienter. Menschen nutzen **[digitale Technologien / Apps / Internetdienste]**. Fragen zu **[Datenschutz]** und Sicherheit kommen auf.
 
-**Grafikkarte Richtig/Falsch:**
+### Frage 23: eRezept
 
-- Grafikkarten haben eigenen VRAM, interne Grafik nutzt Arbeitsspeicher. → **Richtig**
-- Als Synonym für Grafikkarte wird oft GUI verwendet. → **Falsch**
-- GPU steht für Graphics Processing Unit. → **Richtig**
-- Grafikkarte kann die CPU bei grafikintensiven Aufgaben entlasten. → **Richtig**
-- Grafikkarte steuert den Drucker an. → **Falsch**
+Dient dazu, Medikamente digital zu verordnen. Arzt nutzt **[Software]**. Patienten erhalten einen **[Rezeptcode]**. Apotheken nutzen die **[Telematikinfrastruktur]**. Erhöht die **[Sicherheit]** im Gesundheitswesen.
 
----
+### Frage 24: Sicherheitsmaßnahmen
 
-### Frage 22
+**[Virenscanner]** (Schutz), **[Backup]** (Sicherung), **[Firewall]** (Verkehrsüberwachung), **[Software‑Update]** (Sicherheitslücken schließen), **[Passwort]** (Zugangsschutz).
 
-**[Digitalisierung]** ist die Umwandlung analoger Informationen in digitale Formate. In den letzten Jahren haben digitale Technologien nahezu alle **[Lebensbereiche]** stark verändert. Durch die Digitalisierung können Unternehmen ihre **[Prozesse]** effizienter gestalten. Viele Menschen nutzen täglich **[digitale Technologien / Apps / Internetdienste]**, um miteinander zu kommunizieren. Cloud-Dienste ermöglichen flexibles Arbeiten. Gleichzeitig wirft die Digitalisierung Fragen zum Thema **[Datenschutz]** und Sicherheit auf.
+### Frage 25: Teambuilding Effekte
 
----
+**[Stärkung des Teamgeistes]** (Wir-Gefühl), **[Förderung der Zusammenarbeit]** (Teamziele), **[Verbesserung der Kommunikation]** (weniger Missverständnisse), **[Steigerung der Motivation]** (Arbeitsbereitschaft), **[Konfliktmanagement]** (Konfliktprävention).
 
-### Frage 23
+### Frage 26: Remote-Herausforderungen
 
-Ein **[eRezept]** dient dazu, Medikamente digital zu verordnen.
-Der Arzt erstellt das Rezept mithilfe einer **[Software]**.
-Patientinnen und Patienten erhalten einen **[Rezeptcode]**.
-Apotheken können das eRezept über die **[Telematikinfrastruktur]** abrufen.
-Das eRezept erhöht die **[Sicherheit]** im Gesundheitswesen.
+- Technische Barrieren → **[führt zu Frustration bei unzuverlässigen Tools]**
+- Mangelnde Interaktion → **[mindert die Teambindung und das Vertrauen]**
+- Verlust nonverbaler Kommunikation → **[kann zu Missverständnissen und Konflikten führen]**
+- Schwierigkeiten bei Gruppenaktivitäten → **[erschwert spontane Problemlösungen]**
+- Engagement aufrechterhalten → **[erfordert kontinuierliche Motivation und Feedback]**
 
----
+### Frage 27: Dimensionen des Wandels
 
-### Frage 24
+- People & Culture → **[Mitarbeitende befähigen, Unternehmenskultur verändern]**
+- Agilität → **[Unternehmen für Geschwindigkeit der Veränderung rüsten]**
+- Innovation & Experience → **[Mehrwert für Kunden schaffen]**
+- Führung → **[Klarheit und Strategie für notwendige Veränderungen entwickeln]**
+- Sicherheit → **[Schutz von Daten, Prozessen und Systemen gewährleisten]**
 
-Ein **[Virenscanner]** schützt das System. Ein **[Backup]** sorgt für die Datensicherung. Eine **[Firewall]** überwacht den Datenverkehr. Ein **[Software‑Update]** behebt Fehler und schließt Sicherheitslücken. Ein **[Passwort]** ist eine Sicherheitsmaßnahme für den Systemzugang.
+### Frage 28: 1st Level Support Aufgaben
 
----
+Typisch: **[Zurücksetzen]** von Passwörtern, **[Dokumentation und Klassifizierung]** von Anfragen, **[Fehleranalyse]** von Basis-Hardware. Keine **[Software‑Patches]**. Komplexe **[Netzwerkprobleme]** gehen an 2nd/3rd Level.
 
-### Frage 25
+### Frage 29: Anwendungsbetreuung Ziele
 
-**[Stärkung des Teamgeistes]** stärkt die Identifikation mit dem Team.
-**[Förderung der Zusammenarbeit]** erleichtert die Erreichung von Teamzielen.
-**[Verbesserung der Kommunikation]** reduziert Missverständnisse.
-**[Steigerung der Motivation]** steigert die individuelle Arbeitsbereitschaft.
-**[Konfliktmanagement]** trägt zur langfristigen Konfliktprävention bei.
+Sicherstellung von **[Betriebsstabilität und Verfügbarkeit]**. Durchführung von **[Performance‑Optimierung]**. Ziel: **[Steigerung der Nutzerzufriedenheit]**. Reibungslose **[Integration]**. Umfasst auch **[Beratung]**.
 
----
+### Frage 30: Telematik-Infrastruktur (TI)
 
-### Frage 26
+Kernziel der TI: **[sektorübergreifende Informationsaustausch]**.
 
-Technische Barrieren → **[führt zu Frustration bei unzuverlässigen Tools]**
-Mangelnde persönliche Interaktion → **[mindert die Teambindung und das Vertrauen]**
-Verlust nonverbaler Kommunikation → **[kann zu Missverständnissen und Konflikten führen]**
-Schwierigkeiten bei interaktiven Gruppenaktivitäten → **[erschwert spontane Problemlösungen]**
-Engagement aufrechterhalten → **[erfordert kontinuierliche Motivation und Feedback]**
+### Frage 31: Online-Banking Vor/Nachteile
 
----
+Es ist **[bequemer]**, beinhaltet aber die Gefahr, **[gehackt]** zu werden. **[Bargeld]** ist technisch nicht möglich, da PC kein **[Bankautomat]** ist.
 
-### Frage 27
+### Frage 32: Cloud-Rechenzentrum Komponenten
 
-People & Culture → **[Mitarbeitende befähigen, Unternehmenskultur verändern]**
-Agilität → **[Unternehmen für Geschwindigkeit der Veränderung rüsten]**
-Innovation & Experience → **[Mehrwert für Kunden schaffen]**
-Führung → **[Klarheit und Strategie für notwendige Veränderungen entwickeln]**
-Sicherheit → **[Schutz von Daten, Prozessen und Systemen gewährleisten]**
+Komponenten: **Server**, **Speichersysteme**, **Netzwerkinfrastruktur**, **Kühlsysteme**.
 
----
+### Frage 33: Cloud Vorteil
 
-### Frage 28
+Wesentlicher Vorteil: **Skalierbarkeit und Flexibilität**.
 
-Eine typische Aufgabe des 1st Level Supports ist das **[Zurücksetzen]** von Passwörtern.
-Auch die **[Dokumentation und Klassifizierung]** von Anfragen gehört dazu.
-Der Helpdesk unterstützt bei der **[Fehleranalyse]** von Basis-Hardwareproblemen.
-Aufgaben wie die Entwicklung von **[Software‑Patches]** fallen nicht in diesen Bereich.
-Komplexe **[Netzwerkprobleme]** werden meist an den 2nd oder 3rd Level Support weitergeleitet.
+### Frage 34: PaaS (Platform-as-a-Service)
 
----
+Charakteristik: **Bereitstellung von Entwicklungsumgebungen**.
 
-### Frage 29
+### Frage 35: IaaS (Infrastructure-as-a-Service)
 
-Anwendungsbetreuung Sicherstellung von **[Betriebsstabilität und Verfügbarkeit]**.
-Durch **[Performance‑Optimierung]** sollen Programme effizienter laufen.
-Ein Ziel ist die **[Steigerung der Nutzerzufriedenheit]**.
-Dazu gehört auch die reibungslose **[Integration]** von Software.
-Umfasst auch die **[Beratung]** bei der Auswahl von Anwendungen.
+Ermöglicht: **Miete von virtueller Hardware (Rechenleistung/Speicher)**.
 
----
+### Frage 36: SaaS (Software-as-a-Service)
 
-### Frage 30
+Bedeutet: **Softwarenutzung über das Internet ohne lokale Installation**.
 
-Das Kernziel der Telematik-Infrastruktur (TI) ist der **[sektorübergreifende Informationsaustausch]**.
+### Frage 37: Cloud Verfügbarkeit
 
----
+Höchste Verfügbarkeit: **Tier 4**.
 
-### Frage 31
+### Frage 38: USV (Unterbrechungsfreie Stromversorgung)
 
-Online-Banking hat einige Vorteile gegenüber dem traditionellen Banking.
+Dient dazu: **Stromausfälle kurzzeitig zu überbrücken und Geräte zu schützen**.
 
----
+### Frage 39: OSI-Modell
 
-### Frage 32
+Was beschreibt es? **Ein Referenzmodell für Netzwerkprotokolle in 7 Schichten**.
 
-Welche Komponenten gehören typischerweise zu einem Cloud-Rechenzentrum?
+### Frage 40: IP-Adresse
 
-- a. Server
-- b. Speichersysteme
-- c. Netzwerkinfrastruktur
-- d. Kühlsysteme
-
----
-
-### Frage 33
-
-Was ist ein wesentlicher Vorteil von Cloud-Computing?
-**Skalierbarkeit und Flexibilität**
-
----
-
-### Frage 34
-
-Charakteristika von Platform-as-a-Service (PaaS):
-**Bereitstellung von Entwicklungsumgebungen.**
-
----
-
-### Frage 35
-
-Infrastructure-as-a-Service (IaaS) ermöglicht:
-**Miete von virtueller Hardware (Rechenleistung/Speicher).**
-
----
-
-### Frage 36
-
-Software-as-a-Service (SaaS) bedeutet:
-**Softwarenutzung über das Internet ohne lokale Installation.**
-
----
-
-### Frage 37
-
-Welche Tier-Klassifizierung hat die höchste Verfügbarkeit?
-**Tier 4**
-
----
-
-### Frage 38
-
-Eine USV (Unterbrechungsfreie Stromversorgung) dient dazu:
-**Stromausfälle kurzzeitig zu überbrücken und Geräte zu schützen.**
-
----
-
-### Frage 39
-
-Was beschreibt das OSI-Modell?
-**Ein Referenzmodell für Netzwerkprotokolle in 7 Schichten.**
-
----
-
-### Frage 40
-
-Die IP-Adresse dient im Netzwerk zur:
-**Logischen Adressierung und Identifizierung von Geräten.**
-
----
+Dient im Netzwerk zur: **Logischen Adressierung und Identifizierung von Geräten**.
