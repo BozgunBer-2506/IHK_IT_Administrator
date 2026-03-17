@@ -118,11 +118,11 @@ export default function App() {
       <aside className={`
         fixed md:relative z-30 md:z-auto
         w-72 md:w-80 h-full
-        bg-brand-card border-r border-brand-border flex flex-col
+        bg-brand-dark border-r border-brand-border flex flex-col
         transition-transform duration-300
         ${sidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}
       `}>
-        <div className="p-6 border-b border-brand-border flex items-center gap-3 cursor-pointer" onClick={() => { setSelected(null); setSidebarOpen(false); }}>
+        <div className="h-14 px-6 border-b border-brand-border flex items-center gap-3 cursor-pointer shrink-0" onClick={() => { setSelected(null); setSidebarOpen(false); }}>
           <Terminal className="text-blue-500 shrink-0" size={24} />
           <div className="min-w-0">
             <h1 className="text-white font-bold tracking-tighter text-lg uppercase truncate">IT-Administrator (IHK)</h1>
