@@ -36,7 +36,6 @@ function HomePage() {
         </h1>
         <p className="text-slate-400 text-base md:text-lg max-w-xl mx-auto leading-relaxed">
           Lernmaterialien und Prüfungsfragen für die IHK-Abschlussprüfung zum IT-Systemadministrator.
-          Wähle ein Modul aus dem Menü, um zu beginnen.
         </p>
         <div className="mt-6 flex items-center justify-center gap-2 text-slate-500 text-sm">
           <span className="text-blue-400">←</span>
