@@ -118,7 +118,7 @@ export default function App() {
       <aside className={`
         fixed md:relative z-30 md:z-auto
         w-72 md:w-80 h-full
-        bg-brand-dark border-r border-brand-border flex flex-col
+        bg-[#0f0f13] border-r border-brand-border flex flex-col
         transition-transform duration-300
         ${sidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}
       `}>
