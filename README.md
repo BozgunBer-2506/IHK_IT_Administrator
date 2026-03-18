@@ -1,42 +1,69 @@
-# 6-Kaffo-Mikulovic
-Abschlussprojekt - Movie Bewertung
+# 🚀 IHK IT Administration - Prüfungssimulation
 
-Zweck des Programms: 
-Dieses Projekt ist eine auf REST-API, basierte FastAPI, zur Verwaltung und Bewertung von Filmen.
+Willkommen im Vorbereitungs-Repository für die IHK-Zertifizierung. Hier findest du strukturierte Prüfungssimulationen und Fachwissen für das Selbststudium.
 
-Sie bietet vollständige CRUD-Funktionen, eine Bewertungslogik sowie Statistik-Endpunkte und speichert alle Daten in einer SQLite-Datenbank.
+---
 
-Die Anwendung kann lokal und über einer AWS EC2 Instanz deplyoed werden.
+## 🐳 Docker Setup
 
-Lokaler Start über bash:
-1. Virtuelle Umgebung erstellen und aktivieren
-    python -m venv env
-    env\Scripts\activate
+### Lokale Entwicklung
 
-2. Abhängikeit instalieren:
-    pip install -r requirements.txt
+Um die Anwendung lokal zu starten, hast du zwei Möglichkeiten:
 
-3. Server starten:
-    uvicorn main:app --reload
+**Option A: Standard Node.js**
 
-4. API aufrufen:
-    http://127.0.0.1:8000
-    Swagger UI: http://127.0.0.1:8000/docs
-Es wurde lokal mit automatisierten Tests geprüft.
-Tests befinden sich in der test_api.py
-Test ausführung über pytest
+```bash
+npm install
+npm run dev
 
-Endpunkte:
-GET     /filme
-GET     /filme/action
-GET     /filme/comedy
-GET     /filme/{id}
-POST    /filme
-POST    /filme/{id})/bewerten
-DELETE  /filme/{id}
-GET     /statistik
+```
 
+**Option B: Docker (Empfohlen)**
 
-Externe Links:
+```bash
+# Container bauen und starten
+docker-compose up --build
 
-Kanban Board: https://trello.com/b/1WCSmYn4/abschlussarbeit-noteapi
+```
+
+Die Anwendung läuft dann unter: [http://localhost:5173](https://www.google.com/search?q=http://localhost:5173)
+
+---
+
+## 🗺️ Prüfungssimulationen-Übersicht
+
+### Modul 1: Grundlagen & Hardware
+
+- **M01 Teil 1:** IT-Administration, Hardware & KIS/RIS
+- **M01 Teil 2:** Netzwerk-Grundlagen & OSI-Modell
+- **M01 Teil 3:** Cloud, MS 365 & Teamarbeit
+
+### Modul 2: Management & Prozesse
+
+- **M02 Teil 1:** Prozessmanagement (BPMN) & ITIL 4
+- **M02 Teil 2:** ITSM, Ticketsysteme & Eskalationsstufen
+
+### Modul 3: Infrastruktur & Administration
+
+- **M03 Teil 1:** Subnetting, VPN, VLAN & WLAN
+- **M03 Teil 2:** Server-Admin, Active Directory & GPO
+- **M03 Teil 3:** Azure, PowerShell & RAID/HCI
+
+### Modul 4: Spezialisierung & Sicherheit
+
+- **M04 Teil 1:** Schnittstellen (API, HL7), Unix/Linux & Docker
+- **M04 Teil 2:** IT Security, Kryptographie & Pentest
+- **M04 Teil 3:** SQL Datenbanken & Monitoring
+- **M04 Teil 4:** Lizenzmanagement & MS Tier Modell
+
+---
+
+## ⚖️ Rechtliche Hinweise
+
+Die in diesem Wiki verwendeten Prüfungsfragen und Antworten wurden aus den Probeklausuren von **Hypercampus** entnommen. Sämtliche Urheberrechte an diesen Inhalten liegen ausschließlich bei **Hypercampus**.
+
+Dieses Projekt dient lediglich als persönliche Lernunterstützung und Wissensdatenbank im Rahmen der Vorbereitung auf die Prüfung zum **IT-Administrator (IHK)**. Jegliche gewerbliche Nutzung ist ausgeschlossen.
+
+---
+
+**Crafted by The_Bozgun - 2026**

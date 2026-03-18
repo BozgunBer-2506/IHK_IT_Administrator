@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"\nimport re\npath = '/mnt/c/Users/ozgun/Documents/IHK_IT_Prüfung_02042026/docs/Modul-02-Management/IHK-IT-Admin-M02-02.md'\nwith open\\(path, 'r', encoding='utf-8'\\) as f:\n    content = f.read\\(\\)\nfixed = re.sub\\(r'^\\(### Frage \\\\d+\\):.*', r'\\\\1', content, flags=re.MULTILINE\\)\nwith open\\(path, 'w', encoding='utf-8'\\) as f:\n    f.write\\(fixed\\)\nprint\\('Done'\\)\n\")",
+      "Bash(git add:*)",
+      "Bash(find /mnt/c/Users/ozgun/Documents/IHK_IT_Prüfung_02042026/public -type f 2>/dev/null && git -C /mnt/c/Users/ozgun/Documents/IHK_IT_Prüfung_02042026 ls-files public/)",
+      "Bash(git checkout:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
