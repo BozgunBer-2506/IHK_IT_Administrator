@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { getGuides } from './data';
-import { Terminal, Cpu, ChevronRight, Hash, Activity, Menu, ArrowUp } from 'lucide-react';
+import { Terminal, Cpu, ChevronRight, Hash, Activity, Menu, ArrowUp, Zap } from 'lucide-react';
 
 const MODULE_INFO = {
   'Modul-01': { title: 'Modul 1 – Grundlagen', topics: ['Teamarbeit', 'Konfliktmanagement', 'Aufbau eines Computers', 'Betriebssysteme', 'Digitalisierung im Krankenhaus', 'Sicherheitsaspekte', 'KIS und RIS', 'OSI-Modell', 'Netzwerk-Grundlagen', 'Speicherarten', 'Binärsystem', 'Server', 'Client-Server-Beziehung', 'Cloud', 'MS 365'] },
@@ -94,15 +94,15 @@ export default function App() {
             </div>
           </div>
         </div>
-        <nav className="flex-1 overflow-y-auto p-4 custom-scrollbar space-y-4">
+        <nav className="flex-1 overflow-y-auto p-3 custom-scrollbar space-y-2">
           {["Modul-01","Modul-02","Modul-03","Modul-04"].map(modName => (
-            <div key={modName} className="space-y-1">
-              <div className="flex items-center gap-2 px-2 py-2 text-blue-400 text-[13px] uppercase tracking-[0.15em] font-black">
+            <div key={modName} className="space-y-0.5">
+              <div className="flex items-center gap-2 px-2 py-1.5 text-blue-400 text-[12px] uppercase tracking-[0.15em] font-black mt-1">
                 <Cpu size={12} /> {modName}
               </div>
               {guides.filter(g => g.folder.includes(modName)).map(g => (
                 <button key={g.id} onClick={() => handleSelect(g)}
-                  className={`w-full group flex items-center gap-3 p-2.5 rounded-md transition-all border-l-2 ${
+                  className={`w-full group flex items-center gap-3 px-2 py-2 rounded-md transition-all border-l-2 ${
                     selected?.id === g.id
                       ? 'border-l-blue-400 bg-blue-600/10 text-blue-400'
                       : 'border-l-transparent hover:border-l-blue-500/50 hover:bg-blue-500/10 text-slate-300 hover:text-white'
@@ -113,7 +113,24 @@ export default function App() {
               ))}
             </div>
           ))}
+
         </nav>
+
+        {/* Cheat Sheet - sabit alt buton */}
+        {guides.filter(g => g.folder === 'Cheat-Sheet').map(g => (
+          <button key={g.id} onClick={() => handleSelect(g)}
+            className={`mx-4 mb-2 flex items-center gap-3 p-2.5 rounded-md transition-all border ${
+              selected?.id === g.id
+                ? 'bg-blue-600/15 border-blue-400/40 text-blue-300'
+                : 'bg-blue-500/5 border-blue-500/20 hover:bg-blue-500/10 hover:border-blue-400/30 text-slate-300 hover:text-blue-200'
+            }`}>
+            <Zap size={13} className={`shrink-0 ${selected?.id === g.id ? 'text-blue-400' : 'text-blue-400/60 animate-pulse'}`} />
+            <span className={`text-[13px] font-bold tracking-wider ${selected?.id === g.id ? 'text-blue-300' : 'animate-pulse text-blue-400/70'}`}>
+              {g.title.replace(/_/g, ' ').toUpperCase()}
+            </span>
+          </button>
+        ))}
+
         <div className="p-4 border-t border-blue-500/20 flex justify-center">
           <a href="https://github.com/BozgunBer-2506" target="_blank" rel="noopener noreferrer"
             className="flex items-center gap-2 group transition-all duration-300">
@@ -135,7 +152,7 @@ export default function App() {
               {selected ? <>
                 <span className="text-blue-500 truncate">{selected.folder}</span>
                 <ChevronRight size={12} className="shrink-0 hidden sm:block"/>
-                <span className="text-slate-300 truncate hidden sm:block">{selected.title}</span>
+                <span className="text-slate-300 truncate hidden sm:block">{selected.title.replace(/_/g, ' ')}</span>
               </> : <span className="text-blue-500">Home</span>}
             </div>
           </div>
