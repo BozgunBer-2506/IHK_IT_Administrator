@@ -70,7 +70,7 @@ Ein **Netzwerkmanagementsystem** bietet zentrale Überwachung. Mithilfe von **Ri
 
 ### Frage 12: Backup-Strategien Zuordnung
 
-- **Festplatte (HDD):** Rotierende Platte, hohe Kapazität, geringe Kosten.
+- Festplatte (HDD): Rotierende Platte, hohe Kapazität, geringe Kosten.
 - **Inkrementelle Sicherung:** Speichert Änderungen seit dem zuletzt erstellten Backup.
 - **Differentielle Sicherung:** Speichert Daten seit der letzten Vollsicherung.
 - **Vollsicherung:** Sichert alle Daten in einem Schritt.
@@ -87,7 +87,7 @@ HCI integriert IT-Komponenten in einer softwarebasierten **Architektur**. Durch 
 ### Frage 14: Cloud Backup Varianten
 
 - **Direktes Cloudbackup:** Unmittelbar vom Endgerät in die Cloud.
-- **Backup as a Service (BaaS):** Dienstleister verwaltet die Infrastruktur.
+- Backup as a Service (BaaS): Dienstleister verwaltet die Infrastruktur.
 - **Multi Region Backup:** Replikation over mehrere Standorte.
 - **Cloud to Cloud Backup:** Sicherung eines Cloud-Dienstes durch einen anderen.
 - **Self hosted Backup:** Backups auf eigenen Servern in der Cloud.
@@ -96,11 +96,11 @@ HCI integriert IT-Komponenten in einer softwarebasierten **Architektur**. Durch 
 
 ### Frage 15: RAID-Systeme
 
-- **RAID 0:** Hohe Geschwindigkeit, keine Redundanz.
-- **RAID 10:** Kombiniert Striping und Mirroring.
-- **RAID 5:** Verteilte Parität, verkraftet Ausfall einer Platte.
-- **RAID 6:** Verkraftet Ausfall von zwei Platten.
-- **RAID 1:** Einfache Spiegelung.
+- RAID 0: Hohe Geschwindigkeit, keine Redundanz.
+- RAID 10: Kombiniert Striping und Mirroring.
+- RAID 5: Verteilte Parität, verkraftet Ausfall einer Platte.
+- RAID 6: Verkraftet Ausfall von zwei Platten.
+- RAID 1: Einfache Spiegelung.
 
 ---
 
@@ -136,11 +136,11 @@ Der **Festplattenspeicher** bestimmt die Größe auf dem Datenträger. Der **RAM
 
 ### Frage 21: PowerShell Befehle I
 
-- **Get-Process:** Laufende Prozesse überwachen.
-- **Copy-Item:** Dateien/Ordner übertragen.
-- **Get-Command:** Liste aller verfügbaren Cmdlets.
-- **Get-Service:** Status installierter Dienste.
-- **Get-Help:** Hilfestellungen zu Befehlen.
+- Get-Process: Laufende Prozesse überwachen.
+- Copy-Item: Dateien/Ordner übertragen.
+- Get-Command: Liste aller verfügbaren Cmdlets.
+- Get-Service: Status installierter Dienste.
+- Get-Help: Hilfestellungen zu Befehlen.
 
 ---
 
@@ -180,10 +180,10 @@ PowerShell is ideal for **komplexere Aufgaben**. Sie is auf **Automatisierung** 
 
 ### Frage 27: PowerShell Cmdlets II
 
-- **Get-Process:** Anzeige von Prozessen.
-- **Get-Service:** Dienste verwalten.
-- **Get-Acl:** Anzeige von **Zugriffsrechten**.
-- **Get-NetFirewallRule:** Firewall-Regeln auslesen/anpassen.
+- Get-Process: Anzeige von Prozessen.
+- Get-Service: Dienste verwalten.
+- Get-Acl: Anzeige von Zugriffsrechten.
+- Get-NetFirewallRule: Firewall-Regeln auslesen/anpassen.
 
 ---
 
@@ -219,7 +219,7 @@ PowerShell kann over the network auf entfernte Systeme zugreifen. Die Einrichtun
 
 ### Frage 33: Ziele von Remote PowerShell
 
-Hauptziele sind: **Viele PCs im Netzwerk gleichzeitig anzusprechen** and die **Automatisierung** von IT-Operationen (e.g., Software-Updates, User-Creation).
+**Hauptziele sind:** **Viele PCs im Netzwerk gleichzeitig anzusprechen** and die **Automatisierung** von IT-Operationen (e.g., Software-Updates, User-Creation).
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### Frage 1: Backup-Strategien & Medien
 
-- **Festplatte (HDD):** Rotierende Platte, hohe Kapazität, geringe Kosten.
+- Festplatte (HDD): Rotierende Platte, hohe Kapazität, geringe Kosten.
 - **Inkrementelle Sicherung:** Speichert die Änderungen seit dem zuletzt erstellten Backup.
 - **Differentielle Sicherung:** Speichert die Daten, die seit der letzten Vollsicherung geändert wurden.
 - **Vollsicherung:** Sichert alle Daten in einem Schritt.
@@ -38,13 +38,13 @@ Das Löschen von **Protokollen** erschwert die Nachverfolgung. 2FA bietet eine z
 
 ### Frage 6: Domänenbeitritt Voraussetzungen
 
-Nötig sind: **Netzwerkverbindung** zum DC, **DNS-Einstellungen** auf den DC zeigend, eindeutiger **Computername** und ein **domänenfähig** Betriebssystem (Pro/Enterprise).
+**Nötig sind:** **Netzwerkverbindung** zum DC, **DNS-Einstellungen** auf den DC zeigend, eindeutiger **Computername** und ein **domänenfähig** Betriebssystem (Pro/Enterprise).
 
 ---
 
 ### Frage 7: DHCP-Einrichtung
 
-Ablauf: Neuen **DHCP-Bereich** anlegen, **Bereichsnamen** vergeben, **Adressbereich** (IP-Pool) definieren, **Ausschlussbereiche** festlegen und **Leasedauer** (z.B. 8h) bestimmen.
+**Ablauf:** Neuen **DHCP-Bereich** anlegen, **Bereichsnamen** vergeben, **Adressbereich** (IP-Pool) definieren, **Ausschlussbereiche** festlegen und **Leasedauer** (z.B. 8h) bestimmen.
 
 ---
 
@@ -83,10 +83,10 @@ GPOs werden auf OUs in der **Active Directory-Struktur** angewendet. Sie binden 
 
 ### Frage 13: IP-Begriffe
 
-- **172.30.32.134:** Clientadresse im Bereich .101 bis .159.
-- **172.30.32.1:** Gateway (Endet auf "1").
-- **255.255.240.0:** Subnetzmaske.
-- **127.0.0.1:** Localhost (Eigene Gerät).
+- 172.30.32.134: Clientadresse im Bereich .101 bis .159.
+- 172.30.32.1: Gateway (Endet auf "1").
+- 255.255.240.0: Subnetzmaske.
+- 127.0.0.1: Localhost (Eigene Gerät).
 
 ---
 
@@ -100,7 +100,7 @@ GPOs werden auf OUs in der **Active Directory-Struktur** angewendet. Sie binden 
 
 ### Frage 15: Hyper-V Begriffe II
 
-- **Generation 2:** Nutzt UEFI undmoderne Features.
+- Generation 2: Nutzt UEFI undmoderne Features.
 - **Default Switch:** Erzeugt automatisch NAT für Internet.
 - **Dynamischer Arbeitsspeicher:** Skaliert RAM automatisch.
 - **vCPU:** Virtuelle Prozessorkerne.
@@ -110,7 +110,7 @@ GPOs werden auf OUs in der **Active Directory-Struktur** angewendet. Sie binden 
 
 ### Frage 16: Server-Manager Tools
 
-Zur Domänenverwaltung gehören: **Gruppenrichtlinienverwaltung** (GPOs) und **Ressourcen-Manager für Dateiserver** (Speicherkontingente).
+**Zur Domänenverwaltung gehören:** **Gruppenrichtlinienverwaltung** (GPOs) und **Ressourcen-Manager für Dateiserver** (Speicherkontingente).
 
 ---
 
@@ -128,7 +128,7 @@ Der DC **verwaltet Benutzerkonten und Gruppen** und **speichert/repliziert die A
 
 ### Frage 19: GPO Zuweisungsobjekte
 
-GPOs können zugewiesen werden: **Auf alle Benutzer und Computer in OUs** und **Alle Benutzer und Computer in Domänen**.
+**GPOs können zugewiesen werden:** **Auf alle Benutzer und Computer in OUs** und **Alle Benutzer und Computer in Domänen**.
 
 ---
 
@@ -182,10 +182,10 @@ Ziel ist die Wiederherstellung vor dem **Datenverlust**. Dazu braucht man system
 
 ### Frage 28: Aufbewahrungsfristen
 
-- Zivilrechtlich: **mind. 30 Jahre**.
-- Buchungsbelege: **mind. 10 Jahre**.
-- Steuerliche Unterlagen: **mind. 5 Jahre**.
-- Medizinische Dokus: **sollten** mind. 30 Jahre sein (**Art des Dokumententyps**).
+- **Zivilrechtlich:** **mind. 30 Jahre**.
+- **Buchungsbelege:** **mind. 10 Jahre**.
+- **Steuerliche Unterlagen:** **mind. 5 Jahre**.
+- **Medizinische Dokus:** **sollten** mind. 30 Jahre sein (**Art des Dokumententyps**).
 
 ---
 
@@ -237,7 +237,7 @@ Man kann dort den **Computernamen**, die **Domäne** und den Ort für **temporä
 
 ### Frage 36: Systemsteuerung Tools
 
-Beinhaltet: **Netzwerk- und Freigabecenter**, **Programme und Features** und den **Geräte-Manager**.
+**Beinhaltet:** **Netzwerk- und Freigabecenter**, **Programme und Features** und den **Geräte-Manager**.
 
 ---
 

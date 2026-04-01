@@ -282,9 +282,9 @@ Subnetting teilt ein großes IP-Netzwerk in kleinere Teilnetze auf.
 | /16  | 255.255.0.0     | 65.534       | Große Netzwerke                       |
 
 📌 Formel Hosts: **2^n - 2** (n = Anzahl Host-Bits). -2 für Netzadresse und Broadcast.
-Private Bereiche: **10.x.x.x** | **172.16–31.x.x** | **192.168.x.x**
+**Private Bereiche:** **10.x.x.x** | **172.16–31.x.x** | **192.168.x.x**
 
-**Beispiel:** IP 192.168.1.130/26 → Maske 255.255.255.192 → Blockgröße 64 → Subnetze: 0-63, 64-127, **128-191**, 192-255 → Netz: 192.168.1.128, Broadcast: 192.168.1.191, Hosts: 62
+**Beispiel:** IP 192.168.1.130/26 → Maske 255.255.255.192 → Blockgröße 64 → Subnetze: 0-63, 64-127, 128-191, 192-255 → Netz: 192.168.1.128, Broadcast: 192.168.1.191, Hosts: 62
 
 ---
 
@@ -314,7 +314,7 @@ Private Bereiche: **10.x.x.x** | **172.16–31.x.x** | **192.168.x.x**
 | PTR-Record    | IP → Hostname (Reverse DNS) | 192.168.1.10 → server.firma.de |
 | NS-Record     | Nameserver der Domain       | firma.de → ns1.provider.de     |
 
-**DHCP DORA-Prozess:**
+DHCP DORA-Prozess:
 
 | Schritt | Nachricht | Richtung           | Inhalt                         |
 | ------- | --------- | ------------------ | ------------------------------ |
@@ -593,7 +593,7 @@ Private Bereiche: **10.x.x.x** | **172.16–31.x.x** | **192.168.x.x**
 | `GROUP BY`     | Daten gruppieren    | `SELECT abteilung, COUNT(*) FROM mitarbeiter GROUP BY abteilung`               |
 
 📌 **ACID** = Atomicity, Consistency, Isolation, Durability – Eigenschaften zuverlässiger Transaktionen.
-**Normalisierung**: 1NF/2NF/3NF verhindert Redundanz in Datenbanken.
+**Normalisierung: 1NF/2NF/3NF verhindert Redundanz in Datenbanken.**
 
 ---
 

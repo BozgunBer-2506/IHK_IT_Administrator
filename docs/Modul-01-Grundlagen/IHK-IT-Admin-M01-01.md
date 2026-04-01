@@ -126,7 +126,7 @@ Ordne den folgenden Aussagen zu, ob sie eher für die IT im Krankenhaus oder in 
 
 ### Frage 16
 
-Ordne die folgenden Aussagen der richtigen Kategorie zu: Trifft zu oder Trifft nicht zu, bezogen auf IT-Sicherheit in Krankenhäusern.
+**Ordne die folgenden Aussagen der richtigen Kategorie zu:** Trifft zu oder Trifft nicht zu, bezogen auf IT-Sicherheit in Krankenhäusern.
 
 - Krankenhäuser sind keine attraktiven Ziele für Cyberangriffe. → **Trifft nicht zu**
 - Patientendaten unterliegen besonders strengen Datenschutzvorgaben (z. B. DSGVO). → **Trifft zu**
@@ -172,7 +172,7 @@ Ordnen Sie die Begriffe den passenden Bedeutungen zu.
 
 ### Frage 20
 
-Ordne die folgenden Aussagen der richtigen Kategorie zu: Trifft zu oder Trifft nicht zu, bezogen auf Grafikkarten.
+**Ordne die folgenden Aussagen der richtigen Kategorie zu:** Trifft zu oder Trifft nicht zu, bezogen auf Grafikkarten.
 
 - Eine Grafikkarte steuert den Drucker an. → **Trifft nicht zu**
 - Moderne Grafikkarten besitzen einen eigenen Speicher (VRAM). → **Trifft zu**

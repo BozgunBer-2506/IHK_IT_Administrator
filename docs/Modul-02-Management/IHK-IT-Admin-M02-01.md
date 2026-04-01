@@ -40,7 +40,7 @@ Die **[Prozessverantwortlichen]** sind für die Steuerung und Zielerreichung des
 
 ### Frage 5
 
-**Welche Aufgaben umfasst Prozessmanagement?**
+Welche Aufgaben umfasst Prozessmanagement?
 
 - Identifikation von Prozessen
 - Gestaltung von Prozessen
@@ -51,7 +51,7 @@ Die **[Prozessverantwortlichen]** sind für die Steuerung und Zielerreichung des
 
 ### Frage 6
 
-**Welche Phasen sind Bestandteil des BPM Lebenszyklus?**
+Welche Phasen sind Bestandteil des BPM Lebenszyklus?
 
 - Process Identification
 - Process Discovery
@@ -62,7 +62,7 @@ Die **[Prozessverantwortlichen]** sind für die Steuerung und Zielerreichung des
 
 ### Frage 7
 
-**Was kennzeichnet ein ereignisbasiertes Gateway in BPMN?**
+Was kennzeichnet ein ereignisbasiertes Gateway in BPMN?
 
 - Es prüft, ob ein bestimmtes Ereignis eingetreten ist
 - Es ermöglicht die Verzweigung des Prozessflusses basierend auf Ereignissen
@@ -71,7 +71,7 @@ Die **[Prozessverantwortlichen]** sind für die Steuerung und Zielerreichung des
 
 ### Frage 8
 
-**Welche Aussagen zu Prozessen allgemein sind richtig?**
+Welche Aussagen zu Prozessen allgemein sind richtig?
 
 - Ein Prozess ist eine wiederkehrende logische Abfolge von Tätigkeiten, die aus einem definierten Input ein definiertes Arbeitsergebnis (Output) erzeugen.
 - Jeder Prozess hat einen Anfang und ein Ende.
@@ -81,7 +81,7 @@ Die **[Prozessverantwortlichen]** sind für die Steuerung und Zielerreichung des
 
 ### Frage 9
 
-**Was können Pools und Lanes repräsentieren?**
+Was können Pools und Lanes repräsentieren?
 
 - Eine Organisation
 - Eine Abteilung
@@ -91,7 +91,7 @@ Die **[Prozessverantwortlichen]** sind für die Steuerung und Zielerreichung des
 
 ### Frage 10
 
-**Welche Artefakte kommen in der Praxis selten zum Einsatz?**
+Welche Artefakte kommen in der Praxis selten zum Einsatz?
 
 - Rollen
 - Norm
@@ -100,7 +100,7 @@ Die **[Prozessverantwortlichen]** sind für die Steuerung und Zielerreichung des
 
 ### Frage 11
 
-**Was versteht man unter einem Prozess?**
+Was versteht man unter einem Prozess?
 
 - Eine wiederkehrende logische Abfolge von Aktivitäten
 
@@ -108,7 +108,7 @@ Die **[Prozessverantwortlichen]** sind für die Steuerung und Zielerreichung des
 
 ### Frage 12
 
-**Was sind wichtige Aspekte, die bei Verbesserungen berücksichtigt werden sollten?**
+Was sind wichtige Aspekte, die bei Verbesserungen berücksichtigt werden sollten?
 
 - Feedback einholen
 - Vorschläge sammeln
@@ -120,63 +120,63 @@ Die **[Prozessverantwortlichen]** sind für die Steuerung und Zielerreichung des
 ### Frage 13
 
 Ein Gateway in einem BPMN-Diagramm führt immer zu einem anderen Gateway.
-**Antwort: Falsch**
+**Antwort: Falsch**
 
 ---
 
 ### Frage 14
 
 BPMN wird primär zur Messung von Leistungskennzahlen (KPIs) eingesetzt, während KPIs hauptsächlich der grafischen Darstellung von Geschäftsprozessen dienen.
-**Antwort: Falsch**
+**Antwort: Falsch**
 
 ---
 
 ### Frage 15
 
 BPMN-Gateways können den Prozessfluss unter bestimmten Bedingungen verändern, darunter zählen unter anderem exklusive, inklusive, parallele und ereignisbasierte Gateways.
-**Antwort: Wahr**
+**Antwort: Wahr**
 
 ---
 
 ### Frage 16
 
 Ein Prozess sollte nie der Realität entsprechen.
-**Antwort: Falsch**
+**Antwort: Falsch**
 
 ---
 
 ### Frage 17
 
 Das Fischgrätendiagramm, auch als Ishikawa-Diagramm bekannt, dient zur Visualisierung eines Problemlösungsprozesses und zur Identifikation von Ursachen des Problems.
-**Antwort: Wahr**
+**Antwort: Wahr**
 
 ---
 
 ### Frage 18
 
 Führungsprozesse sind die operativen unternehmerischen Geschäftsprozesse.
-**Antwort: Falsch**
+**Antwort: Falsch**
 
 ---
 
 ### Frage 19
 
 Der kontinuierliche Verbesserungsprozess beschreibt sprunghafte Veränderungen zur Performance-Steigerung.
-**Antwort: Falsch**
+**Antwort: Falsch**
 
 ---
 
 ### Frage 20
 
 KPIs zeigen, wie gut ein Prozess läuft.
-**Antwort: Wahr**
+**Antwort: Wahr**
 
 ---
 
 ### Frage 21
 
 Im ersten Schritt des Prozessmanagements geht es darum, Prozesse und deren Abhängigkeiten zu ermitteln.
-**Antwort: Wahr**
+**Antwort: Wahr**
 
 ---
 
@@ -248,7 +248,7 @@ Der **[Second]**-Level- und Third-Level-**[Support]** hat normalerweise **[Zugri
 
 ### Frage 29
 
-**Welche Aussagen zu Helpdesks generell sind korrekt?**
+Welche Aussagen zu Helpdesks generell sind korrekt?
 
 - Laut ITIL ist der Servicedesk die zentrale Anlaufstelle, die den Serviceanbieter mit allen Anwendern verbindet.
 - Der Servicedesk ist ein wesentlicher Bestandteil des IT-Servicemanagements.
@@ -257,7 +257,7 @@ Der **[Second]**-Level- und Third-Level-**[Support]** hat normalerweise **[Zugri
 
 ### Frage 30
 
-**Warum ist IT-Security für IT-Helpdesk-Mitarbeitende wichtig?**
+Warum ist IT-Security für IT-Helpdesk-Mitarbeitende wichtig?
 
 - Jeder ist für die Sicherheit im Unternehmen verantwortlich
 - IT-Helpdesks können IT-Security Nachrichten an Benutzer weitergeben
@@ -267,7 +267,7 @@ Der **[Second]**-Level- und Third-Level-**[Support]** hat normalerweise **[Zugri
 
 ### Frage 31
 
-**Was versteht man unter Fernwartung und Troubleshooting?**
+Was versteht man unter Fernwartung und Troubleshooting?
 
 - Fernwartung ist die Möglichkeit, ein Computersystem über das Internet aus der Ferne zu steuern.
 - Troubleshooting bezeichnet die systematische Fehlersuche und -behebung bei technischen Problemen.
@@ -276,7 +276,7 @@ Der **[Second]**-Level- und Third-Level-**[Support]** hat normalerweise **[Zugri
 
 ### Frage 32
 
-**Was ist ein möglicher Inhalt einer Checkliste zur Problemlösung bei Soft- und Hardwareproblemen?**
+Was ist ein möglicher Inhalt einer Checkliste zur Problemlösung bei Soft- und Hardwareproblemen?
 
 - Überprüfen der Verbindungskabel
 - Aktualisierung der Treiber
@@ -286,7 +286,7 @@ Der **[Second]**-Level- und Third-Level-**[Support]** hat normalerweise **[Zugri
 
 ### Frage 33
 
-**Was versteht man unter Spear-Phishing?**
+Was versteht man unter Spear-Phishing?
 
 - Ein zielgerichteter Phishing-Angriff
 
@@ -295,48 +295,48 @@ Der **[Second]**-Level- und Third-Level-**[Support]** hat normalerweise **[Zugri
 ### Frage 34
 
 Soft Skills sind nicht wichtig im IT-Helpdesk.
-**Antwort: Falsch**
+**Antwort: Falsch**
 
 ---
 
 ### Frage 35
 
 Fernwartung ermöglicht es, Systeme aus der Ferne zu überwachen, konfigurieren, steuern, updaten und administrieren.
-**Antwort: Wahr**
+**Antwort: Wahr**
 
 ---
 
 ### Frage 36
 
 Ein IT-Helpdesk ist eine Software, die es Unternehmen ermöglicht, den Support für IT-Anfragen effizient zu verwalten.
-**Antwort: Falsch**
+**Antwort: Falsch**
 
 ---
 
 ### Frage 37
 
 Beim Troubleshooting ist es ausreichend, das Problem nur grob zu beschreiben, eine genaue Erfassung ist nicht notwendig.
-**Antwort: Falsch**
+**Antwort: Falsch**
 
 ---
 
 ### Frage 38
 
 Die Reaktionszeit wird in einem Ticket erfasst, um die Qualitätssicherung zu kontrollieren.
-**Antwort: Wahr**
+**Antwort: Wahr**
 
 ---
 
 ### Frage 39
 
 Reproduzierbare Fehler sind oft leichter zu lösen als nicht reproduzierbare Fehler.
-**Antwort: Wahr**
+**Antwort: Wahr**
 
 ---
 
 ### Frage 40
 
 Der First-Level-Support hat Zugriff auf alle Unternehmensbereiche.
-**Antwort: Falsch**
+**Antwort: Falsch**
 
 ---

@@ -41,8 +41,8 @@ Server-Monitoring ist die gezielte und **kontinuierliche Überwachung** eines Se
 
 ### Frage 6: Monitoring-Verfahren Zuordnung
 
-- Analyse und Bewertung: **Historical‑Monitoring**
-- Aktueller Zustand: **Real‑Time Monitoring**
+- **Analyse und Bewertung:** **Historical‑Monitoring**
+- **Aktueller Zustand:** **Real‑Time Monitoring**
 
 ---
 
@@ -66,10 +66,10 @@ Daten werden per SNMP, **CLI, Telemetrie** oder WMI ermittelt. Es dient dem Erfa
 
 ### Frage 10: Logik des aktiven Monitorings
 
-- Fällt das Gerät aus: **ist Monitoring nicht mehr möglich**.
-- Test durch Softwareroboter: **von Softwarerobotern getestet**.
-- Nutzerperspektive: **End-to-End-Monitoring**.
-- Lange Reaktionszeit: **deutet auf Probleme hin**.
+- **Fällt das Gerät aus:** **ist Monitoring nicht mehr möglich**.
+- **Test durch Softwareroboter:** **von Softwarerobotern getestet**.
+- **Nutzerperspektive:** **End-to-End-Monitoring**.
+- **Lange Reaktionszeit:** **deutet auf Probleme hin**.
 
 ---
 
@@ -138,7 +138,7 @@ Paketverlust, Konfigurationsänderungen, Reaktionszeit der Anwendung.
 
 ### Frage 21: Server-Überwachung (Rollen)
 
-Ist die Aussage "Alle Server-Rollen werden gleich überwacht" richtig? **Falsch.** (Individuelles Monitoring erforderlich).
+Ist die Aussage "Alle Server-Rollen werden gleich überwacht" richtig? Falsch. (Individuelles Monitoring erforderlich).
 
 ---
 
@@ -156,11 +156,11 @@ Einleitung durch **Segmentname "MSH"**. Trenner ist die **Pipe (|)**. Es folgen 
 
 ### Frage 24: REST-API Befehle
 
-- Verändern: **PUT**
-- Löschen: **DELETE**
+- **Verändern:** **PUT**
+- **Löschen:** **DELETE**
 - Überschreiben: **PUT**
-- Erstellen: **POST**
-- Abfragen: **GET**
+- **Erstellen:** **POST**
+- **Abfragen:** **GET**
 
 ---
 
@@ -202,7 +202,7 @@ Vereinfachung der Kommunikation und Beschleunigung des Datenaustauschs.
 
 ### Frage 31: Client-Server-Regeln
 
-Einzuhaltende Regeln: **Statelessness** (Zustandslosigkeit) und **Layered System** (Schichtsystem).
+**Einzuhaltende Regeln:** **Statelessness** (Zustandslosigkeit) und **Layered System** (Schichtsystem).
 
 ---
 
@@ -232,13 +232,13 @@ Ermöglicht Zugriff auf **WSUS** (Windows Server Update Services).
 
 ### Frage 36: WinAPI im Gesundheitswesen
 
-Ist WinAPI die einzige Schnittstelle dort? **Falsch.**
+Ist WinAPI die einzige Schnittstelle dort? Falsch.
 
 ---
 
 ### Frage 37: API Integration
 
-Helfen APIs bei der nahtlosen Integration? **Wahr.**
+Helfen APIs bei der nahtlosen Integration? Wahr.
 
 ---
 
@@ -250,12 +250,12 @@ Umfasst Client-Server, Statelessness, Layered System, Caching und Code-on-demand
 
 ### Frage 39: REST Begriff
 
-Steht REST für Representational State Transfer? **Wahr.**
+Steht REST für Representational State Transfer? Wahr.
 
 ---
 
 ### Frage 40: Zustandslosigkeit
 
-Sind REST-Interaktionen zustandslos? **Wahr.**
+Sind REST-Interaktionen zustandslos? Wahr.
 
 ---

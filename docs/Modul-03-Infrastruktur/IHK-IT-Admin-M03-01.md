@@ -104,7 +104,7 @@ Zu den konfigurierbaren Parametern gehören das **[Default Gateway]**, der **[DN
 
 ### Frage 17: Firewall-Auswahl (Checkliste)
 
-Korrekt sind: **[Next Generation Firewall]**, **[Virtual Firewall]** und **[Stateful Inspection Firewall]**.
+**Korrekt sind:** **[Next Generation Firewall]**, **[Virtual Firewall]** und **[Stateful Inspection Firewall]**.
 
 ---
 
@@ -130,7 +130,7 @@ Ein NMS sorgt für höhere **[Netzwerkverfügbarkeit]** und eine optimierte **[P
 
 ### Frage 21: DHCP Ablauf (DORA)
 
-Der Prozess besteht aus: 1. **[Discover]**, 2. **[Offer]**, 3. **[Request]**, 4. **[Ack]**.
+**Der Prozess besteht aus:** 1. **[Discover]**, 2. **[Offer]**, 3. **[Request]**, 4. **[Ack]**.
 
 ---
 
@@ -160,7 +160,7 @@ Die Binärzahl **[11000000]** entspricht **[dezimal]** 192. Der Wert **[255]** e
 
 ### Frage 26: Cisco CLI Befehle
 
-Befehl für den privilegierten Modus: **[enable]**. Speichern der Konfiguration: **[copy running-config startup-config]**.
+**Befehl für den privilegierten Modus:** **[enable]**. Speichern der Konfiguration: **[copy running-config startup-config]**.
 
 ---
 
@@ -238,6 +238,6 @@ Vorteile sind die schnelle **[Einsatzbereitschaft]**, **[Skalierbarkeit]** und d
 
 ### Frage 40: IP-Definition
 
-Steht IP für „Interconnect Protocol"? **[Falsch]** – Es steht für **[Internet Protocol]**.
+Steht IP für „Interconnect Protocol"? [Falsch] – Es steht für [Internet Protocol].
 
 ---

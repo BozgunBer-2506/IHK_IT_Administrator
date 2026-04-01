@@ -13,7 +13,7 @@ Das Recht, eine Datei zu **[ausführen]**, gibt die Möglichkeit, die Datei ausz
 
 ### Frage 2
 
-**Vollständiges Ticket-Beispiel (Drag-and-Drop):**
+Vollständiges Ticket-Beispiel (Drag-and-Drop):
 
 - **Titel:** Internetverbindung langsam im 2. OG
 - **Beschreibung:** Seit heute Morgen berichten mehrere Mitarbeiter über extrem langsame Ladezeiten bei Webanwendungen.
@@ -71,7 +71,7 @@ Ein Ping ist eine einfache **[Möglichkeit]** die verwendet werden kann, um die 
 
 ### Frage 10
 
-**Welche Aussagen sind richtig/falsch?**
+Welche Aussagen sind richtig/falsch?
 
 - In der Sicherungsschicht wird entschieden, welchen Weg die Daten durch das Netzwerk nehmen. → **Falsch**
 - Die Bitübertragungsschicht befasst sich mit den physikalischen Aspekten der Datenübertragung. → **Richtig**
@@ -117,7 +117,7 @@ Ein Ping ist eine einfache **[Möglichkeit]** die verwendet werden kann, um die 
 
 ### Frage 14
 
-**Ordne den OSI-Schichten die passenden Beispiele zu:**
+Ordne den OSI-Schichten die passenden Beispiele zu:
 
 - Schicht 3 → **IP-Routing**
 - Schicht 1 → **Kabel, Stecker, Signale**
@@ -151,7 +151,7 @@ Ein Ping ist eine einfache **[Möglichkeit]** die verwendet werden kann, um die 
 
 ### Frage 17
 
-**Was beschreibt das Internet korrekt?**
+Was beschreibt das Internet korrekt?
 
 **c. Ein riesiges Netzwerk aus vielen kleineren Netzwerken mit weltweiter Verbindung.**
 
@@ -159,7 +159,7 @@ Ein Ping ist eine einfache **[Möglichkeit]** die verwendet werden kann, um die 
 
 ### Frage 18
 
-**Was macht Network Address Translation (NAT)?**
+Was macht Network Address Translation (NAT)?
 
 **d. Ersetzt Quell- oder Ziel-IP-Adressen durch andere IP-Adressen am Router/Firewall.**
 
@@ -167,7 +167,7 @@ Ein Ping ist eine einfache **[Möglichkeit]** die verwendet werden kann, um die 
 
 ### Frage 19
 
-**Welche Aufgabe gehört zur Vermittlungsschicht (Schicht 3)?**
+Welche Aufgabe gehört zur Vermittlungsschicht (Schicht 3)?
 
 **a. Routing und Adressierung mit IP, Weg über mehrere Netzknoten finden.**
 
@@ -175,7 +175,7 @@ Ein Ping ist eine einfache **[Möglichkeit]** die verwendet werden kann, um die 
 
 ### Frage 20
 
-**Welcher Bereich ist als privates Klasse-C-Netz angegeben?**
+Welcher Bereich ist als privates Klasse-C-Netz angegeben?
 
 **a. 192.168.0.0 (bis 192.168.255.255)**
 
@@ -183,7 +183,7 @@ Ein Ping ist eine einfache **[Möglichkeit]** die verwendet werden kann, um die 
 
 ### Frage 21
 
-**Welche Aussage ist richtig?**
+Welche Aussage ist richtig?
 
 **c. TCP ist zuverlässig und verbindungsorientiert, UDP ist schneller, aber ohne Sicherung.**
 
@@ -232,7 +232,7 @@ r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 
 ### Frage 27
 
-**Was versteht man unter einem Betriebssystem?**
+Was versteht man unter einem Betriebssystem?
 
 **a. Die Software, die die Hardware steuert und den Benutzern eine Schnittstelle zur Verfügung stellt.**
 
@@ -240,7 +240,7 @@ r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 
 ### Frage 28
 
-**Welche Betriebssysteme sind bei Servern allgemein gebräuchlich?**
+Welche Betriebssysteme sind bei Servern allgemein gebräuchlich?
 
 **Windows Server 2019, Debian Linux, Red Hat Linux, CentOS Linux.**
 
@@ -248,7 +248,7 @@ r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 
 ### Frage 29
 
-**Welche Betriebssysteme sind bei PC-Endanwender allgemein gebräuchlich?**
+Welche Betriebssysteme sind bei PC-Endanwender allgemein gebräuchlich?
 
 **Windows von Microsoft, macOS von Apple, Linux.**
 
@@ -256,7 +256,7 @@ r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 
 ### Frage 30
 
-**Was bildet das Grundkonzept des Linux Betriebssystems?**
+Was bildet das Grundkonzept des Linux Betriebssystems?
 
 **a. Der Kernel**
 
@@ -264,7 +264,7 @@ r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 
 ### Frage 31
 
-**Was ist die Hauptaufgabe des Rechenwerks?**
+Was ist die Hauptaufgabe des Rechenwerks?
 
 **Daten verarbeiten, Daten ausgeben.**
 
@@ -280,7 +280,7 @@ r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 
 ### Frage 33
 
-**Auf welchen Rechnern ist das Betriebssystem macOS verfügbar?**
+Auf welchen Rechnern ist das Betriebssystem macOS verfügbar?
 
 **a. Nur auf Rechnern von Apple**
 

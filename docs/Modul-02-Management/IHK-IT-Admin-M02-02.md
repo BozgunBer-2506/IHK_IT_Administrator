@@ -216,7 +216,7 @@ Was gehört dazu?
 
 ### Frage 25
 
-- **On-Premise:** Eigene Server.
+- On-Premise: Eigene Server.
 - **Cloud:** Externer Anbieter (Internet).
 - **Hybrid:** Mischung.
 - **SaaS:** Software as a Service.

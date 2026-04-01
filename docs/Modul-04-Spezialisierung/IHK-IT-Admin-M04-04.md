@@ -27,11 +27,11 @@ Möchte man nur bestimmte Spalten befüllen, muss man diese in [**Klammern**] se
 
 ### Frage 4: SQL INSERT Syntax
 
-- Grundaufbau: INSERT [**INTO**]
-- Spalten befüllen in: [** ( ) **]
-- Werte stehen im: [**VALUES**]
-- Mehrere Datensätze: [**Eingabe**]-Blöcke
-- Pflichtfeld fehlt: [**einem Fehler**]
+- **Grundaufbau:** INSERT [**INTO**]
+- **Spalten befüllen in:** [** ( ) **]
+- **Werte stehen im:** [**VALUES**]
+- **Mehrere Datensätze:** [**Eingabe**]-Blöcke
+- **Pflichtfeld fehlt:** [**einem Fehler**]
 
 ---
 
@@ -43,7 +43,7 @@ Die am weitesten verbreitete Form ist die [**relationale**] Datenbank. Eine [**D
 
 ### Frage 6: Kardinalitäten Beispiele
 
-- Kunde und Kundennummer: [**=1:1**]
+- **Kunde und Kundennummer:** [**=1:1**]
 - Lehrer und Klassen (ein Lehrer pro Klasse): [**=1:n**]
 - Kunden, Bestellungen und Produkte im Shop: [**=m:n**]
 - Eine Abteilung, ein Abteilungsleiter: [**=1:1**]
@@ -65,15 +65,15 @@ Konsistente Datenhaltung durch [**normalisierten Tabellen**]. Sprache zur Abfrag
 
 ### Frage 9: Primärschlüssel Aussagen (Richtig/Falsch)
 
-- Ohne PK keine Daten möglich: **Falsch**
-- Maximal zwei PKs gleichzeitig: **Falsch**
-- PK darf NULL sein: **Falsch**
-- PK müssen eindeutig sein: **Richtig**
-- PK nicht notwendig ohne Abfragen: **Falsch**
-- PK kann sich ändern bei Inhaltsänderung: **Falsch**
-- Wahl auf stabilem Attribut basieren: **Richtig**
-- Kombination mehrerer Spalten ungeeignet: **Falsch**
-- Identifiziert jede Zeile eindeutig: **Richtig**
+- **Ohne PK keine Daten möglich:** **Falsch**
+- **Maximal zwei PKs gleichzeitig:** **Falsch**
+- **PK darf NULL sein:** **Falsch**
+- **PK müssen eindeutig sein:** **Richtig**
+- **PK nicht notwendig ohne Abfragen:** **Falsch**
+- **PK kann sich ändern bei Inhaltsänderung:** **Falsch**
+- **Wahl auf stabilem Attribut basieren:** **Richtig**
+- **Kombination mehrerer Spalten ungeeignet:** **Falsch**
+- **Identifiziert jede Zeile eindeutig:** **Richtig**
 
 ---
 
@@ -116,9 +116,9 @@ Konsistente Datenhaltung durch [**normalisierten Tabellen**]. Sprache zur Abfrag
 
 **Wahrheit:**
 
-- Erfinder: Linus Torvalds.
-- Ursprünglicher Name: „Freax".
-- Logo: Pinguin.
+- **Erfinder:** Linus Torvalds.
+- **Ursprünglicher Name:** „Freax".
+- **Logo:** Pinguin.
 
 ---
 
@@ -252,95 +252,95 @@ Verhindert [**Geldstrafen**]. Software [**rechtmäßig**] nutzen. Gibt einem das
 
 ### Frage 30: Ziel MS-Strategien (R/F)
 
-- Maximierung Installationen: **Falsch**
-- Compliance sicherstellen: **Richtig**
-- Kosten effizient verwalten: **Richtig**
-- Kostenminimierung alleiniges Ziel: **Falsch**
-- Konformität und Kostenoptimierung: **Richtig**
-- Compliance spielt entscheidende Rolle: **Richtig**
-- Lizenznachverfolgung essenziell: **Richtig**
-- Bedarfsgerechte Nutzung Ziel: **Richtig**
+- **Maximierung Installationen:** **Falsch**
+- **Compliance sicherstellen:** **Richtig**
+- **Kosten effizient verwalten:** **Richtig**
+- **Kostenminimierung alleiniges Ziel:** **Falsch**
+- **Konformität und Kostenoptimierung:** **Richtig**
+- **Compliance spielt entscheidende Rolle:** **Richtig**
+- **Lizenznachverfolgung essenziell:** **Richtig**
+- **Bedarfsgerechte Nutzung Ziel:** **Richtig**
 
 ---
 
 ### Frage 31: Hauptziele Management-Strategie
 
-- Konformität durch Audits: **Richtig**
-- Lückenlose Nachverfolgung: **Richtig**
-- Maximierung der Kosten: **Falsch**
+- **Konformität durch Audits:** **Richtig**
+- **Lückenlose Nachverfolgung:** **Richtig**
+- **Maximierung der Kosten:** **Falsch**
 - Unregelmäßige Überprüfung: **Falsch**
 - Optimales Kosten-Nutzen-Verhältnis: **Richtig**
-- Minimierung Nachverfolgung: **Falsch**
-- Kostenoptimierung: **Richtig**
-- Optimierung Verwaltung: **Richtig**
+- **Minimierung Nachverfolgung:** **Falsch**
+- **Kostenoptimierung:** **Richtig**
+- **Optimierung Verwaltung:** **Richtig**
 
 ---
 
 ### Frage 32: Warum Betreuung wichtig?
 
-- Kontrollierte Installation: **Richtig**
-- Reduzierung Upgrades: **Falsch**
-- Positives Image bei Lieferanten: **Richtig**
-- Lizenzverletzungen verhindern: **Richtig**
-- Vermeidung rechtlicher Risiken: **Richtig**
-- Steigerung Verletzungen: **Falsch**
-- Rechtmäßige Lizenzierung sichern: **Richtig**
-- Unkontrollierte Installation fördern: **Falsch**
+- **Kontrollierte Installation:** **Richtig**
+- **Reduzierung Upgrades:** **Falsch**
+- **Positives Image bei Lieferanten:** **Richtig**
+- **Lizenzverletzungen verhindern:** **Richtig**
+- **Vermeidung rechtlicher Risiken:** **Richtig**
+- **Steigerung Verletzungen:** **Falsch**
+- **Rechtmäßige Lizenzierung sichern:** **Richtig**
+- **Unkontrollierte Installation fördern:** **Falsch**
 
 ---
 
 ### Frage 33: Was umfasst Strategie?
 
-- Bedingungen einhalten: **Richtig**
-- Maximierung Installationen: **Falsch**
+- **Bedingungen einhalten:** **Richtig**
+- **Maximierung Installationen:** **Falsch**
 - Verwaltung Kosten/Nutzung: **Richtig**
-- Ignorieren Verletzungen: **Falsch**
-- Sicherstellung Konformität: **Richtig**
-- Aktive Vermeidung Verstöße: **Richtig**
-- Bedarfsgerechte Nutzung: **Richtig**
-- Vernachlässigung Bedingungen: **Falsch**
+- **Ignorieren Verletzungen:** **Falsch**
+- **Sicherstellung Konformität:** **Richtig**
+- **Aktive Vermeidung Verstöße:** **Richtig**
+- **Bedarfsgerechte Nutzung:** **Richtig**
+- **Vernachlässigung Bedingungen:** **Falsch**
 
 ---
 
 ### Frage 34: Rechte Zuordnung
 
-- Software modifizieren: [**Modifikationsrecht**]
-- Zeitspanne begrenzt: [**Nutzungsdauer**]
-- Kopien erstellen: [**Vervielfältigungsrecht**]
-- Weitergabe an Dritte: [**Weitergaberecht**]
-- Bestimmte Plattformen: [**Nutzung auf bestimmten Geräten**]
-- Gemäß Bedingungen verwenden: [**Nutzungsrecht**]
+- **Software modifizieren:** [**Modifikationsrecht**]
+- **Zeitspanne begrenzt:** [**Nutzungsdauer**]
+- **Kopien erstellen:** [**Vervielfältigungsrecht**]
+- **Weitergabe an Dritte:** [**Weitergaberecht**]
+- **Bestimmte Plattformen:** [**Nutzung auf bestimmten Geräten**]
+- **Gemäß Bedingungen verwenden:** [**Nutzungsrecht**]
 
 ---
 
 ### Frage 35: SAM-Tools Funktionen
 
-- Alarme: **Richtig**
+- **Alarme:** **Richtig**
 - Patch-Management: **Falsch**
-- Reporting: **Richtig**
-- Compliance: **Richtig**
-- Automatisierte Inventarisierung: **Richtig**
-- Lizenzverfolgung: **Richtig**
+- **Reporting:** **Richtig**
+- **Compliance:** **Richtig**
+- **Automatisierte Inventarisierung:** **Richtig**
+- **Lizenzverfolgung:** **Richtig**
 
 ---
 
 ### Frage 36: Vorteile Management
 
-- Verlust Geschäftsdaten: **Falsch**
-- Minimierung Rechtsstreit: **Richtig**
-- Ziel Kostenreduktion: **Richtig**
-- Unkontrollierte Verwendung: **Falsch**
-- Betrifft Softwareverwaltung: **Richtig**
-- Vermeidung unkontrollierter Nutzung: **Richtig**
-- Erhöhte Investitionen: **Falsch**
-- Reduzierte Lizenzkosten: **Richtig**
+- **Verlust Geschäftsdaten:** **Falsch**
+- **Minimierung Rechtsstreit:** **Richtig**
+- **Ziel Kostenreduktion:** **Richtig**
+- **Unkontrollierte Verwendung:** **Falsch**
+- **Betrifft Softwareverwaltung:** **Richtig**
+- **Vermeidung unkontrollierter Nutzung:** **Richtig**
+- **Erhöhte Investitionen:** **Falsch**
+- **Reduzierte Lizenzkosten:** **Richtig**
 
 ---
 
 ### Frage 37: MS-Lizenzen Korrekt
 
 - Bietet Geräte- und Benutzerlizenzen.
-- Office Modelle: Einzellizenzen, Abo (O365), Volumen.
+- **Office Modelle:** Einzellizenzen, Abo (O365), Volumen.
 - Veränderungen im Unternehmen erschweren Anpassung.
 
 ---
@@ -348,7 +348,7 @@ Verhindert [**Geldstrafen**]. Software [**rechtmäßig**] nutzen. Gibt einem das
 ### Frage 38: MS Lizenzmodelle Korrekt
 
 - OEM-Lizenzen: Vom Gerätehersteller vorinstalliert.
-- Azure: Cloud-Dienste über Abonnementmodell.
+- **Azure:** Cloud-Dienste über Abonnementmodell.
 - Enterprise Agreement (EA): Vertrag mit ermäßigten Preisen.
 
 ---
@@ -363,6 +363,6 @@ Verhindert [**Geldstrafen**]. Software [**rechtmäßig**] nutzen. Gibt einem das
 
 ### Frage 40: GNU License Microsoft Enterprise
 
-- Korrekte Bezeichnung für Open-Source? Antwort: [**Falsch**]
+- Korrekte Bezeichnung für Open-Source? Antwort: [Falsch]
 
 ---

@@ -10,7 +10,7 @@ Die IT-Abteilung implementiert eine neue Softwarelösung nach sorgfältiger Plan
 
 ### Frage 2: Primärschlüssel-Identifikation (Grafik-Frage)
 
-HINWEIS: Diese Frage basiert auf einer grafischen Darstellung im Portal. Da die Grafik hier nicht angezeigt werden kann, müssen die Primärschlüssel im Originaltext der Aufgabe markiert werden.
+**HINWEIS:** Diese Frage basiert auf einer grafischen Darstellung im Portal. Da die Grafik hier nicht angezeigt werden kann, müssen die Primärschlüssel im Originaltext der Aufgabe markiert werden.
 
 ---
 
@@ -22,19 +22,19 @@ HINWEIS: Diese Frage basiert auf einer grafischen Darstellung im Portal. Da die 
 
 ### Frage 4: SQL Aggregation (COUNT & AVG)
 
-Was gibt die folgende Abfrage zurück? `SELECT COUNT(*) AS Total, AVG(Gehalt) AS GehaltDurchschnitt FROM Mitarbeiter;` COUNT gibt die **Gesamtanzahl** der Datensätze zurück, und AVG(Gehalt) berechnet das **Durchschnittsgehalt**. AVG ignoriert standardmäßig **NULL**-Werte. Hier wird nur die Gesamtzahl und das Durchschnittsgehalt berechnet, keine Filterung auf **höheres** Gehalt. Diese Abfrage berücksichtigt **keine** Filterung auf NULL-Werte in (Gehalt).
+Was gibt die folgende Abfrage zurück? `SELECT COUNT(*) AS Total, AVG(Gehalt) AS GehaltDurchschnitt FROM Mitarbeiter;` COUNT gibt die Gesamtanzahl der Datensätze zurück, und AVG(Gehalt) berechnet das Durchschnittsgehalt. AVG ignoriert standardmäßig NULL-Werte. Hier wird nur die Gesamtzahl und das Durchschnittsgehalt berechnet, keine Filterung auf höheres Gehalt. Diese Abfrage berücksichtigt keine Filterung auf NULL-Werte in (Gehalt).
 
 ---
 
 ### Frage 5: SQL Joins und Grouping
 
-Welche Aussagen treffen auf diese Abfrage zu? `SELECT Kunde.Name, COUNT(Bestellung.BestellungID) AS Gesamtbestellungen FROM Kunden LEFT JOIN Bestellungen ON Kunden.KundenID = Bestellungen.KundenID GROUP BY Kunde.Name;` LEFT JOIN **zeigt alle Kunden**, und COUNT **zählt Bestellungen**. GROUP BY Kunde.Name ist **korrekt**, da COUNT ein Aggregat ist. LEFT JOIN gibt NULL für Bestellungen zurück, und COUNT behandelt diese als 0.
+Welche Aussagen treffen auf diese Abfrage zu? `SELECT Kunde.Name, COUNT(Bestellung.BestellungID) AS Gesamtbestellungen FROM Kunden LEFT JOIN Bestellungen ON Kunden.KundenID = Bestellungen.KundenID GROUP BY Kunde.Name;` LEFT JOIN zeigt alle Kunden, und COUNT zählt Bestellungen. GROUP BY Kunde.Name ist korrekt, da COUNT ein Aggregat ist. LEFT JOIN gibt NULL für Bestellungen zurück, und COUNT behandelt diese als 0.
 
 ---
 
 ### Frage 6: Tabellendefinition (CREATE TABLE)
 
-Was erzeugt folgende Abfrage? `CREATE TABLE Bestellungen (BestellungID INT PRIMARY KEY, KundeID INT NOT NULL, Bestelldatum DATE DEFAULT GETDATE());` "Bestelldatum" enthält immer das heutige Datum, wenn kein Wert angegeben wird. Das DEFAULT GETDATE() sorgt dafür, dass "Bestelldatum" standardmäßig das aktuelle Datum verwendet. NOT NULL auf "KundeID" **verhindert**, dass es NULL sein kann. Die Abfrage **erzeugt** eine Tabelle mit einem Primärschlüssel auf "BestellungID". Diese Abfrage definiert zwar keinen Fremdschlüssel, aber die Tabelle kann sie später **bekommen**. Es handelt sich nur um die Tabellendefinition, Daten können später **hinzugefügt** werden.
+Was erzeugt folgende Abfrage? `CREATE TABLE Bestellungen (BestellungID INT PRIMARY KEY, KundeID INT NOT NULL, Bestelldatum DATE DEFAULT GETDATE());` "Bestelldatum" enthält immer das heutige Datum, wenn kein Wert angegeben wird. Das DEFAULT GETDATE() sorgt dafür, dass "Bestelldatum" standardmäßig das aktuelle Datum verwendet. NOT NULL auf "KundeID" verhindert, dass es NULL sein kann. Die Abfrage erzeugt eine Tabelle mit einem Primärschlüssel auf "BestellungID". Diese Abfrage definiert zwar keinen Fremdschlüssel, aber die Tabelle kann sie später bekommen. Es handelt sich nur um die Tabellendefinition, Daten können später hinzugefügt werden.
 
 ---
 
@@ -52,7 +52,7 @@ Ein Datenbankmanagementsystem (DBMS) ist eine spezielle **Verwaltungssoftware**,
 
 ### Frage 9: Aggregierte Filter (HAVING)
 
-Was gibt diese Abfrage zurück? `SELECT AbteilungID, COUNT(*) AS Mitarbeiteranzahl FROM Mitarbeiter GROUP BY AbteilungID HAVING COUNT(*) > 10;` COUNT(\*) in HAVING ist **gültig**, da es auf **aggregierten** Werten basiert. Die Abfrage gruppiert nach AbteilungID, zählt **aber nicht** die Gesamtzahl aller Abteilungen. NULL-Werte in AbteilungID werden ausgeschlossen. Nur Abteilungen mit **mehr** als 10 Mitarbeitern werden angezeigt. Die HAVING-Klausel filtert Gruppen mit weniger als 10 Datensätzen aus.
+Was gibt diese Abfrage zurück? `SELECT AbteilungID, COUNT(*) AS Mitarbeiteranzahl FROM Mitarbeiter GROUP BY AbteilungID HAVING COUNT(*) > 10;` COUNT(\*) in HAVING ist gültig, da es auf aggregierten Werten basiert. Die Abfrage gruppiert nach AbteilungID, zählt aber nicht die Gesamtzahl aller Abteilungen. NULL-Werte in AbteilungID werden ausgeschlossen. Nur Abteilungen mit mehr als 10 Mitarbeitern werden angezeigt. Die HAVING-Klausel filtert Gruppen mit weniger als 10 Datensätzen aus.
 
 ---
 
@@ -64,19 +64,19 @@ Erstelle eine SQL-Abfrage, die die Namen aller Kunden sowie die Summe der Preise
 
 ### Frage 11: Aggregatfunktionen Verfügbarkeit
 
-Welche der folgenden Aggregatfunktionen sind in SQL verfügbar? **AVG**, **SUM** und **COUNT** sind Aggregatfunktionen. **DISTINCTCOUNT**, **GROUP BY** und **INSERT INTO** sind **keine Aggregatfunktionen**.
+Welche der folgenden Aggregatfunktionen sind in SQL verfügbar? AVG, SUM und COUNT sind Aggregatfunktionen. DISTINCTCOUNT, GROUP BY und INSERT INTO sind keine Aggregatfunktionen.
 
 ---
 
 ### Frage 12: Strukturänderung (ALTER TABLE)
 
-Was passiert durch diese Abfrage? `ALTER TABLE Mitarbeiter ADD Einstellungsdatum DATE NOT NULL DEFAULT GETDATE();` Die neue Spalte erlaubt NULL-Werte (**Falsch**). Die Tabelle wird gelöscht (**Falsch**). Eine neue Spalte wird hinzugefügt (**Richtig**). ALTER TABLE ... ADD fügt eine neue Spalte hinzu (**Richtig**). Zeilen haben standardmäßig das heutige Datum (**Richtig**). Vorhandene Daten bleiben unverändert (**Richtig**). DEFAULT GETDATE() setzt für bestehende Zeilen das aktuelle Datum (**Richtig**).
+Was passiert durch diese Abfrage? `ALTER TABLE Mitarbeiter ADD Einstellungsdatum DATE NOT NULL DEFAULT GETDATE();` Die neue Spalte erlaubt NULL-Werte (Falsch). Die Tabelle wird gelöscht (Falsch). Eine neue Spalte wird hinzugefügt (Richtig). ALTER TABLE ... ADD fügt eine neue Spalte hinzu (Richtig). Zeilen haben standardmäßig das heutige Datum (Richtig). Vorhandene Daten bleiben unverändert (Richtig). DEFAULT GETDATE() setzt für bestehende Zeilen das aktuelle Datum (Richtig).
 
 ---
 
 ### Frage 13: Technische Datenbankarten
 
-Welche dieser technischen (nicht inhaltlichen) Arten von Datenbanken gibt es? **Dokumentendatenbanken** (Richtig), **Relationale Datenbanken** (Richtig), **Hierarchische Datenbanken** (Richtig). **Musiktitel-Datenbanken** und **Personaldaten-Datenbanken** sind inhaltliche Beispiele, **Relative Datenbanken** gibt es nicht.
+Welche dieser technischen (nicht inhaltlichen) Arten von Datenbanken gibt es? Dokumentendatenbanken (Richtig), Relationale Datenbanken (Richtig), Hierarchische Datenbanken (Richtig). Musiktitel-Datenbanken und Personaldaten-Datenbanken sind inhaltliche Beispiele, Relative Datenbanken gibt es nicht.
 
 ---
 
@@ -94,37 +94,37 @@ Kann verwendet werden, um Umsätze oder Mengen zusammenzurechnen (**SUM**). Gibt
 
 ### Frage 16: INNER JOIN Funktionsweise
 
-Welche Ergebnisse liefert diese Abfrage? `SELECT Bestellungen.BestellungID, Kunden.Name FROM Bestellungen INNER JOIN Kunden ON Bestellungen.KundeID = Kunden.KundeID;` **Alle Bestellungen und die Namen der zugehörigen Kunden** werden ausgegeben. **NULL-Werte in KundeID werden ausgeschlossen**. Ein INNER JOIN kombiniert Datensätze, die in beiden Tabellen übereinstimmen.
+Welche Ergebnisse liefert diese Abfrage? `SELECT Bestellungen.BestellungID, Kunden.Name FROM Bestellungen INNER JOIN Kunden ON Bestellungen.KundeID = Kunden.KundeID;` Alle Bestellungen und die Namen der zugehörigen Kunden werden ausgegeben. NULL-Werte in KundeID werden ausgeschlossen. Ein INNER JOIN kombiniert Datensätze, die in beiden Tabellen übereinstimmen.
 
 ---
 
 ### Frage 17: Daten einfügen (INSERT INTO)
 
-Was passiert durch die folgende Abfrage? `INSERT INTO Kunde (KundeID, Name, Stadt) VALUES (1, 'Müller GmbH', 'Berlin');` Ein **neuer Kunde mit der ID 1 wird hinzugefügt**. Die Zeile wird **NICHT eingefügt, wenn diese KundeID bereits existiert**. Die Abfrage erzeugt einen **Fehler, wenn keine Tabelle Kunde existiert**.
+Was passiert durch die folgende Abfrage? `INSERT INTO Kunde (KundeID, Name, Stadt) VALUES (1, 'Müller GmbH', 'Berlin');` Ein neuer Kunde mit der ID 1 wird hinzugefügt. Die Zeile wird NICHT eingefügt, wenn diese KundeID bereits existiert. Die Abfrage erzeugt einen Fehler, wenn keine Tabelle Kunde existiert.
 
 ---
 
 ### Frage 18: Multiple Values INSERT
 
-Was bewirkt diese Abfrage? `INSERT INTO Produkte (ProduktID, Name, Preis) VALUES (1, 'Laptop', 1200.50), (2, 'Tablet', 599.99), (3, 'Smartphone', 899.00);` Es werden **3 neue Produkte in die Tabelle eingefügt**. Es wird ein **Fehler ausgegeben, wenn ein ProduktID-Wert bereits existiert** (Primärschlüssel).
+Was bewirkt diese Abfrage? `INSERT INTO Produkte (ProduktID, Name, Preis) VALUES (1, 'Laptop', 1200.50), (2, 'Tablet', 599.99), (3, 'Smartphone', 899.00);` Es werden 3 neue Produkte in die Tabelle eingefügt. Es wird ein Fehler ausgegeben, wenn ein ProduktID-Wert bereits existiert (Primärschlüssel).
 
 ---
 
 ### Frage 19: Join-Arten Übersicht
 
-Welche Arten von Joins gibt es in SQL? **LEFT JOIN**, **INNER JOIN** und **FULL OUTER JOIN**. **MIDDLE JOIN** und **CROSS FILTER** existieren in SQL nicht.
+Welche Arten von Joins gibt es in SQL? LEFT JOIN, INNER JOIN und FULL OUTER JOIN. MIDDLE JOIN und CROSS FILTER existieren in SQL nicht.
 
 ---
 
 ### Frage 20: 1. Normalform (1.NF)
 
-Welche Aussagen zur 1. Normalform sind korrekt? Eine Tabelle in der 1.NF darf **keine mehrfachen Werte in einer Spalte** enthalten. Eine Tabelle in der 1.NF muss für jede Spalte einen **eindeutigen Datentyp** definieren.
+Welche Aussagen zur 1. Normalform sind korrekt? Eine Tabelle in der 1.NF darf keine mehrfachen Werte in einer Spalte enthalten. Eine Tabelle in der 1.NF muss für jede Spalte einen eindeutigen Datentyp definieren.
 
 ---
 
 ### Frage 21: SQL Datentypen (Unusual)
 
-Gibt es folgenden Datentyp in SQL? **UNUSUAL**. Die Antwort ist **Falsch**, da UNUSUAL kein Datentyp in SQL ist.
+Gibt es folgenden Datentyp in SQL? UNUSUAL. Die Antwort ist Falsch, da UNUSUAL kein Datentyp in SQL ist.
 
 ---
 
@@ -208,7 +208,7 @@ Testing ist eine **kontinuierliche Aktivität**, die von der Anforderungsanalyse
 
 ### Frage 35: Ethical Hacking Szenarien
 
-Beispiele für entdeckbare Schwachstellen: Ein Angreifer kann auf sensible Daten zugreifen, weil ein **Passwort zu schwach** ist. Ein **ungesicherter API-Endpunkt** erlaubt Zugriff auf vertrauliche Daten. Hardwaredefekte oder unübersichtliche Oberflächen gehören nicht dazu.
+**Beispiele für entdeckbare Schwachstellen:** Ein Angreifer kann auf sensible Daten zugreifen, weil ein **Passwort zu schwach** ist. Ein **ungesicherter API-Endpunkt** erlaubt Zugriff auf vertrauliche Daten. Hardwaredefekte oder unübersichtliche Oberflächen gehören nicht dazu.
 
 ---
 
@@ -238,4 +238,4 @@ Beispiele für entdeckbare Schwachstellen: Ein Angreifer kann auf sensible Daten
 
 ### Frage 40: Analyse vs. Behebung
 
-Wird die folgende Methode zur Schwachstellenanalyse eingesetzt? **Schwachstellenpatching**. Die Antwort ist **Falsch**, da Patching zur **Behebung** von Sicherheitslücken gehört, nicht zur Analyse.
+Wird die folgende Methode zur Schwachstellenanalyse eingesetzt? Schwachstellenpatching. Die Antwort ist Falsch, da Patching zur Behebung von Sicherheitslücken gehört, nicht zur Analyse.

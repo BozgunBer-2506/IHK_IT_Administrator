@@ -14,7 +14,7 @@ Speicherlösungen als Dienst nennt man auch **[Cloud‑Speicher]**.
 
 ### Frage 2
 
-**Ordne den folgenden Aussagen zu, ob sie eher für die IT im Krankenhaus oder in einem herkömmlichen Unternehmen typisch sind:**
+Ordne den folgenden Aussagen zu, ob sie eher für die IT im Krankenhaus oder in einem herkömmlichen Unternehmen typisch sind:
 
 - IT-Abteilung betreut hauptsächlich klassische Büroarbeitsplätze und Server. → **Herkömmliches Unternehmen**
 - Nutzung von ERP-Systemen für Lager, Logistik und Buchhaltung. → **Herkömmliches Unternehmen**
@@ -38,7 +38,7 @@ Speicherlösungen als Dienst nennt man auch **[Cloud‑Speicher]**.
 
 ### Frage 4
 
-**Ordne die folgenden Aussagen der richtigen Kategorie (richtig oder falsch) bezogen auf die IT-Sicherheit in Krankenhäusern zu:**
+Ordne die folgenden Aussagen der richtigen Kategorie (richtig oder falsch) bezogen auf die IT-Sicherheit in Krankenhäusern zu:
 
 - IT-Sicherheit in Krankenhäusern betrifft keine medizinischen Geräte wie z. B. Infusionspumpen. → **falsch**
 - Regelmäßige Schulungen des Personals sind entscheidend für die IT-Sicherheit. → **richtig**
@@ -64,7 +64,7 @@ Speicherlösungen als Dienst nennt man auch **[Cloud‑Speicher]**.
 
 ### Frage 6
 
-**Was beschreibt Cloud-Computing am besten?**
+Was beschreibt Cloud-Computing am besten?
 
 - a. Bereitstellung von IT-Diensten über das Internet
 - c. Zugriff von überall auf Dienste und Daten
@@ -74,7 +74,7 @@ Speicherlösungen als Dienst nennt man auch **[Cloud‑Speicher]**.
 
 ### Frage 7
 
-**Welche Begriffe bzw. Eigenschaften stehen im Zusammenhang mit dem Arbeitsspeicher?**
+Welche Begriffe bzw. Eigenschaften stehen im Zusammenhang mit dem Arbeitsspeicher?
 
 - a. DDR5
 - b. DDR4
@@ -86,7 +86,7 @@ Speicherlösungen als Dienst nennt man auch **[Cloud‑Speicher]**.
 
 ### Frage 8
 
-**Was zählt zu den kritischen Infrastrukturen?**
+Was zählt zu den kritischen Infrastrukturen?
 
 - a. Wasserversorgungsanlagen
 - b. Telekommunikations- und IT-Systeme
@@ -104,21 +104,21 @@ Das Grundgesetz enthält detaillierte Regelungen zur Digitalisierung.
 
 ### Frage 10
 
-**Was ist ein Netzwerk? Wähle die beste Beschreibung.**
+Was ist ein Netzwerk? Wähle die beste Beschreibung.
 **Verbindung mehrerer Computer zum Datenaustausch, gemeinsamen Nutzen von Anwendungen und Kommunikation.**
 
 ---
 
 ### Frage 11
 
-**Welche Portangaben sind Well-Known und korrekt zugeordnet?**
+Welche Portangaben sind Well-Known und korrekt zugeordnet?
 **80 = HTTP, 53 = DNS, 25 = SMTP.**
 
 ---
 
 ### Frage 12
 
-**Ordne die OSI-Schichten von der untersten (physikalischen) bis zur obersten (Anwendungsschicht):**
+Ordne die OSI-Schichten von der untersten (physikalischen) bis zur obersten (Anwendungsschicht):
 
 1. Physikalische Schicht (Physical)
 2. Sicherungsschicht (Data Link)
@@ -200,7 +200,7 @@ Wofür steht die Abkürzung **ASCII**?
 
 ### Frage 20
 
-**Bringen Sie die Schritte der Huffman-Codierung in die richtige Reihenfolge:**
+Bringen Sie die Schritte der Huffman-Codierung in die richtige Reihenfolge:
 
 1. Buchstaben und Häufigkeiten ermitteln
 2. Nach Häufigkeit sortieren
@@ -281,7 +281,7 @@ Begriffe wie **[optischer Zoom]**, **[GPU‑Taktfrequenz]** und **[Touchscreenst
 
 ### Frage 28
 
-**Ordnen Sie die folgenden Beispiele der passenden Cloud-Art zu:**
+Ordnen Sie die folgenden Beispiele der passenden Cloud-Art zu:
 
 - Ein Unternehmen betreibt ein eigenes Rechenzentrum nur für den internen Gebrauch. → **Privat Cloud**
 - Eine Universität betreibt eine Cloud nur für ihre Forschungsabteilungen. → **Privat Cloud**
@@ -305,7 +305,7 @@ Begriffe wie **[optischer Zoom]**, **[GPU‑Taktfrequenz]** und **[Touchscreenst
 
 ### Frage 30
 
-**Welche Aufgabe umfasst die IT-Systemadministration im Rechenzentrum?**
+Welche Aufgabe umfasst die IT-Systemadministration im Rechenzentrum?
 
 - a. Installation und Konfiguration von Servern
 - b. Überwachung der Netzwerkinfrastruktur
@@ -315,7 +315,7 @@ Begriffe wie **[optischer Zoom]**, **[GPU‑Taktfrequenz]** und **[Touchscreenst
 
 ### Frage 31
 
-**Was sind Charakteristika von Platform-as-a-Service (PaaS)?**
+Was sind Charakteristika von Platform-as-a-Service (PaaS)?
 
 - a. Benötigt eine IT-Infrastruktur für die Speicherung und Rechenleistung
 - b. Zugriff auf PaaS-Ressourcen: via Internet oder Intranet
@@ -326,7 +326,7 @@ Begriffe wie **[optischer Zoom]**, **[GPU‑Taktfrequenz]** und **[Touchscreenst
 
 ### Frage 32
 
-**Welche Leistungen können mit Infrastructure-as-a-Service (IaaS) gemietet werden?**
+Welche Leistungen können mit Infrastructure-as-a-Service (IaaS) gemietet werden?
 
 - a. Hardwarekomponenten wie Server, Rechenleistung, Netzkapazitäten
 - b. Kommunikationsgeräte wie Router oder Switche
@@ -336,7 +336,7 @@ Begriffe wie **[optischer Zoom]**, **[GPU‑Taktfrequenz]** und **[Touchscreenst
 
 ### Frage 33
 
-**Was sind charakteristische Merkmale eines Tier-1-Rechenzentrums?**
+Was sind charakteristische Merkmale eines Tier-1-Rechenzentrums?
 
 - a. Ein einziger Versorgungsweg für Energie und Kälteverteilung
 - b. Systeme sind nicht fehlertolerant und können im Betrieb nicht gewartet werden
@@ -347,7 +347,7 @@ Begriffe wie **[optischer Zoom]**, **[GPU‑Taktfrequenz]** und **[Touchscreenst
 
 ### Frage 34
 
-**Was sind die beiden Lösungen von Microsoft für Desktop-as-a-Service?**
+Was sind die beiden Lösungen von Microsoft für Desktop-as-a-Service?
 
 - a. Windows 365
 - b. Azure Virtual Desktop (AVD)
@@ -356,7 +356,7 @@ Begriffe wie **[optischer Zoom]**, **[GPU‑Taktfrequenz]** und **[Touchscreenst
 
 ### Frage 35
 
-**Welche Tier-Klasse eignet sich am besten für Multi-Millionen Konzerne?**
+Welche Tier-Klasse eignet sich am besten für Multi-Millionen Konzerne?
 **Tier 4**
 
 ---
