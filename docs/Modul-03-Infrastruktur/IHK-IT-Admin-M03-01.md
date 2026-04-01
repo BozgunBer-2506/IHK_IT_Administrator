@@ -2,242 +2,294 @@
 
 ---
 
-### Frage 1: STP Mechanismus
+### Frage 1: Wie verhindert das STP (Spanning Tree Protocol) Loops in Switches?
 
-Die gleichzeitige Datenübertragung in alle Netzwerke würde zu einer **[Schleife]** führen, wenn keine Mechanismen wie STP implementiert wären. STP identifiziert redundante Verbindungen und **[blockiert]** eine Reihe von **[Ports]**, um sicherzustellen, dass nur ein einzigartiger Pfad zwischen **[Switches]** aktiv bleibt.
-
----
-
-### Frage 2: Netzwerk-Topologie
-
-Diese Frage enthält ein Netzwerk-Topologie-Diagramm mit fünf Komponenten, die an die richtige Stelle platziert werden müssen. Daher kann die Frage hier nicht angezeigt werden.
+Die gleichzeitige Datenübertragung in alle Netzwerke würde zu einer **[Schleife]** führen, wenn keine Mechanismen wie STP implementiert wären, um redundante Pfade zu blockieren. STP identifiziert redundante Verbindungen in einem Netzwerk und **[blockiert]** eine Reihe von **[Ports]**, um sicherzustellen, dass nur ein einzigartiger Pfad zwischen **[Switches]** aktiv bleibt. Dadurch werden Schleifen eliminiert, die zu Netzwerkstörungen führen könnten. STP wird auf **[Switches]** verwendet, nicht auf Routern.
 
 ---
 
-### Frage 3: NMS Funktionen
+### Frage 2: Zuordnung der Netzwerk-Topologie (Diagramm)
 
-Ein Netzwerkmanagementsystem bietet zentrale Funktionen zur **[Überwachung und Verwaltung]** von Netzwerken. Mit Hilfe von Richtlinien lassen sich **[Konfigurationsänderungen]** durchführen. Moderne Systeme nutzen **[künstliche Intelligenz]**, um Netzwerkvorgänge **[automatisch]** zu optimieren. Zur Identifikation nutzt ein NMS verschiedene **[Netzwerkmanagementprotokolle]**.
-
----
-
-### Frage 4: Troubleshooting Begriffe
-
-Troubleshooting ist ein systematischer Prozess zur Behebung von **[Netzwerkstörungen]**. Ein häufiges Problem ist die **[Netzwerküberlastung]**. Der Prozess beginnt mit der **[Problemerkennung]** und endet mit der **[Verifikation und Dokumentation]**.
+_Hinweis: Diese Frage erfordert die manuelle Zuordnung von Hardware-Komponenten (Stern, Mesh, Bus, Ring) in der grafischen Oberfläche des Prüfungssystems._
 
 ---
 
-### Frage 5: Monitoring Phasen
+### Frage 3: Welche Funktionen bietet ein NMS?
 
-Ein Netzwerk sollte unter ständiger **[Überwachung]** stehen. Nach einem Alarm erfolgt die **[Untersuchung]**, gefolgt von der **[Isolierung]** des Fehlers. In der **[Ursachenanalyse]** wird der genaue Grund ermittelt.
-
----
-
-### Frage 6: Mobilfunk & Wireless
-
-Die **[GSM]**-Technologie war das erste digitale Netz für die **[Datenübertragung]**. Zu Hause nutzen Geräte **[WLAN]**. Der Standard **[5G]** bietet Spitzenwerte bis zu 10 GB/s.
+Ein Netzwerkmanagementsystem bietet zentrale Funktionen zur **[Überwachung und Verwaltung]** von Netzwerken. Mit Hilfe von Richtlinien lassen sich **[Konfigurationsänderungen]** durchführen, um Probleme gezielt zu beheben. Moderne Systeme nutzen zunehmend künstliche Intelligenz, um Netzwerkvorgänge **[automatisch]** zu optimieren. Zur Identifikation von Netzwerkelementen integriert ein NMS verschiedene **[Netzwerkmanagementprotokolle]**. Zur Analyse der **[Netzwerkauslastung]** liefert es Einblicke in die Netzwerkflüsse.
 
 ---
 
-### Frage 7: Firewall-Spezifikationen
+### Frage 4: Was beschreibt Troubleshooting im Netzwerkumfeld?
 
-- **[Stateful Inspection]**: Analysiert den Verbindungszustand.
-- **[Virtual Firewall]**: Schützt einzelne VMs.
-- **[Next Generation (NGFW)]**: Deep Packet Inspection & Application Control.
+Der Begriff Troubleshooting beschreibt einen systematischen Prozess zur schnellen und zielgerichteten Behebung von sowohl Hardware- oder Softwarefehlern als auch **[Netzwerkstörungen]**. Ein häufig auftretendes Problem ist die **[Netzwerküberlastung]**, bei der durch übermäßigen Datenverkehr die Bandbreite ausgelastet wird. Der erste Schritt im Rahmen des Troubleshooting ist die **[Problemerkennung]**. In der zweiten Phase erfolgt die **[Informationssammlung]**, bei der Logs und Nutzerberichte analysiert werden. In der letzten Phase erfolgt die **[Verifikation und Dokumentation]**, bei der überprüft wird, ob das Problem dauerhaft gelöst ist.
 
 ---
 
-### Frage 8: IP-Grundlagen
+### Frage 5: Nennen Sie die Phasen des Netzwerk-Monitorings
 
-Kommunikation zwischen Netzen erfolgt über einen **[Router]**. Das **[Standardgateway]** ist das Ziel für externe Pakete. Die Adresse `127.0.0.1` ist die **[Loopbackadresse]**.
-
----
-
-### Frage 9: Sicherheitsmaßnahmen
-
-Maßnahmen wie **[Firewall]**, **[IDS/IPS]** zur Echtzeiterkennung, **[Multi-Faktor-Authentifizierung]** für kritische Systeme und **[VPN]** für den Home-Office-Zugriff sind essenziell.
+Ein sorgfältig eingerichtetes Netzwerk sollte durchgehend unter **[Überwachung]** stehen. Sobald ein Alarm ausgelöst wird, erfolgt zunächst die **[Untersuchung]**, in welcher das Ausmaß des Problems untersucht wird. Daran anschließend folgt die **[Isolierung]**, bei der der genaue Ort des Fehlers gefunden werden soll. In der darauffolgenden **[Ursachenanalyse]** wird schließlich die exakte Ursache ermittelt. Abschließend wird eine passende **[Lösung]** ausgearbeitet und umgesetzt.
 
 ---
 
-### Frage 10: NMS Management Identification
+### Frage 6: Welche Technologien werden im Bereich Mobilfunk und Wireless genutzt?
 
-Zur Identifikation von Netzwerkelementen nutzt ein NMS **[Netzwerkmanagementprotokolle]**. Die Analyse der Auslastung erfolgt über **[Netzwerkflüsse]**.
-
----
-
-### Frage 11: Troubleshooting Erweitert
-
-Wenn Datenpakete ständig die Route wechseln, nennt man das **[Route Flapping]**. Eine übermäßige Bandbreitennutzung führt zur **[Netzwerküberlastung]**.
+Die **[GSM]**-Technologie markierte das erste digitale Mobilfunknetz und ermöglichte mobile **[Datenübertragung]**. Im Alltag setzen viele Geräte unterwegs auf Mobilfunknetze und nutzen zu Hause oder im Büro **[WLAN]**. Häufig werden moderne WLAN-Verbindungen irrtümlich mit **[Wi‑Fi]** gleichgesetzt. Aktuelle Standards wie LTE oder **[5G]** bieten Spitzenwerte bis zu 10 GB/s.
 
 ---
 
-### Frage 12: Troubleshooting Phasen (Detail)
+### Frage 7: Ordnen Sie die Firewall-Typen ihren Spezifikationen zu
 
-1. **[Orientierung]**, 2. **[Untersuchung]**, 3. **[Isolierung]**, 4. **[Ursachenanalyse]**, 5. **[Abschluss]**.
-
----
-
-### Frage 13: Wireless Begriffe II
-
-Die Verzögerung im Netz ist die **[Latenzzeit]**. Datenübertragung über Stromleitungen heißt **[Powerline]**.
+- Eine klassische **[Stateful Inspection Firewall]** analysiert den Zustand von Verbindungen.
+- Die **[Virtual Firewall]** kommt in virtualisierten Systemen zum Einsatz und schützt z.B. einzelne VMs.
+- Moderne Firewalls wie die **[Next Generation Firewall]** bieten Funktionen wie Deep Packet Inspection.
+- Eine **[Paket Filtering Firewall]** filtert ausschließlich anhand von Quell-/Zieladressen und Ports.
+- Die **[Host‑basierte Firewall]** ist direkt auf einem Endgerät installiert.
 
 ---
 
-### Frage 14: Spezielle Firewalls
+### Frage 8: Nennen Sie die Grundlagen der IP-Kommunikation
 
-- **[Unified Threat Management (UTM)]**: Integrierter Virenschutz.
-- **[Cloud Native Firewall]**: Unterstützt Multi-Tenant-Umgebungen.
-- **[Proxy Firewall]**: Verhindert direkte Verbindungen.
+Die Kommunikation zwischen Netzwerken erfolgt über einen **[Router]**. Das **[Standardgateway]** bezeichnet das Ziel für nicht-lokale IP-Pakete. Adressen wie 192.168.2.84 sind **[nicht über Internet]** erreichbar. Zur Organisation von IP-Adressen verwendet man die **[Subnetzmaske]**. Eine besondere Adresse ist die **[Loopbackadresse]**.
 
 ---
 
-### Frage 15: DHCP Betriebsmodi
+### Frage 9: Welche Sicherheitsmaßnahmen sollten in einem Netzwerk implementiert werden?
 
-Es gibt die Modi **[Statisch]**, **[Automatisch]** und **[Dynamisch]** (mit Lease-Time).
-
----
-
-### Frage 16: DHCP Einstellungen
-
-Zu den konfigurierbaren Parametern gehören das **[Default Gateway]**, der **[DNS-Server]** und der **[Adresspool]**.
+- Eine gut konfigurierte **[Firewall]** schützt vor unautorisierten Zugriffen.
+- Verdächtige Aktivitäten werden mit Hilfe von **[IDS/IPS]** erkannt und blockiert.
+- Einführung von **[[M]ulti [F]aktor [A]uthentifizierung]** für kritische Systeme.
+- Home Office Zugriff nur über ein **[VPN]**.
+- Sensible Bereiche durch **[VLANs]** oder Subnetze trennen.
 
 ---
 
-### Frage 17: Firewall-Auswahl (Checkliste)
+### Frage 10: Wie wird ein NMS im Netzwerkmanagement identifiziert?
 
-Korrekt sind: [Next Generation Firewall], [Virtual Firewall] und [Stateful Inspection Firewall].
-
----
-
-### Frage 18: DNS (Domain Name System)
-
-DNS löst **[Namen]** in **[IP-Adressen]** auf und wird zwingend vom **[Active Directory]** benötigt.
+Ein **[Netzwerkmanagementsystem]** bietet zentrale Funktionen zur Überwachung. Mit Hilfe von **[Richtlinien]** lassen sich Konfigurationsänderungen durchführen. Moderne Systeme nutzen **[künstliche Intelligenz]**. Zur Identifikation nutzt ein NMS verschiedene **[Netzwerkmanagementprotokolle]**. Zur Analyse der Auslastung liefert es Einblicke in die **[Netzwerkflüsse]**.
 
 ---
 
-### Frage 19: Netzwerkmanagement-Disziplinen
+### Frage 11: Nennen Sie weitere Begriffe aus dem Troubleshooting
 
-- **[Konfigurationsmanagement]**: Pflege der Komponenten.
-- **[Fehlermanagement]**: Erkennung und Beseitigung.
-- **[Abrechnungsmanagement]**: Erfassung der Nutzung.
+Unter dem Begriff **[Troubleshooting]** versteht man einen systematischen Prozess. Ein häufiges Problem ist die **[Überlastung]**. Beim **[Route Flapping]** wechseln Datenpakete ständig die Route. Der erste Schritt ist die **[Überwachung]**. In der dritten Phase erfolgt die **[Isolierung]**.
 
 ---
 
-### Frage 20: Vorteile NMS
+### Frage 12: Beschreiben Sie die detaillierten Phasen des Troubleshootings
 
-Ein NMS sorgt für höhere **[Netzwerkverfügbarkeit]** und eine optimierte **[Performance]**.
-
----
-
-### Frage 21: DHCP Ablauf (DORA)
-
-Der Prozess besteht aus: 1. [Discover], 2. [Offer], 3. [Request], 4. [Ack].
+1. **[Orientierung]** der aktuellen Situation.
+2. **[Untersuchung]** möglicher Fehlerquellen.
+3. **[Isolierung]** des Problems auf bestimmte Systeme.
+4. **[Ursachenanalyse]**, bei der Gründe erkannt werden.
+5. Kontinuierliche **[Überwachung]** ist essenziell (Logging/Monitoring).
 
 ---
 
-### Frage 22: Adressarten im Subnetz
+### Frage 13: Erklären Sie Begriffe wie Wi-Fi ve Latenz
 
-Das Netz wird durch die **[Subnetzadresse]** identifiziert. Die Nachricht an alle nutzt die **[Broadcastadresse]**.
-
----
-
-### Frage 23: Vorteile von Subnetzen
-
-Subnetze dienen dazu, Netze zu **[segmentieren]** und eine **[logische Strukturierung]** der Ressourcen zu ermöglichen.
+Der Begriff **[WLAN]** beschreibt das kabellose Netzwerk. Die Bezeichnung **[Wi‑Fi]** ist ein Markenname. Ein wichtiger Faktor ist die **[Latenzzeit]**. Technologien wie **[Powerline]** nutzen Stromleitungen. Der Mobilfunkstandard **[5G]** wird häufig ergänzend genutzt.
 
 ---
 
-### Frage 24: VPN-Verschlüsselung
+### Frage 14: Ordnen Sie spezielle Firewall-Typen ihren Funktionen zu
 
-**[PPTP]** gilt als unsicher. L2TP wird oft mit **[IPSec]** genutzt. IKE tauscht **[Schlüssel]** über **[unsichere Netzwerke]** aus.
-
----
-
-### Frage 25: Binärumrechnung
-
-Die Binärzahl **[11000000]** entspricht **[dezimal]** 192. Der Wert **[255]** entspricht 11111111. **[4C]** ist hexadezimal.
+- Verhindert direkte Verbindungen: **Proxy Firewall**
+- Erkennt Anwendungen & filtert URLs: **Next Generation Firewall**
+- Läuft als virtuelle Anwendung in Clouds: **Virtual Firewall**
+- Lastenausgleich & Multi-Tenant: **Cloud Native Firewall**
+- Integrierter Virenschutz & Intrusion Prevention: **Unified Threat Management Firewall**
 
 ---
 
-### Frage 26: Cisco CLI Befehle
+### Frage 15: Welche Betriebsmodi eines DHCP Servers gibt es?
 
-Befehl für den privilegierten Modus: [enable]. Speichern der Konfiguration: [copy running-config startup-config].
-
----
-
-### Frage 27: VLAN Routing
-
-Ein **[Router]** wird benötigt, um zwischen **[verschiedenen VLANs]** basierend auf **[IP-Adressen]** zu routen.
+- **Statisch.**
+- **Automatisch.**
+- **Dynamisch.**
 
 ---
 
-### Frage 28: VLAN-Befehle & Tools
+### Frage 16: Welche Aussagen zu den Einstellungsmöglichkeiten durch DHCP sind korrekt?
 
-Putty ist ein [Terminal-Emulator]. Die GUI im Packet Tracer ermöglicht Konfigurationen. Befehl: [show interfaces switchport].
-
----
-
-### Frage 29: VPN Grundlagen
-
-VPN steht für **[Virtual Private Network]**. Es ermöglicht Kommunikation wie in einem **[privaten Netzwerk]**. Bekannt sind **[IPsec-VPN]** und SSL VPN.
+- **Das Default Gateway ist einstellbar.**
+- **Der DNS Server ist einstellbar.**
+- **Der Adresspool kann mit dem DHCP-Server konfiguriert werden.**
 
 ---
 
-### Frage 30: VPN Funktionsweise
+### Frage 17: Welche Firewall-Arten existieren?
 
-Das VPN transportiert nur die **[Daten]**. Es dient zur **[Umgehung von Geoblocking]** und stellt eine **[privaten Verbindung]** her.
-
----
-
-### Frage 31: VLAN-Tagging
-
-Man unterscheidet zwischen untagged und **[tagged]** VLANs. Ein VLAN umfasst alle Geräte in derselben **[Broadcast-Domäne]**.
+- **Next Generation Firewall.**
+- **Virtual Firewall.**
+- **Stateful Inspection Firewall.**
 
 ---
 
-### Frage 32: Vorteile kleiner Broadcast-Domänen
+### Frage 18: Welche Aussagen zu den Grundlagen von DNS sind korrekt?
 
-Dazu gehören die **[Senkung der Sicherheitsrisiken]** und ein **[geringerer CPU-Overheat]** der beteiligten Geräte.
-
----
-
-### Frage 33: Cisco-Switch Modi
-
-Das Zeichen **[#]** zeigt den Privileged EXEC Modus an. Modi sind User EXEC und **[Privileged EXEC]**.
+- **Kann die IP-Adresse eines PC's in den Namen auflösen.**
+- **Beantwortet Anfragen zur Namensauflösung.**
+- **Kann den Namen eines PC's in eine IP Adresse auflösen.**
 
 ---
 
-### Frage 34: Eigenschaften von Routern
+### Frage 19: Welche Aussagen zu den Management-Disziplinen sind richtig?
 
-Router leiten Pakete zwischen **[mehreren Rechnernetzen]** weiter und dienen als **[Kopplungselement]**.
-
----
-
-### Frage 35 & 38: Netzwerkdokumentation Grundlagen
-
-Es ist eine Form der **[technischen Dokumentation]**, die Informationen **[gezielt auffindbar]** macht.
+- **Konfigurationsmanagement hilft bei Änderungen und Pflege der Einstellungen.**
+- **Im Fehlermanagement sind Funktionen zur Erkennung, Beseitigung und Vorbeugung.**
+- **Mithilfe des Abrechnungsmanagements wird die Benutzung erfasst.**
 
 ---
 
-### Frage 36: Netzwerkdokumentation Zweck
+### Frage 20: Welche Vorteile bietet der Einsatz eines Netzwerkmanagementsystems?
 
-Sie dient dem reibungslosen **[Netzbetrieb]** und dokumentiert, welche Geräte an welcher Stelle im Gebäude verbunden sind.
-
----
-
-### Frage 37: Switch-Konfiguration (Erstkonfiguration)
-
-Die Erstkonfiguration erfolgt meist über den **[Konsolenport RS232]**. Remote-Zugriff erfordert eine **[öffentliche IP-Adresse]**.
+- **Erhöhte Netzwerkverfügbarkeit.**
+- **Schnellere Fehlererkennung und -behebung.**
+- **Optimierte Netzwerkperformance.**
 
 ---
 
-### Frage 39: Vorteile Cloud Software
+### Frage 21: Bringen Sie den DHCP-Ablauf in die richtige Reihenfolge
 
-Vorteile sind die schnelle **[Einsatzbereitschaft]**, **[Skalierbarkeit]** und die Erreichbarkeit von überall.
+1. **[DHCPDISCOVER]**
+2. **[DHCPOFFER]**
+3. **[DHCPREQUEST]**
+4. **[DHCPACK]**
+
+---
+
+### Frage 22: Erklären Sie Adressarten wie Broadcast ve Subnetzadresse
+
+Die Subnetzadresse dient dazu, das **[Subnetz]** selbst zu identifizieren. Ein **[Adresspool]** ist eine Menge von IP-Adressen für Hosts. Die Broadcastadresse hat im Host-Teil alle Bits auf **[1]** gesetzt. Die **[Subnetzadresse]** ist die erste Adresse in einem Subnetz.
 
 ---
 
-### Frage 40: IP-Definition
+### Frage 23: Warum werden Subnetze verwendet?
 
-Steht IP für „Interconnect Protocol"? [Falsch] – Es steht für [Internet Protocol].
+Subnetze unterteilen Netzwerke, um den Datenverkehr zu **[segmentieren]**. Die **[logische Strukturierung]** ist ein Nebeneffekt. Sie ermöglichen eine effiziente Verwaltung des **[Datenverkehrs]**. Administratoren behalten so den Überblick über die **[Ressourcen]**.
 
 ---
+
+### Frage 24: Welche Aussagen zu VPN-Verschlüsselungen sind korrekt?
+
+**[PPTP (Point‑to‑Point Tunneling Protocol)]** gilt nicht als sicher. L2TP wird oft mit **[IPSec]** kombiniert. IKE tauscht Sicherheitsparameter und **[Schlüssel]** aus. IPsec sichert Verbindungen über **[unsichere Netzwerke]**.
+
+---
+
+### Frage 25: Rechnen Sie Binärwerte in Dezimalwerte um
+
+Die 8-Bit-Binärzahl **[11000000]** entspricht **[dezimal]** 192. Der Wert **[255]** entspricht 11111111. 11111110 ist dezimal **[254]**. 10101000 ergibt dezimal **[168]**. **[4C]** ist hexadezimal. **[19683]** liegt außerhalb des Bereichs. **[Farbtiefe]** ist hier irrelevant.
+
+---
+
+### Frage 26: Welche Befehle werden in der Cisco-CLI genutzt?
+
+Zum Wechsel in den privilegierten Modus nutzt man **[enable]**. Im Konfigurationsmodus steht **[Router(config)#]**. Anzeige der Konfiguration mit **[show running‑config]**. Schnittstellenwahl mit **[interface]**. Speichern mit **[copy running‑config startup‑config]**.
+
+---
+
+### Frage 27: Wie funktioniert Routing zwischen VLANs?
+
+Ein **[Router]** ermöglicht den Datenaustausch zwischen VLANs. Man benötigt mindestens **[2]** Teilnehmer. Routing basiert auf **[IP‑Adressen]**. Layer-2-Switches können nicht zwischen **[verschiedenen VLANs]** vermitteln.
+
+---
+
+### Frage 28: Welche Tools ve Befehle werden für VLANs genutzt?
+
+Putty ist ein **[Terminal‑Emulator]**. Im Packet Tracer nutzt man die **[grafische Benutzeroberfläche (GUI)]**. Befehl zur Port-Konfiguration: **[show interfaces switchport]**. Es gibt physikalische ve **[virtuelle Interfaces]**.
+
+---
+
+### Frage 29: Was sind die Grundlagen von VPN-Verbindungen?
+
+Ein VPN schafft ein privates Netzwerk über ein öffentliches Netzwerk. Es ermöglicht eine sichere Kommunikation, als ob sie sich in einem **[privaten Netzwerk]** befinden würden. Beim **[SSL VPN]** wird eine sichere Verbindung über das Internet hergestellt. VPN steht für **[Virtual Private Network]**. **[IPsec‑VPN]** ve SSL/TLS-VPN sind zwei gängige Arten.
+
+---
+
+### Frage 30: Ordnen Sie Begriffe der VPN-Funktionsweise zu
+
+- Anwendung: **Umgehung von Geoblocking**
+- Transport-Netzwerk dient als: **Medium**
+- VPN transportiert nur die: **Daten**
+- VPN ist eine virtuelle: **privaten Verbindung**
+- Vor/hinter dem Tunnel gilt das: **Protokoll**
+
+---
+
+### Frage 31: Welche Aussagen zu VLANs sind Richtig oder Falsch?
+
+- Bei VLAN-Tagging kann der Switchport mehreren VLAN zugeordnet werden. → **Richtig**
+- VLAN steht für Vertical Local Area Network. → **Falsch**
+- Bei Hardware VLAN kann der Switchport mehreren VLAN zugeordnet werden. → **Falsch**
+- Ein VLAN umfasst alle Geräte in derselben Broadcast-Domäne. → **Richtig**
+- Man unterscheidet zwischen untagged VLANs und tagged VLANs. → **Richtig**
+
+---
+
+### Frage 32: Was sind die Vorteile kleiner Broadcast-Domänen?
+
+- **Senkung der Sicherheitsrisiken durch Trennung und Verringerung der Geräte.**
+- **Geringerer CPU-Overheat durch Verringerung der zu erreichenden Geräte.**
+- **Flexibleres Netzwerkdesign bei gleicher eingesetzter Hardware.**
+
+---
+
+### Frage 33: Welche Modi existieren in einem Cisco-Switch?
+
+- **# zeigt an, dass man im Privileged EXEC Modus ist.**
+- **Der User Modus enthält Befehle zum Erhalten von Informationen.**
+- **Modi: User EXEC ve Privileged EXEC.**
+
+---
+
+### Frage 34: Welche Eigenschaften zeichnen einen Router aus?
+
+- **Können Netzwerkpakete zwischen mehreren Rechnernetzen weiterleiten.**
+- **Sind das Kopplungselement in Rechnernetzen.**
+- **Stellen eine Verbindung zum Internet und/oder anderen Netzwerken her.**
+
+---
+
+### Frage 35: Was ist das Ziel der Netzwerkdokumentation?
+
+- **Ist eine Form der technischen Dokumentation.**
+- **Ein Ziel ist, Informationen gezielt auffindbar zu machen.**
+- **Unter Netzwerkdokumentation versteht man die Nutzbarmachung von Informationen.**
+
+---
+
+### Frage 36: Welchen Zweck erfüllt die Dokumentation?
+
+- **Informationen aus verschiedensten Quellen werden in einer Datenbank zusammengeführt.**
+- **Zweck ist es, den Netzbetrieb so reibungslos wie möglich zu halten.**
+- **Dokumentiert, welche Geräte an welcher Stelle im Gebäude verbunden sind.**
+
+---
+
+### Frage 37: Wie wird ein Switch konfiguriert?
+
+- **Erstkonfiguration mit Konsolenkabel erfolgen, wenn keine Netzwerkverbindung vorhanden ist.**
+- **Switch muss über eine öffentliche IP-Adresse oder Portweiterleitung erreichbar sein.**
+- **Der Konsolenport RS232 ist eine typische Schnittstelle zur Erstkonfiguration.**
+
+---
+
+### Frage 38: Nutzbarmachung von Informationen zur weiteren Verwendung (Review)
+
+- **Ist eine Form der technischen Dokumentation.**
+- **Ein Ziel davon ist, Informationen gezielt auffindbar zu machen.**
+- **Nutzbarmachung von Informationen zur weiteren Verwendung.**
+
+---
+
+### Frage 39: Warum wird Cloud-Software eingesetzt?
+
+- **Schnelle Einsatzbereitschaft und Skalierbarkeit.**
+- **Anwendungen sind von überall erreichbar.**
+
+---
+
+### Frage 40: Steht IP für „Interconnect Protocol"?
+
+**[Falsch]** – Es steht für Internet Protocol.

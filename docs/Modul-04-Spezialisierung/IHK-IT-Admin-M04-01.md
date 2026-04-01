@@ -4,26 +4,19 @@
 
 ### Frage 1: Labordatentransfer (LDT)
 
-Der **Labordatentransfer (LDT)** ist ein standardisiertes Verfahren zur elektronischen Übertragung von medizinischen Labordaten. Ein großer Vorteil von LDT ist der automatische **Datenimport** in das PVS der Arztpraxis und die schnelle Verfügbarkeit von **Diagnosedaten**. Die Datenübertragung erfolgt beim LDT **verschlüsselt**.
+Der **Labordatentransfer (LDT)** ist ein standardisiertes Verfahren zur elektronischen Übertragung von medizinischen Labordaten. Er spielt eine zentrale Rolle im deutschen Gesundheitswesen. Ein großer Vorteil von LDT ist zum einen der automatische **Datenimport** in das PVS der Arztpraxis und zum anderen die schnelle Verfügbarkeit von **Diagnosedaten**. Die **Datenübertragung** erfolgt beim LDT **verschlüsselt**.
 
 ---
 
 ### Frage 2: Datenbank-Monitoring
 
-- Eine hohe Anzahl gleichzeitiger Verbindungen ist immer **kritisch**.
-- Hohe **Abfragezeiten** können durch fehlende Indizes verursacht werden.
-- Deadlocks treten nur bei **parallelen Prozessen** auf.
-- **Buffer Caches** verbessern die Abfragegeschwindigkeit.
+Eine hohe Anzahl gleichzeitiger Verbindungen ist immer **kritisch**. Hohe **Abfragezeiten** können durch fehlende Indizes verursacht werden. Deadlocks treten nur bei **parallelen Prozessen** auf. **Buffer Caches** verbessern die Abfragegeschwindigkeit.
 
 ---
 
 ### Frage 3: Festplattenüberwachung
 
-- Eine I/O-Warteschlange (Queue Depth) von 50 ist **problematisch**.
-- **Disk Latency** über 20ms ist kritisch für Datenbanken.
-- SMART-Werte können zukünftige **Festplattenfehler** vorhersagen.
-- **Write Amplification** ist ein Problem bei SSDs.
-- Fragmentierung beeinflusst SSDs und HDDs **unterschiedlich**.
+Eine I/O-Warteschlange (Queue Depth) von 50 ist **problematisch**. **Disk Latency** über 20ms ist kritisch für Datenbanken. SMART-Werte können zukünftige **Festplattenfehler** vorhersagen. **Write Amplification** ist ein Problem bei SSDs. Fragmentierung beeinflusst SSDs und HDDs **unterschiedlich**.
 
 ---
 
@@ -35,227 +28,261 @@ Es werden **alle Informationen** geliefert, die benötigt werden, um Ausfälle f
 
 ### Frage 5: Server-Monitoring Grundlagen
 
-Server-Monitoring ist die gezielte und **kontinuierliche Überwachung** eines Serversystems. Ausfälle der gesamten **IT‑Infrastruktur** können verhindert werden. Ziel ist die **optimale Performance**. Das System sammelt zudem **Echtzeitdaten**.
+Server-Monitoring ist die gezielte ve **kontinuierliche Überwachung** eines Serversystems. Ausfälle der **IT‑Infrastruktur** können verhindert werden. Ziel ist die **optimale Performance**. Das System sammelt **Echtzeitdaten**.
 
 ---
 
 ### Frage 6: Monitoring-Verfahren Zuordnung
 
-- **Analyse und Bewertung:** **Historical‑Monitoring**
-- **Aktueller Zustand:** **Real‑Time Monitoring**
+- Analyse und Bewertung: **Historical‑Monitoring**
+- Aktueller Zustand: **Real‑Time Monitoring**
 
 ---
 
 ### Frage 7: Network Change and Configuration Management (NCCM)
 
-Es arbeitet mit CLI, SNMP oder **RESTCONF**. **Drift** und Audit sind wichtige Funktionen. Die **Konfigurationsanalyse** identifiziert kleine Änderungen. Eine Funktion ist die **Automatisierung** von Updates.
+Es arbeitet mit CLI, SNMP oder **RESTCONF**. Sowohl **Drift** als auch Audit sind wichtige Funktionen. Die **Konfigurationsanalyse** identifiziert kleine Änderungen. Eine Funktion ist die **Automatisierung** von Updates.
 
 ---
 
 ### Frage 8: Performance Monitoring Protokolle
 
-Daten werden per SNMP, **CLI, Telemetrie** oder WMI ermittelt. Es dient dem Erfassen und **Analysieren** von Komponenten. SNMP steht für **Simple Network Management Protocol**.
+Daten werden per SNMP, **CLI, Telemetrie** veya WMI ermittelt. Es dient dem Erfassen ve **Analysieren** von Komponenten. SNMP steht für **Simple Network Management Protocol**.
 
 ---
 
 ### Frage 9: Sicherheits-Monitoring
 
-**SIEM‑Tools** korrelieren Daten. **Intrusion Detection Systems** erkennen Aktivitäten. **Monitoring** verhindert selbst keine Angriffe. **Brute‑Force‑Angriffe** hinterlassen viele Fehlermeldungen.
+**SIEM‑Tools** analysieren Daten. **Intrusion Detection Systems** erkennen Aktivitäten. **Monitoring** verhindert selbst keine Angriffe. **Brute‑Force‑Angriffe** hinterlassen viele Fehlermeldungen.
 
 ---
 
 ### Frage 10: Logik des aktiven Monitorings
 
-- **Fällt das Gerät aus:** **ist Monitoring nicht mehr möglich**.
-- **Test durch Softwareroboter:** **von Softwarerobotern getestet**.
-- **Nutzerperspektive:** **End-to-End-Monitoring**.
-- **Lange Reaktionszeit:** **deutet auf Probleme hin**.
+- End-to-End-Monitoring: **von Softwarerobotern getestet**
+- Lange Reaktionszeit: **deutet auf Probleme hin**
+- Gerät fällt aus: **ist Monitoring nicht mehr möglich**
+- Nutzerperspektive: **End-to-End-Monitoring**
 
 ---
 
-### Frage 11: Aussagen zum Server-Monitoring (Richtig/Falsch)
+### Frage 11: Server Monitoring Richtig/Falsch
 
-- **Richtig:** Unregelmäßigkeiten analysieren; Auch bei einem Server sinnvoll; Probleme frühzeitig erkennen; Überwachung von CPU, RAM und Festplatte.
-- **Falsch:** Nur bei Ausfall einsetzen; Nur für große Firmen; Verhindert volle Platten; Ersetzt Backups.
+- Unregelmäßigkeiten im Systemverhalten analysieren: **Richtig**
+- Probleme frühzeitig erkennen: **Richtig**
+- Überwachung von CPU, RAM ve Festplatte: **Richtig**
+- Auch bei nur einem Server sinnvoll: **Richtig**
+- Nur bei bereits ausgefallenen Systemen eingesetzt: **Falsch**
+- Stellt Ressourcen zur Verfügung: **Falsch**
+- Nur für große Firmen: **Falsch**
+- Verhindert volle Platten: **Falsch**
+- Ersetzt Backups: **Falsch**
 
 ---
 
-### Frage 12: Aktives Monitoring Definition
+### Frage 12: Aktives Monitoring Merkmale
 
-- Softwareroboter agieren wie Endanwender.
-- Kann bei Geräteausfall nicht verwendet werden.
-- Kann Probleme verschleiern.
+- **Softwareroboter agieren wie Endanwender.**
+- **Kann bei Geräteausfall nicht verwendet werden.**
+- **Kann Probleme verschleiern.**
 
 ---
 
 ### Frage 13: Anpassung an Server-Rollen
 
-Das Monitoring muss speziell an den **Einsatzzweck** angepasst sein. Bei Web-Servern und File-Servern sind die relevanten Daten unterschiedlich.
+- **Monitoring muss an den Einsatzzweck angepasst sein.**
+- **Zusätzliche Informationen zu Applikationen einbeziehen.**
+- **Bei Web-Server ve File-Server sind diese Daten unterschiedlich.**
 
 ---
 
 ### Frage 14: CPU-Monitoring
 
-Auslastung > 90% deutet auf Probleme hin. Die Anzahl der Threads beeinflusst die Auslastung.
+- **Auslastung > 90% deutet auf Probleme hin.**
+- **Die Anzahl der Threads beeinflusst die Auslastung.**
 
 ---
 
-### Frage 15: NCCM und DEM
+### Frage 15: NCCM ve DEM Funktionen
 
-NCCM archiviert Konfigurationen. **Digital Experience Monitoring (DEM)** ist eine wichtige Verwaltungstechnologie.
+- **NCCM archiviert Konfigurationen.**
+- **Ereigniserfassung und -verarbeitung.**
+- **Digital Experience Monitoring (DEM).**
 
 ---
 
 ### Frage 16: Monitoring Arten
 
-System-Monitoring, Website-Monitoring, End-to-End-Monitoring.
+- **System-Monitoring**
+- **Website-Monitoring**
+- **End-to-End-Monitoring**
 
 ---
 
 ### Frage 17: Vorteile Netzwerk-Monitoring
 
-Dauerhafter Überblick über die IT-Infrastruktur und Erkennung von Verbesserungspotentialen.
+- **Dauerhafter Überblick über die gesamte IT-Infrastruktur.**
+- **Kann Verbesserungspotentiale erkennen.**
 
 ---
 
-### Frage 18: Definition Netzwerk-Monitoring
+### Frage 18: Netzwerk-Monitoring Definition
 
-Fortlaufende Überwachung auf Fehler/Schwachpunkte. Erfassung und Auswertung von Netzwerkdaten.
+- **Fortlaufende Überwachung auf Fehler veya Schwachpunkte.**
+- **Erfassung ve Auswertung von Netzwerkdaten.**
 
 ---
 
 ### Frage 19: Netzwerkprobleme
 
-Paketverlust, Konfigurationsänderungen, Reaktionszeit der Anwendung.
+- **Paketverlust**
+- **Konfigurationsänderungen**
+- **Reaktionszeit der Anwendung**
 
 ---
 
 ### Frage 20: Logfile-Monitoring
 
-**Wahr.** Log-Rotation verhindert Speicherprobleme durch Archivierung oder Löschen alter Logs.
+Aussage: Log-Rotation verhindert Speicherprobleme.
+Antwort: **Wahr**.
 
 ---
 
-### Frage 21: Server-Überwachung (Rollen)
+### Frage 21: Server-Rollen
 
-Ist die Aussage "Alle Server-Rollen werden gleich überwacht" richtig? Falsch. (Individuelles Monitoring erforderlich).
+Aussage: Alle Server-Rollen werden gleich überwacht.
+Antwort: **Falsch**.
 
 ---
 
 ### Frage 22: REST-API Einsatzgebiete
 
-Typisch sind **standardisierte, leichtgewichtige Kommunikation**, **Backend‑Schnittstellen** und **ressourcenorientierte Anwendungsfälle**. SOAP ist für **stark formalisierte** Integrationen wie **Anbindung von Zahlungsdienstleistern**.
+Typisches Einsatzgebiet: **standardisierte, leichtgewichtige Kommunikation**. REST-APIs werden oft als **Backend‑Schnittstelle** eingesetzt. Sie eignen sich für **ressourcenorientierte Anwendungsfälle**. SOAP ist für **stark formalisierte** Integrationen vorgesehen. Ein Beispiel ist die **Anbindung von Zahlungsdienstleistern**.
 
 ---
 
 ### Frage 23: HL7 Header (MSH)
 
-Einleitung durch Segmentname "MSH". Trenner ist die Pipe (|). Es folgen Encoding Characters. Identifikation des Typs: Bezeichnung ADT A01. Patientenreferenz: Patienten‑ID PID.
+Einleitung durch **Segmentname "MSH"**. Trenner: **Segmentteiler (Pipe)**. Es folgen **Encoding Characters**. Identifikation: **Bezeichnung ADT A01**. Referenz: **Patienten‑ID PID**.
 
 ---
 
 ### Frage 24: REST-API Befehle
 
-- **Verändern:** **PUT**
-- **Löschen:** **DELETE**
 - Überschreiben: **PUT**
-- **Erstellen:** **POST**
-- **Abfragen:** **GET**
+- Teilweise verändern: **PATCH**
+- Erstellen: **POST**
+- Löschen: **DELETE**
+- Abfragen: **GET**
 
 ---
 
 ### Frage 25: .NET Framework
 
-Es ist eine **Laufzeitumgebung** zur Ausführung und eine **Programmbibliothek** zur Entwicklung.
+- **Eine Laufzeitumgebung für die Ausführung.**
+- **Eine Programmbibliothek für die Entwicklung.**
 
 ---
 
 ### Frage 26: API Definition
 
-Application Programming Interface. Schnittstelle zur Kommunikation zwischen zwei Systemen.
+- **Application Programming Interface.**
+- **Schnittstelle zur Kommunikation zwischen Systemen.**
 
 ---
 
 ### Frage 27: Code-on-demand
 
-Der Server sendet Code (z.B. JavaScript), den der Client ausführt. Optionale REST-Bedingung.
+- **Server sendet Code, den Client ausführt.**
+- **Code kann als JavaScript gesendet werden.**
+- **Optionale Bedingung in RESTful-Design.**
 
 ---
 
 ### Frage 28: Ressourcen-Identifikation
 
-Erfolgt über die **URI** (Unique Resource Identifier).
+Antwort: **URI**.
 
 ---
 
 ### Frage 29: FHIR Ressourcen
 
-Definiertes Verhalten, eindeutige Semantik (z.B. Patient, Arzt). Kompakte Einheiten des Datenaustauschs.
+- **Definiertes Verhalten ve eindeutige Semantik.**
+- **Beispiele: Patient, Arzt, Medikation.**
+- **Sind kompakte logische Einheiten.**
 
 ---
 
 ### Frage 30: Hauptfunktion API
 
-Vereinfachung der Kommunikation und Beschleunigung des Datenaustauschs.
+- **Vereinfachung der Kommunikation.**
+- **Beschleunigung des Datenaustauschs.**
 
 ---
 
 ### Frage 31: Client-Server-Regeln
 
-Einzuhaltende Regeln: Statelessness (Zustandslosigkeit) und Layered System (Schichtsystem).
+- **Statelessness**
+- **Layered System**
 
 ---
 
 ### Frage 32: REST Client Befehle
 
-GET, PUT, POST, DELETE.
+Antworten: **GET, PUT, POST, DELETE**.
 
 ---
 
 ### Frage 33: SOAP vs. REST
 
-SOAP ist ein Protokoll, REST ein Designstil. SOAP erfordert eine engere Bindung zwischen Client und Server.
+- **SOAP ist ein Protokoll, REST ein Designstil.**
+- **SOAP erfordert engere Bindung.**
 
 ---
 
 ### Frage 34: WinAPI Varianten
 
-Dienen zur Nutzung von Windows-Programmen auf anderen Systemen. Kompatibilität kann eingeschränkt sein.
+- **Windows-Programme ohne Windows nutzen.**
+- **Kompatibilität kann eingeschränkt sein.**
 
 ---
 
 ### Frage 35: Windows Update-Agent (WUA)
 
-Ermöglicht Zugriff auf **WSUS** (Windows Server Update Services).
+- **Zugriff auf WSUS.**
+- **Skripte ve Programme zum Feststellen von Updates.**
 
 ---
 
-### Frage 36: WinAPI im Gesundheitswesen
+### Frage 36: WinAPI Gesundheit
 
-Ist WinAPI die einzige Schnittstelle dort? Falsch.
+Aussage: WinAPI ist die einzige Schnittstelle im Gesundheitswesen.
+Antwort: **Falsch**.
 
 ---
 
 ### Frage 37: API Integration
 
-Helfen APIs bei der nahtlosen Integration? Wahr.
+Aussage: APIs helfen bei nahtloser Integration.
+Antwort: **Wahr**.
 
 ---
 
-### Frage 38: REST Architektur Merkmale
+### Frage 38: REST Architektur
 
-Umfasst Client-Server, Statelessness, Layered System, Caching und Code-on-demand. **Wahr.**
+Merkmale: Client-Server, Statelessness, Layered System, Caching, Code-on-demand.
+Antwort: **Wahr**.
 
 ---
 
 ### Frage 39: REST Begriff
 
-Steht REST für Representational State Transfer? Wahr.
+Aussage: REST steht für Representational State Transfer.
+Antwort: **Wahr**.
 
 ---
 
 ### Frage 40: Zustandslosigkeit
 
-Sind REST-Interaktionen zustandslos? Wahr.
-
----
+Aussage: Interaktionen in RESTful-Design sind zustandslos.
+Antwort: **Wahr**.
