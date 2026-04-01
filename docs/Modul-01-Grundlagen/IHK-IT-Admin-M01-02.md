@@ -233,6 +233,7 @@ r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 ### Frage 27
 
 **Was versteht man unter einem Betriebssystem?**
+
 **a. Die Software, die die Hardware steuert und den Benutzern eine Schnittstelle zur Verfügung stellt.**
 
 ---
