@@ -240,6 +240,7 @@ r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 ### Frage 28
 
 **Welche Betriebssysteme sind bei Servern allgemein gebräuchlich?**
+
 **Windows Server 2019, Debian Linux, Red Hat Linux, CentOS Linux.**
 
 ---
@@ -247,6 +248,7 @@ r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 ### Frage 29
 
 **Welche Betriebssysteme sind bei PC-Endanwender allgemein gebräuchlich?**
+
 **Windows von Microsoft, macOS von Apple, Linux.**
 
 ---
@@ -254,6 +256,7 @@ r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 ### Frage 30
 
 **Was bildet das Grundkonzept des Linux Betriebssystems?**
+
 **a. Der Kernel**
 
 ---
@@ -261,6 +264,7 @@ r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 ### Frage 31
 
 **Was ist die Hauptaufgabe des Rechenwerks?**
+
 **Daten verarbeiten, Daten ausgeben.**
 
 ---
@@ -268,6 +272,7 @@ r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 ### Frage 32
 
 **Bezeichnungen für Sekundärspeicher:**
+
 **Festspeicher, Massenspeicher.**
 
 ---
@@ -275,6 +280,7 @@ r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 ### Frage 33
 
 **Auf welchen Rechnern ist das Betriebssystem macOS verfügbar?**
+
 **a. Nur auf Rechnern von Apple**
 
 ---
@@ -282,6 +288,7 @@ r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 ### Frage 34
 
 SSD und Compact Flash sind Beispiele für Sekundärspeicher.
+
 **Wahr**
 
 ---
@@ -289,6 +296,7 @@ SSD und Compact Flash sind Beispiele für Sekundärspeicher.
 ### Frage 35
 
 Mehrere CPU-Kerne können zu einer CPU zusammengefasst werden, um eine höhere Leistungsfähigkeit zu erreichen.
+
 **Wahr**
 
 ---
@@ -296,6 +304,7 @@ Mehrere CPU-Kerne können zu einer CPU zusammengefasst werden, um eine höhere L
 ### Frage 36
 
 Die CPU ist die zentrale Verarbeitungseinheit im System.
+
 **Wahr**
 
 ---
@@ -303,6 +312,7 @@ Die CPU ist die zentrale Verarbeitungseinheit im System.
 ### Frage 37
 
 SSDs sind anfälliger gegen Stöße als HDDs.
+
 **Falsch**
 
 ---
@@ -310,6 +320,7 @@ SSDs sind anfälliger gegen Stöße als HDDs.
 ### Frage 38
 
 Ein Programm im Kernel Mode hat weniger Privilegien als wenn es im User Mode gestartet wird.
+
 **Falsch**
 
 ---
@@ -317,6 +328,7 @@ Ein Programm im Kernel Mode hat weniger Privilegien als wenn es im User Mode ges
 ### Frage 39
 
 SSDs sind robuster, leiser und haben schnellere Zugriffszeiten im Vergleich zu HDDs.
+
 **Wahr**
 
 ---
@@ -324,6 +336,7 @@ SSDs sind robuster, leiser und haben schnellere Zugriffszeiten im Vergleich zu H
 ### Frage 40
 
 Ein Cache speichert Daten ausschließlich dauerhaft, um sie langfristig verfügbar zu machen.
+
 **Falsch**
 
 ---
