@@ -26,14 +26,14 @@ Vollständiges Ticket-Beispiel (Drag-and-Drop):
 
 ### Frage 3
 
-**Setze richtig ein:**
+Setze richtig ein:
 **[SNAT]** tauscht die Quell-IP. **[DNAT]** tauscht die Ziel-IP.
 
 ---
 
 ### Frage 4
 
-**Setze die passenden Wörter ein:**
+Setze die passenden Wörter ein:
 **[TCP]** ist zuverlässig und verbindungsorientiert. **[UDP]** ist schneller, aber ohne Sicherung.
 
 ---
@@ -83,7 +83,7 @@ Welche Aussagen sind richtig/falsch?
 
 ### Frage 11
 
-**Ordne Netzwerkgeräte ihrer kurzen Beschreibung zu:**
+Ordne Netzwerkgeräte ihrer kurzen Beschreibung zu:
 
 - Switch → **Leitet gezielt anhand MAC weiter**
 - Hub → **Verteilt Signale ohne Logik**
@@ -94,7 +94,7 @@ Welche Aussagen sind richtig/falsch?
 
 ### Frage 12
 
-**Ordne Schreibweisen ihrer Bedeutung zu:**
+Ordne Schreibweisen ihrer Bedeutung zu:
 
 - ::1 → **Loopback (entspricht 127.0.0.1)**
 - :: → **Undefinierte Adresse (entspricht 0.0.0.0)**
@@ -105,7 +105,7 @@ Welche Aussagen sind richtig/falsch?
 
 ### Frage 13
 
-**Ordne die folgenden Netzwerktopologien zu:**
+Ordne die folgenden Netzwerktopologien zu:
 
 - Alle Geräte sind in einer geschlossenen Schleife miteinander verbunden. → **Ring-Topologie**
 - Jedes Gerät ist mit jedem anderen Gerät direkt verbunden (Max. Anzahl Verbindungen). → **Full Mesh-Topologie**
@@ -128,7 +128,7 @@ Ordne den OSI-Schichten die passenden Beispiele zu:
 
 ### Frage 15
 
-**Ordne Ports den Diensten zu:**
+Ordne Ports den Diensten zu:
 
 - 53 → **DNS**
 - 25 → **SMTP**
@@ -139,7 +139,7 @@ Ordne den OSI-Schichten die passenden Beispiele zu:
 
 ### Frage 16
 
-**Eigenschaften von TCP oder UDP:**
+Eigenschaften von TCP oder UDP:
 
 - Arbeitet verbindungslos und bietet keine Garantie. → **UDP**
 - Stellt eine zuverlässige, verbindungsorientierte Kommunikation her. → **TCP**
@@ -203,7 +203,7 @@ Der **[Cache]** ist ein schneller Zwischenspeicher innerhalb der CPU. **[RAM]** 
 
 ### Frage 24
 
-**Betriebssysteme und Benutzeroberflächen:**
+Betriebssysteme und Benutzeroberflächen:
 
 - Ubuntu Linux → **GNOME**
 - Chrome OS → **Chrome Shell (Aura)**
@@ -215,7 +215,7 @@ Der **[Cache]** ist ein schneller Zwischenspeicher innerhalb der CPU. **[RAM]** 
 
 ### Frage 25
 
-**Betriebssysteme für Endanwender:**
+Betriebssysteme für Endanwender:
 
 - Windows (ca. 81%)
 - macOS
@@ -225,7 +225,7 @@ Der **[Cache]** ist ein schneller Zwischenspeicher innerhalb der CPU. **[RAM]** 
 
 ### Frage 26
 
-**Arten von Zugriffsrechten:**
+Arten von Zugriffsrechten:
 r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 
 ---
@@ -272,7 +272,7 @@ Was ist die Hauptaufgabe des Rechenwerks?
 
 ### Frage 32
 
-**Bezeichnungen für Sekundärspeicher:**
+Bezeichnungen für Sekundärspeicher:
 
 **Festspeicher, Massenspeicher.**
 

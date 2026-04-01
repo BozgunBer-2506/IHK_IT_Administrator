@@ -10,7 +10,7 @@ Um sicherzustellen, dass die Strategien den sich [**ändernden**] Geschäftsanfo
 
 ### Frage 2: SQL INSERT Aufbau
 
-Der Grundaufbau eines INSERT-Befehls lautet: INSERT [**INTO**] table_name (column1, column2) VALUES (value1, value2);
+Der Grundaufbau eines INSERT-Befehls lautet: INSERT [INTO] table_name (column1, column2) VALUES (value1, value2);
 Möchte man nur bestimmte Spalten befüllen, muss man diese in [**Klammern**] setzen. Wenn keine Spalten explizit angegeben werden, wird davon ausgegangen, dass Werte für [**alle**] Spalten der Tabelle bereitgestellt werden. Die eingefügten Werte stehen im [**VALUES**]-Teil des INSERT-Befehls. Wird bei INSERT ein Pflichtfeld ausgelassen, das keinen Standardwert hat, führt dies zu [**einem Fehler**]. Um mehrere Datensätze auf einmal einzufügen, können mehrere [**Eingabe**]-Blöcke verwendet werden.
 
 ---
@@ -37,7 +37,7 @@ Möchte man nur bestimmte Spalten befüllen, muss man diese in [**Klammern**] se
 
 ### Frage 5: Datenbanktypen Lückentext
 
-Die am weitesten verbreitete Form ist die [**relationale**] Datenbank. Eine [**Dokumenten-**] Datenbank eignet sich gut für semi-strukturierte Daten. Die [**objektorientierte**] Datenbank speichert Objekte mit Attributen und Methoden. Fokus auf zeitlich geordnete Messwerte: [**Zeitreihen-**] Datenbank. Streng baumartig organisiert: [**hierarchischen**] Datenbank.
+Die am weitesten verbreitete Form ist die [relationale] Datenbank. Eine [Dokumenten-] Datenbank eignet sich gut für semi-strukturierte Daten. Die [objektorientierte] Datenbank speichert Objekte mit Attributen und Methoden. Fokus auf zeitlich geordnete Messwerte: [Zeitreihen-] Datenbank. Streng baumartig organisiert: [hierarchischen] Datenbank.
 
 ---
 
@@ -53,13 +53,13 @@ Die am weitesten verbreitete Form ist die [**relationale**] Datenbank. Eine [**D
 
 ### Frage 7: ER-Modell Kardinalitäten
 
-[**1:1**]-Beziehung tritt auf bei Person – Ausweis. Die häufigste ist die [**1:n**]-Beziehung (Kunde – Bestellungen). Komplexere Systeme benötigen [**m:n**]. Die Schreibweise [**M:N**] ist formal inkorrekt. [**1:0**] ist keine gültige Kardinalität.
+[1:1]-Beziehung tritt auf bei Person – Ausweis. Die häufigste ist die [1:n]-Beziehung (Kunde – Bestellungen). Komplexere Systeme benötigen [m:n]. Die Schreibweise [M:N] ist formal inkorrekt. [1:0] ist keine gültige Kardinalität.
 
 ---
 
 ### Frage 8: Relationale Datenbanken vs. Excel
 
-Konsistente Datenhaltung durch [**normalisierten Tabellen**]. Sprache zur Abfrage: [**SQL**]. Beziehungen über [**Primär- und Fremdschlüssel**]. Bessere [**Mehrbenutzerfähigkeit**]. Skalierbar für [**großen Datenmengen**].
+Konsistente Datenhaltung durch [normalisierten Tabellen]. Sprache zur Abfrage: [SQL]. Beziehungen über [Primär- und Fremdschlüssel]. Bessere [Mehrbenutzerfähigkeit]. Skalierbar für [großen Datenmengen].
 
 ---
 
@@ -94,7 +94,7 @@ Konsistente Datenhaltung durch [**normalisierten Tabellen**]. Sprache zur Abfrag
 
 ### Frage 11: Linux Dateisystem
 
-**Korrekte Aussagen:**
+Korrekte Aussagen:
 
 - Schnittstelle zwischen BS und Partitionen.
 - Benutzer können Organisation sehen.
@@ -104,7 +104,7 @@ Konsistente Datenhaltung durch [**normalisierten Tabellen**]. Sprache zur Abfrag
 
 ### Frage 12: Dateisysteme (ext3, ext4)
 
-**Korrekte Aussagen:**
+Korrekte Aussagen:
 
 - Es gibt unzählige Dateisysteme bei Linux.
 - Durch Journaling in ext3 entfallen langwierige Prüfungen.
@@ -114,7 +114,7 @@ Konsistente Datenhaltung durch [**normalisierten Tabellen**]. Sprache zur Abfrag
 
 ### Frage 13: Geschichte von Linux
 
-**Wahrheit:**
+Wahrheit:
 
 - **Erfinder:** Linus Torvalds.
 - **Ursprünglicher Name:** „Freax".
@@ -124,7 +124,7 @@ Konsistente Datenhaltung durch [**normalisierten Tabellen**]. Sprache zur Abfrag
 
 ### Frage 14: Komplexe Befehle (lsmod)
 
-**Wahr:**
+Wahr:
 
 - `lsmod` zeigt Status des Kernels in menschenlesbarem Format.
 - Informationen werden in menschenlesbarem Format ausgegeben.
@@ -134,7 +134,7 @@ Konsistente Datenhaltung durch [**normalisierten Tabellen**]. Sprache zur Abfrag
 
 ### Frage 15: Was ist Linux?
 
-**Wahr:**
+Wahr:
 
 - Freies Multiplattform-Mehrbenutzer-Betriebssystem.
 - Es gibt mehrere Distributionen.
@@ -144,7 +144,7 @@ Konsistente Datenhaltung durch [**normalisierten Tabellen**]. Sprache zur Abfrag
 
 ### Frage 16: Linux Distributionen
 
-**Wahr:**
+Wahr:
 
 - Distributionen für spezielle User-Gruppen.
 - Kali-Linux = „Hacker-Linux".
@@ -154,7 +154,7 @@ Konsistente Datenhaltung durch [**normalisierten Tabellen**]. Sprache zur Abfrag
 
 ### Frage 17: Rechtekonzept Linux
 
-**Korrekt:**
+Korrekt:
 
 - Ausgefeiltes Mehrbenutzer-Rechtesystem.
 - Systemkonto „root" besitzt alle Rechte.
@@ -164,7 +164,7 @@ Konsistente Datenhaltung durch [**normalisierten Tabellen**]. Sprache zur Abfrag
 
 ### Frage 18: Vorteile Linux
 
-**Antworten:**
+Antworten:
 
 - Meist völlig kostenlos für Privatanwender.
 - Benötigt wenig Speicherplatz.
@@ -174,7 +174,7 @@ Konsistente Datenhaltung durch [**normalisierten Tabellen**]. Sprache zur Abfrag
 
 ### Frage 19: Jahre der Entwicklung
 
-**Wahr:**
+Wahr:
 
 - 1993: Über 100 Programmierer am Code.
 - 2001: Kernel 2.4 unterstützt bis zu 64 GB RAM.
@@ -184,7 +184,7 @@ Konsistente Datenhaltung durch [**normalisierten Tabellen**]. Sprache zur Abfrag
 
 ### Frage 20: Rechteverteilung (chmod)
 
-**Korrekt:**
+Korrekt:
 
 - 4 Benutzerkategorien bei Rechtevergabe.
 - `chmod` nutzt man zum Anpassen der Rechte.
@@ -194,7 +194,7 @@ Konsistente Datenhaltung durch [**normalisierten Tabellen**]. Sprache zur Abfrag
 
 ### Frage 21: Shell-Skripte
 
-**Wahr:**
+Wahr:
 
 - Bündeln viele Befehle in einen Satz.
 - Dateiendung „.sh".

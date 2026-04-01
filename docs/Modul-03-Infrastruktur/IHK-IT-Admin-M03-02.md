@@ -32,31 +32,31 @@ Das Löschen von **Protokollen** erschwert die Nachverfolgung. 2FA bietet eine z
 
 ### Frage 5: Anmelderichtlinien
 
-**Zwei-Faktor-Authentifizierung** fügt eine zusätzliche Sicherheitsstufe hinzu. Einfache **Passwörter** sind unsicher. Das **Deaktivieren** der Protokollierung verringert die Sicherheit. Mehr als 5 Fehlversuche geben Hackern **mehr Zeit**. Wichtig: Regelmäßiger **Passwortwechsel**.
+Zwei-Faktor-Authentifizierung fügt eine zusätzliche Sicherheitsstufe hinzu. Einfache Passwörter sind unsicher. Das Deaktivieren der Protokollierung verringert die Sicherheit. Mehr als 5 Fehlversuche geben Hackern mehr Zeit. Wichtig: Regelmäßiger Passwortwechsel.
 
 ---
 
 ### Frage 6: Domänenbeitritt Voraussetzungen
 
-**Nötig sind:** **Netzwerkverbindung** zum DC, **DNS-Einstellungen** auf den DC zeigend, eindeutiger **Computername** und ein **domänenfähig** Betriebssystem (Pro/Enterprise).
+Nötig sind: Netzwerkverbindung zum DC, DNS-Einstellungen auf den DC zeigend, eindeutiger Computername und ein domänenfähig Betriebssystem (Pro/Enterprise).
 
 ---
 
 ### Frage 7: DHCP-Einrichtung
 
-**Ablauf:** Neuen **DHCP-Bereich** anlegen, **Bereichsnamen** vergeben, **Adressbereich** (IP-Pool) definieren, **Ausschlussbereiche** festlegen und **Leasedauer** (z.B. 8h) bestimmen.
+Ablauf: Neuen DHCP-Bereich anlegen, Bereichsnamen vergeben, Adressbereich (IP-Pool) definieren, Ausschlussbereiche festlegen und Leasedauer (z.B. 8h) bestimmen.
 
 ---
 
 ### Frage 8: Netzlaufwerke per GPO
 
-Erstellung über **"Neue GPO erstellen"** mit Namen **Netzlaufwerke**. Editor-Pfad: **Benutzerkonfiguration** -> Einstellungen -> Laufwerkszuordnung. Pfad: **\DC01\Testdrucker**. Option: **Verbindung wiederherstellen**.
+Erstellung über "Neue GPO erstellen" mit Namen Netzlaufwerke. Editor-Pfad: Benutzerkonfiguration -> Einstellungen -> Laufwerkszuordnung. Pfad: \DC01\Testdrucker. Option: Verbindung wiederherstellen.
 
 ---
 
 ### Frage 9: Hyper-V Virtuelle Festplatten
 
-VM herunterfahren, unter **SCSI-Controller** neue VHD erzeugen. Typ: **Dynamisch erweiterbar**. Name: **Daten.vhdx**. Größe: **50 GB**. Nach Start in der **Datenträgerverwaltung** online schalten.
+VM herunterfahren, unter SCSI-Controller neue VHD erzeugen. Typ: Dynamisch erweiterbar. Name: Daten.vhdx. Größe: 50 GB. Nach Start in der Datenträgerverwaltung online schalten.
 
 ---
 
@@ -110,7 +110,7 @@ GPOs werden auf OUs in der **Active Directory-Struktur** angewendet. Sie binden 
 
 ### Frage 16: Server-Manager Tools
 
-**Zur Domänenverwaltung gehören:** **Gruppenrichtlinienverwaltung** (GPOs) und **Ressourcen-Manager für Dateiserver** (Speicherkontingente).
+Zur Domänenverwaltung gehören: Gruppenrichtlinienverwaltung (GPOs) und Ressourcen-Manager für Dateiserver (Speicherkontingente).
 
 ---
 
@@ -128,7 +128,7 @@ Der DC **verwaltet Benutzerkonten und Gruppen** und **speichert/repliziert die A
 
 ### Frage 19: GPO Zuweisungsobjekte
 
-**GPOs können zugewiesen werden:** **Auf alle Benutzer und Computer in OUs** und **Alle Benutzer und Computer in Domänen**.
+GPOs können zugewiesen werden: Auf alle Benutzer und Computer in OUs und Alle Benutzer und Computer in Domänen.
 
 ---
 
@@ -140,7 +140,7 @@ Sie dienen der **Steuerung von Software-Installationen** undder **Verwaltung von
 
 ### Frage 21: GPO-Priorität
 
-Wenn zwei GPOs widersprüchliche Einstellungen enthalten, entscheidet die **Priorität**, nicht die Reihenfolge. (Antwort: **Wahr**).
+Wenn zwei GPOs widersprüchliche Einstellungen enthalten, entscheidet die Priorität, nicht die Reihenfolge. (Antwort: Wahr).
 
 ---
 
@@ -152,7 +152,7 @@ Wenn zwei GPOs widersprüchliche Einstellungen enthalten, entscheidet die **Prio
 
 ### Frage 23: Hyperkonvergente Infrastruktur (HCI)
 
-HCI integriert Komponenten in einer softwarebasierten **Architektur**. Durch Kombination physischer **Nodes** entsteht ein Cluster. Bestandteile: **Datenebene** und **Management**. Arbeitet mit **VMs** oder Containern.
+HCI integriert Komponenten in einer softwarebasierten Architektur. Durch Kombination physischer Nodes entsteht ein Cluster. Bestandteile: Datenebene und Management. Arbeitet mit VMs oder Containern.
 
 ---
 
@@ -237,7 +237,7 @@ Man kann dort den **Computernamen**, die **Domäne** und den Ort für **temporä
 
 ### Frage 36: Systemsteuerung Tools
 
-**Beinhaltet:** **Netzwerk- und Freigabecenter**, **Programme und Features** und den **Geräte-Manager**.
+Beinhaltet: Netzwerk- und Freigabecenter, Programme und Features und den Geräte-Manager.
 
 ---
 
@@ -255,12 +255,12 @@ Dazu gehören **Hyper-V**, **Windows-Subsystem für Linux** und **Druck- und Dok
 
 ### Frage 39: RAID 5 Sicherheit
 
-RAID 5 überlebt den Ausfall einer Platte. Wenn zwei gleichzeitig ausfallen, sind alle Daten weg. (Antwort: **Wahr**).
+RAID 5 überlebt den Ausfall einer Platte. Wenn zwei gleichzeitig ausfallen, sind alle Daten weg. (Antwort: Wahr).
 
 ---
 
 ### Frage 40: SAN Distanz
 
-SAN ermöglicht größere Distanzen als DAS durch Glasfaser. (Antwort: **Wahr**).
+SAN ermöglicht größere Distanzen als DAS durch Glasfaser. (Antwort: Wahr).
 
 ---

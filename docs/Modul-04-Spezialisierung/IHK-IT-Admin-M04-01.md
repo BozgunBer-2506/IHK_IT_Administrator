@@ -150,7 +150,7 @@ Typisch sind **standardisierte, leichtgewichtige Kommunikation**, **Backend‑Sc
 
 ### Frage 23: HL7 Header (MSH)
 
-Einleitung durch **Segmentname "MSH"**. Trenner ist die **Pipe (|)**. Es folgen **Encoding Characters**. Identifikation des Typs: **Bezeichnung ADT A01**. Patientenreferenz: **Patienten‑ID PID**.
+Einleitung durch Segmentname "MSH". Trenner ist die Pipe (|). Es folgen Encoding Characters. Identifikation des Typs: Bezeichnung ADT A01. Patientenreferenz: Patienten‑ID PID.
 
 ---
 
@@ -202,7 +202,7 @@ Vereinfachung der Kommunikation und Beschleunigung des Datenaustauschs.
 
 ### Frage 31: Client-Server-Regeln
 
-**Einzuhaltende Regeln:** **Statelessness** (Zustandslosigkeit) und **Layered System** (Schichtsystem).
+Einzuhaltende Regeln: Statelessness (Zustandslosigkeit) und Layered System (Schichtsystem).
 
 ---
 

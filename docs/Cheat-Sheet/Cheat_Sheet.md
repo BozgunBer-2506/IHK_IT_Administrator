@@ -23,7 +23,7 @@ Teamarbeit basiert auf klarer Rollenverteilung, offener Kommunikation und gemein
 
 ## 1.2 Aufbau eines Computers
 
-EVA-Prinzip: **Eingabe → Verarbeitung → Ausgabe** (+ Speicher)
+EVA-Prinzip: Eingabe → Verarbeitung → Ausgabe (+ Speicher)
 
 | Komponente            | Funktion                                       | Beispiele                  |
 | --------------------- | ---------------------------------------------- | -------------------------- |
@@ -51,7 +51,7 @@ Ein Betriebssystem (OS) ist die Schnittstelle zwischen Hardware und Anwendungsso
 | macOS                  | Desktop        | Kreativbranche         | Unix-basiert, geschlossenes Ökosystem |
 | Android / iOS          | Mobil          | Smartphones, Tablets   | App-basiert                           |
 
-📌 Dateisysteme: Windows = **NTFS**, Linux = **ext4**, macOS = **APFS**. FAT32 = max. 4 GB Dateigröße.
+📌 Dateisysteme: Windows = NTFS, Linux = ext4, macOS = APFS. FAT32 = max. 4 GB Dateigröße.
 
 ---
 
@@ -69,7 +69,7 @@ Krankenhäuser nutzen spezialisierte IT-Systeme zur digitalen Verwaltung von Pat
 | LIS    | Laborinformationssystem                    | Verwaltung von Laboraufträgen und -ergebnissen                   |
 | ePA    | Elektronische Patientenakte                | Digitale Akte, gesetzlich verpflichtend ab 2025                  |
 
-📌 Schnittstellen: **HL7** (Nachrichten), **DICOM** (Bilder), **GDT/LDT** (Gerätedaten). Datenschutz = DSGVO + Krankenhausgesetze.
+📌 Schnittstellen: HL7 (Nachrichten), DICOM (Bilder), GDT/LDT (Gerätedaten). Datenschutz = DSGVO + Krankenhausgesetze.
 
 ---
 
@@ -101,7 +101,7 @@ Das OSI-Modell (Open Systems Interconnection) beschreibt Netzwerkkommunikation i
 | 2     | Sicherungsschicht      | Ethernet, MAC, Switch | Lokale Übertragung, MAC-Adressen     |
 | 1     | Bitübertragungsschicht | Kabel, Hubs, Repeater | Physikalische Übertragung von Bits   |
 
-📌 Merksatz (Layer 7→1): **"Alle Menschen Suchen Täglich Nette Daten Partys"**
+📌 Merksatz (Layer 7→1): "Alle Menschen Suchen Täglich Nette Daten Partys"
 TCP/IP-Modell hat nur 4 Schichten: Anwendung, Transport, Internet, Netzzugang.
 
 ---
@@ -151,7 +151,7 @@ Computer arbeiten intern nur mit 0 und 1 (Binär = Basis 2).
 | 1 GB (Gigabyte) | 1.024 MB | Typische Dateigrößen              |
 | 1 TB (Terabyte) | 1.024 GB | Festplattenkapazitäten            |
 
-📌 Umrechnung: 42 dezimal = 32+8+2 = **101010** binär. Hexadezimal (Basis 16): 0–9 und A–F. 1 Byte = 2 Hex-Stellen.
+📌 Umrechnung: 42 dezimal = 32+8+2 = 101010 binär. Hexadezimal (Basis 16): 0–9 und A–F. 1 Byte = 2 Hex-Stellen.
 
 ---
 
@@ -169,7 +169,7 @@ Computer arbeiten intern nur mit 0 und 1 (Binär = Basis 2).
 | Datenbankserver   | SQL-Datenbanken (MySQL, MSSQL, PostgreSQL)                  |
 | Proxy Server      | Vermittler zwischen Client und Internet, Caching, Filterung |
 
-📌 **Client-Server**: Client stellt Anfrage, Server antwortet. **Peer-to-Peer**: Beide gleichberechtigt (z.B. BitTorrent).
+📌 Client-Server: Client stellt Anfrage, Server antwortet. Peer-to-Peer: Beide gleichberechtigt (z.B. BitTorrent).
 
 ---
 
@@ -200,7 +200,7 @@ Computer arbeiten intern nur mit 0 und 1 (Binär = Basis 2).
 | Azure AD (Entra ID)   | Cloudbasiertes Identitätsmanagement, SSO, MFA              |
 | Defender              | Endpunktschutz, Antivirus, Threat Intelligence             |
 
-📌 Lizenzmodelle: M365 Business Basic/Standard/**Premium**. Premium enthält Intune + Defender.
+📌 Lizenzmodelle: M365 Business Basic/Standard/Premium. Premium enthält Intune + Defender.
 
 ---
 
@@ -281,10 +281,10 @@ Subnetting teilt ein großes IP-Netzwerk in kleinere Teilnetze auf.
 | /30  | 255.255.255.252 | 2            | Punkt-zu-Punkt-Verbindungen (Router)  |
 | /16  | 255.255.0.0     | 65.534       | Große Netzwerke                       |
 
-📌 Formel Hosts: **2^n - 2** (n = Anzahl Host-Bits). -2 für Netzadresse und Broadcast.
-**Private Bereiche:** **10.x.x.x** | **172.16–31.x.x** | **192.168.x.x**
+📌 Formel Hosts: 2^n - 2 (n = Anzahl Host-Bits). -2 für Netzadresse und Broadcast.
+Private Bereiche: 10.x.x.x | 172.16–31.x.x | 192.168.x.x
 
-**Beispiel:** IP 192.168.1.130/26 → Maske 255.255.255.192 → Blockgröße 64 → Subnetze: 0-63, 64-127, 128-191, 192-255 → Netz: 192.168.1.128, Broadcast: 192.168.1.191, Hosts: 62
+Beispiel: IP 192.168.1.130/26 → Maske 255.255.255.192 → Blockgröße 64 → Subnetze: 0-63, 64-127, 128-191, 192-255 → Netz: 192.168.1.128, Broadcast: 192.168.1.191, Hosts: 62
 
 ---
 
@@ -368,7 +368,7 @@ DHCP DORA-Prozess:
 | Typ 2 (Hosted)     | Läuft als Anwendung auf einem Host-OS. Weniger effizient.      | VMware Workstation, VirtualBox, Parallels    |
 | Container          | Leichter als VMs, teilen Kernel des Host-OS. Schnell startbar. | Docker, Podman, LXC                          |
 
-📌 **VM vs Container**: VMs haben eigenes OS (schwerer, besser isoliert). Container teilen Host-Kernel (leichter, schneller). **Snapshot** = Momentaufnahme einer VM.
+📌 VM vs Container: VMs haben eigenes OS (schwerer, besser isoliert). Container teilen Host-Kernel (leichter, schneller). Snapshot = Momentaufnahme einer VM.
 
 ---
 
@@ -399,7 +399,7 @@ DHCP DORA-Prozess:
 | Kerberos                  | Authentifizierungsprotokoll in AD-Umgebungen. Tickets statt Passwörter                  |
 | Forest / Tree             | Forest = oberste AD-Struktur. Tree = Domains mit gemeinsamem Namespace                  |
 
-📌 GPO-Verarbeitungsreihenfolge: **LSDOU** = Local → Site → Domain → OU
+📌 GPO-Verarbeitungsreihenfolge: LSDOU = Local → Site → Domain → OU
 
 ---
 
@@ -432,7 +432,7 @@ DHCP DORA-Prozess:
 | Azure Monitor                | Überwachung, Metriken, Alerts, Log Analytics             |
 | NSG (Network Security Group) | Firewall-Regeln für Azure-Ressourcen (Inbound/Outbound)  |
 
-📌 Hybrid: **Azure Arc** verbindet On-Prem mit Azure. **Azure AD Connect** synchronisiert lokales AD mit Azure AD.
+📌 Hybrid: Azure Arc verbindet On-Prem mit Azure. Azure AD Connect synchronisiert lokales AD mit Azure AD.
 
 ---
 
@@ -470,7 +470,7 @@ DHCP DORA-Prozess:
 | `ssh`               | Sicherer Remote-Zugriff                               | `ssh user@192.168.1.10`        |
 | `sudo`              | Befehl als root ausführen                             | `sudo apt update`              |
 
-📌 Berechtigungen: **rwx** = read(4), write(2), execute(1). `chmod 755` = rwxr-xr-x
+📌 Berechtigungen: rwx = read(4), write(2), execute(1). `chmod 755` = rwxr-xr-x
 
 ---
 
@@ -560,7 +560,7 @@ DHCP DORA-Prozess:
 | Tier 1 | Server               | Applikationsserver, Datenbankserver | Mittleres Sicherheitsniveau |
 | Tier 2 | Workstations         | Client-PCs, Endgeräte, Drucker      | Standard-Sicherheit         |
 
-📌 Ziel: Admins eines Tiers können **nicht** auf höhere Tier zugreifen. **PAW** = Privileged Access Workstation für Tier-0-Administration. **Bastion Host** = sicherer Jump-Server.
+📌 Ziel: Admins eines Tiers können nicht auf höhere Tier zugreifen. PAW = Privileged Access Workstation für Tier-0-Administration. Bastion Host = sicherer Jump-Server.
 
 ---
 
@@ -593,7 +593,7 @@ DHCP DORA-Prozess:
 | `GROUP BY`     | Daten gruppieren    | `SELECT abteilung, COUNT(*) FROM mitarbeiter GROUP BY abteilung`               |
 
 📌 **ACID** = Atomicity, Consistency, Isolation, Durability – Eigenschaften zuverlässiger Transaktionen.
-**Normalisierung: 1NF/2NF/3NF verhindert Redundanz in Datenbanken.**
+Normalisierung: 1NF/2NF/3NF verhindert Redundanz in Datenbanken.
 
 ---
 
@@ -626,7 +626,7 @@ DHCP DORA-Prozess:
 
 ## ⏱ Tägliche Wiederholung
 
-**Empfehlung: 45–60 Minuten pro Tag**
+Empfehlung: 45–60 Minuten pro Tag
 
 - Modul 1 (Grundlagen) → ~8 Min.
 - Modul 2 (Management) → ~5 Min.

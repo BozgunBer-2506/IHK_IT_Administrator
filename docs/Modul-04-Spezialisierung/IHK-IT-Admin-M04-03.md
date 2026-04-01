@@ -10,7 +10,7 @@ Die IT-Abteilung implementiert eine neue Softwarelösung nach sorgfältiger Plan
 
 ### Frage 2: Primärschlüssel-Identifikation (Grafik-Frage)
 
-**HINWEIS:** Diese Frage basiert auf einer grafischen Darstellung im Portal. Da die Grafik hier nicht angezeigt werden kann, müssen die Primärschlüssel im Originaltext der Aufgabe markiert werden.
+HINWEIS: Diese Frage basiert auf einer grafischen Darstellung im Portal. Da die Grafik hier nicht angezeigt werden kann, müssen die Primärschlüssel im Originaltext der Aufgabe markiert werden.
 
 ---
 
@@ -208,7 +208,7 @@ Testing ist eine **kontinuierliche Aktivität**, die von der Anforderungsanalyse
 
 ### Frage 35: Ethical Hacking Szenarien
 
-**Beispiele für entdeckbare Schwachstellen:** Ein Angreifer kann auf sensible Daten zugreifen, weil ein **Passwort zu schwach** ist. Ein **ungesicherter API-Endpunkt** erlaubt Zugriff auf vertrauliche Daten. Hardwaredefekte oder unübersichtliche Oberflächen gehören nicht dazu.
+Beispiele für entdeckbare Schwachstellen: Ein Angreifer kann auf sensible Daten zugreifen, weil ein Passwort zu schwach ist. Ein ungesicherter API-Endpunkt erlaubt Zugriff auf vertrauliche Daten. Hardwaredefekte oder unübersichtliche Oberflächen gehören nicht dazu.
 
 ---
 

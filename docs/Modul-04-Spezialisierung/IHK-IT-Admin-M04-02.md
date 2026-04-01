@@ -40,7 +40,7 @@ Ransomware-Angriffe werden in der heutigen Zeit immer **häufiger**. Eine oft ge
 
 ### Frage 7: Typische Angriffsformen
 
-Es gibt verschiedene typische Cyber-Bedrohungen: **Phishing** wird oft verwendet, um an **Zugangsdaten** zu gelangen, während ein **DDoS-Angriff** wie ein Stau durch Unmengen von **Anfragen** wirkt. Trojaner können auch **Smartphones** und Tablets infizieren. Wirtschaftskrisen und **Marktschwankungen** hingegen stellen keine Cyber-Bedrohungen dar.
+Es gibt verschiedene typische Cyber-Bedrohungen: Phishing wird oft verwendet, um an Zugangsdaten zu gelangen, während ein DDoS-Angriff wie ein Stau durch Unmengen von Anfragen wirkt. Trojaner können auch Smartphones und Tablets infizieren. Wirtschaftskrisen und Marktschwankungen hingegen stellen keine Cyber-Bedrohungen dar.
 
 ---
 

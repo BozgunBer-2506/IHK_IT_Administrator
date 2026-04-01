@@ -46,7 +46,7 @@ Diese Frage enthält ein Netzwerk-Topologie-Diagramm mit fünf Komponenten, die 
 
 ### Frage 8: Troubleshooting Begriffe
 
-Troubleshooting beschreibt einen systematischen Prozess zur Behebung von Hardware-, Softwarefehlern und **Netzwerkstörungen**. Ein häufiges Problem ist die **Netzwerküberlastung** (Bandbreitenauslastung). Phasen: 1. **Problemerkennung**, 2. **Informationssammlung**, 3. **Verifikation und Dokumentation**.
+Troubleshooting beschreibt einen systematischen Prozess zur Behebung von Hardware-, Softwarefehlern und Netzwerkstörungen. Ein häufiges Problem ist die Netzwerküberlastung (Bandbreitenauslastung). Phasen: 1. Problemerkennung, 2. Informationssammlung, 3. Verifikation und Dokumentation.
 
 ---
 
@@ -124,7 +124,7 @@ Der Client benötigt eine **Netzwerkconnection** zum DC. Die **DNS-Einstellungen
 
 ### Frage 19: GPO Netzlaufwerke
 
-In der Verwaltung wählt man **"Neue GPO erstellen"** ve nennt sie **Netzlaufwerke**. Der Pfad im Editor: **Benutzerkonfiguration** -> Einstellungen -> Laufwerkszuordnung. Beispielpfad: **\DC01\Testdrucker**. Option: **Verbindung wiederherstellen**.
+In der Verwaltung wählt man "Neue GPO erstellen" ve nennt sie Netzlaufwerke. Der Pfad im Editor: Benutzerkonfiguration -> Einstellungen -> Laufwerkszuordnung. Beispielpfad: \DC01\Testdrucker. Option: Verbindung wiederherstellen.
 
 ---
 
@@ -219,7 +219,7 @@ PowerShell kann over the network auf entfernte Systeme zugreifen. Die Einrichtun
 
 ### Frage 33: Ziele von Remote PowerShell
 
-**Hauptziele sind:** **Viele PCs im Netzwerk gleichzeitig anzusprechen** and die **Automatisierung** von IT-Operationen (e.g., Software-Updates, User-Creation).
+Hauptziele sind: Viele PCs im Netzwerk gleichzeitig anzusprechen and die Automatisierung von IT-Operationen (e.g., Software-Updates, User-Creation).
 
 ---
 

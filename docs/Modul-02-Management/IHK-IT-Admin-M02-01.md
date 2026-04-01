@@ -28,7 +28,7 @@ Die **[Prozessverantwortlichen]** sind für die Steuerung und Zielerreichung des
 
 ### Frage 4
 
-**Schritte der Prozessoptimierung:**
+Schritte der Prozessoptimierung:
 
 - Es wird geprüft, ob die Maßnahmen den gewünschten Effekt erzielen. → **Kontrolle / Monitoring**
 - Bestehende Abläufe werden untersucht, um Schwachstellen und Verbesserungspotenziale zu erkennen. → **Prozessanalyse**
@@ -120,63 +120,63 @@ Was sind wichtige Aspekte, die bei Verbesserungen berücksichtigt werden sollten
 ### Frage 13
 
 Ein Gateway in einem BPMN-Diagramm führt immer zu einem anderen Gateway.
-**Antwort: Falsch**
+Antwort: Falsch
 
 ---
 
 ### Frage 14
 
 BPMN wird primär zur Messung von Leistungskennzahlen (KPIs) eingesetzt, während KPIs hauptsächlich der grafischen Darstellung von Geschäftsprozessen dienen.
-**Antwort: Falsch**
+Antwort: Falsch
 
 ---
 
 ### Frage 15
 
 BPMN-Gateways können den Prozessfluss unter bestimmten Bedingungen verändern, darunter zählen unter anderem exklusive, inklusive, parallele und ereignisbasierte Gateways.
-**Antwort: Wahr**
+Antwort: Wahr
 
 ---
 
 ### Frage 16
 
 Ein Prozess sollte nie der Realität entsprechen.
-**Antwort: Falsch**
+Antwort: Falsch
 
 ---
 
 ### Frage 17
 
 Das Fischgrätendiagramm, auch als Ishikawa-Diagramm bekannt, dient zur Visualisierung eines Problemlösungsprozesses und zur Identifikation von Ursachen des Problems.
-**Antwort: Wahr**
+Antwort: Wahr
 
 ---
 
 ### Frage 18
 
 Führungsprozesse sind die operativen unternehmerischen Geschäftsprozesse.
-**Antwort: Falsch**
+Antwort: Falsch
 
 ---
 
 ### Frage 19
 
 Der kontinuierliche Verbesserungsprozess beschreibt sprunghafte Veränderungen zur Performance-Steigerung.
-**Antwort: Falsch**
+Antwort: Falsch
 
 ---
 
 ### Frage 20
 
 KPIs zeigen, wie gut ein Prozess läuft.
-**Antwort: Wahr**
+Antwort: Wahr
 
 ---
 
 ### Frage 21
 
 Im ersten Schritt des Prozessmanagements geht es darum, Prozesse und deren Abhängigkeiten zu ermitteln.
-**Antwort: Wahr**
+Antwort: Wahr
 
 ---
 
@@ -295,48 +295,48 @@ Was versteht man unter Spear-Phishing?
 ### Frage 34
 
 Soft Skills sind nicht wichtig im IT-Helpdesk.
-**Antwort: Falsch**
+Antwort: Falsch
 
 ---
 
 ### Frage 35
 
 Fernwartung ermöglicht es, Systeme aus der Ferne zu überwachen, konfigurieren, steuern, updaten und administrieren.
-**Antwort: Wahr**
+Antwort: Wahr
 
 ---
 
 ### Frage 36
 
 Ein IT-Helpdesk ist eine Software, die es Unternehmen ermöglicht, den Support für IT-Anfragen effizient zu verwalten.
-**Antwort: Falsch**
+Antwort: Falsch
 
 ---
 
 ### Frage 37
 
 Beim Troubleshooting ist es ausreichend, das Problem nur grob zu beschreiben, eine genaue Erfassung ist nicht notwendig.
-**Antwort: Falsch**
+Antwort: Falsch
 
 ---
 
 ### Frage 38
 
 Die Reaktionszeit wird in einem Ticket erfasst, um die Qualitätssicherung zu kontrollieren.
-**Antwort: Wahr**
+Antwort: Wahr
 
 ---
 
 ### Frage 39
 
 Reproduzierbare Fehler sind oft leichter zu lösen als nicht reproduzierbare Fehler.
-**Antwort: Wahr**
+Antwort: Wahr
 
 ---
 
 ### Frage 40
 
 Der First-Level-Support hat Zugriff auf alle Unternehmensbereiche.
-**Antwort: Falsch**
+Antwort: Falsch
 
 ---

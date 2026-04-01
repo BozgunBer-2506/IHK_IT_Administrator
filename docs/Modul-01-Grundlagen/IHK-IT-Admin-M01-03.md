@@ -26,7 +26,7 @@ Ordne den folgenden Aussagen zu, ob sie eher für die IT im Krankenhaus oder in 
 
 ### Frage 3
 
-**Ordne jedem Konzept die passende Beschreibung zu:**
+Ordne jedem Konzept die passende Beschreibung zu:
 
 - Dient dazu, unerwünschte oder schädliche Programme zu erkennen und deren Wirkung einzudämmen. → **Antivirus-Software**
 - Bezieht sich auf die Prüfung von Identitäten und die anschließende Zuweisung von Berechtigungen. → **Authentifizierung und Autorisierung**
@@ -53,7 +53,7 @@ Ordne die folgenden Aussagen der richtigen Kategorie (richtig oder falsch) bezog
 
 ### Frage 5
 
-**Ordne die Begriffe den richtigen Erklärungen zu:**
+Ordne die Begriffe den richtigen Erklärungen zu:
 
 - Eine klare Aussage, was man am Ende alles wissen will. → **Lernziel**
 - Kleinere Lerninhalte getrennt aufschreiben. → **Lernkarten anfertigen**
@@ -155,7 +155,7 @@ Beim Subnetting wird die Standard-Subnetzmaske eines IP-Netzwerks verändert, in
 
 ### Frage 16
 
-**Ordne die folgenden Programme der jeweils richtigen Softwareart zu:**
+Ordne die folgenden Programme der jeweils richtigen Softwareart zu:
 
 - Google Chrome → **Anwendungssoftware**
 - Adobe Photoshop → **Anwendungssoftware**
@@ -168,7 +168,7 @@ Beim Subnetting wird die Standard-Subnetzmaske eines IP-Netzwerks verändert, in
 
 ### Frage 17
 
-**Ordne die folgenden Programme der jeweils richtigen Softwareart zu:**
+Ordne die folgenden Programme der jeweils richtigen Softwareart zu:
 
 - Paint → **Anwendungssoftware**
 - Microsoft OneNote → **Anwendungssoftware**
@@ -182,7 +182,7 @@ Beim Subnetting wird die Standard-Subnetzmaske eines IP-Netzwerks verändert, in
 
 ### Frage 18
 
-**Ordnen Sie Zahlensystem und Basis korrekt zu:**
+Ordnen Sie Zahlensystem und Basis korrekt zu:
 
 - Hexadezimalsystem → **Basis 16**
 - Dezimalsystem → **Basis 10**
@@ -213,7 +213,7 @@ Bringen Sie die Schritte der Huffman-Codierung in die richtige Reihenfolge:
 
 ### Frage 21
 
-**Ordnen Sie den beschriebenen Ablauf einer Medikationsänderung im digitalisierten Krankenhaus:**
+Ordnen Sie den beschriebenen Ablauf einer Medikationsänderung im digitalisierten Krankenhaus:
 
 1. Medikation des Patienten wird geändert
 2. Arzt trägt die Änderung in die elektronische Patientenakte ein
@@ -293,7 +293,7 @@ Ordnen Sie die folgenden Beispiele der passenden Cloud-Art zu:
 
 ### Frage 29
 
-**Ordnen Sie die folgenden Softwareprodukte der Kategorie SaaS oder Nicht SaaS zu:**
+Ordnen Sie die folgenden Softwareprodukte der Kategorie SaaS oder Nicht SaaS zu:
 
 - Microsoft Office (Desktop) → **Nicht SaaS**
 - Windows 10 → **Nicht SaaS**
