@@ -14,142 +14,140 @@ Speicherlösungen als Dienst nennt man auch **[Cloud‑Speicher]**.
 
 ### Frage 2
 
-Ordne den folgenden Aussagen zu, ob sie eher für die IT im Krankenhaus oder in einem herkömmlichen Unternehmen typisch sind:
-
-- IT-Abteilung betreut hauptsächlich klassische Büroarbeitsplätze und Server. → **Herkömmliches Unternehmen**
-- Nutzung von ERP-Systemen für Lager, Logistik und Buchhaltung. → **Herkömmliches Unternehmen**
-- Muss Medizingeräte wie MRT oder Blutdruckmessgeräte in IT-Systeme integrieren. → **Krankenhaus**
-- Starke Abhängigkeit vom Datenschutz wg. der Verarbeitung von Patientendaten. → **Krankenhaus**
-- Primär auf wirtschaftliche Effizienz und Kostensenkung fokussiert. → **Herkömmliches Unternehmen**
-
----
-
-### Frage 3
-
-Ordne jedem Konzept die passende Beschreibung zu:
-
-- Dient dazu, unerwünschte oder schädliche Programme zu erkennen und deren Wirkung einzudämmen. → **Antivirus-Software**
-- Bezieht sich auf die Prüfung von Identitäten und die anschließende Zuweisung von Berechtigungen. → **Authentifizierung und Autorisierung**
-- Verringert bekannte Schwachstellen in Systemen durch kontinuierliche Anpassungen. → **Regelmäßige Updates**
-- Wandelt Informationen in ein Format um, das ohne speziellen Schlüssel unverständlich bleibt. → **Verschlüsselung von Daten**
-- Regelt den Übergang von Informationen zwischen unterschiedlichen Systemen und entscheidet, welche Verbindungen zulässig sind. → **Firewall**
-
----
-
-### Frage 4
-
-Ordne die folgenden Aussagen der richtigen Kategorie (richtig oder falsch) bezogen auf die IT-Sicherheit in Krankenhäusern zu:
-
-- IT-Sicherheit in Krankenhäusern betrifft keine medizinischen Geräte wie z. B. Infusionspumpen. → **falsch**
-- Regelmäßige Schulungen des Personals sind entscheidend für die IT-Sicherheit. → **richtig**
-- Wenn das Medizinische Personal private Laptops ans Firmennetzwerk anschließt, ist das für die IT-Sicherheit unkritisch. → **falsch**
-- Ein erfolgreicher Hackerangriff kann den Klinikbetrieb nicht lahmlegen. → **falsch**
-- Krankenhäuser sind attraktive Ziele für Cyberangriffe. → **richtig**
-- Ein für Patienten zugängliches (offenes) WLAN sollte nicht mit dem hausinternen Netzwerk verbunden sein. → **richtig**
-- Patientendaten unterliegen keinen besonders strengen Datenschutzvorgaben (z. B. DSGVO). → **falsch**
-- Nicht genutzte Netzwerkdosen (-anschlüsse) sollten keinen Netzwerkzugang haben. → **richtig**
-
----
-
-### Frage 5
-
-Ordne die Begriffe den richtigen Erklärungen zu:
-
-- Eine klare Aussage, was man am Ende alles wissen will. → **Lernziel**
-- Kleinere Lerninhalte getrennt aufschreiben. → **Lernkarten anfertigen**
-- Längere Inhalte zusammenfassen, um sie besser zu behalten. → **Notizen machen**
-- Inhalte öfter lesen oder üben, damit man sie sich merkt. → **Wiederholen**
-
----
-
-### Frage 6
-
-Was beschreibt Cloud-Computing am besten?
-
-- a. Bereitstellung von IT-Diensten über das Internet
-- c. Zugriff von überall auf Dienste und Daten
-- e. Skalierbarkeit und flexible Anpassung an den Bedarf
-
----
-
-### Frage 7
-
-Welche Begriffe bzw. Eigenschaften stehen im Zusammenhang mit dem Arbeitsspeicher?
-
-- a. DDR5
-- b. DDR4
-- c. SDRAM
-- h. Random Access Memory (RAM)
-- j. Flüchtiger Speicher
-
----
-
-### Frage 8
-
-Was zählt zu den kritischen Infrastrukturen?
-
-- a. Wasserversorgungsanlagen
-- b. Telekommunikations- und IT-Systeme
-- c. Notfall- und Rettungsdienste
-- e. Strom- und Energieversorgungssysteme
-
----
-
-### Frage 9
-
-Das Grundgesetz enthält detaillierte Regelungen zur Digitalisierung.
-**Falsch**
-
----
-
-### Frage 10
-
 Was ist ein Netzwerk? Wähle die beste Beschreibung.
 **Verbindung mehrerer Computer zum Datenaustausch, gemeinsamen Nutzen von Anwendungen und Kommunikation.**
 
 ---
 
-### Frage 11
+### Frage 3
 
 Welche Portangaben sind Well-Known und korrekt zugeordnet?
 **80 = HTTP, 53 = DNS, 25 = SMTP.**
 
 ---
 
-### Frage 12
+### Frage 4
 
 Ordne die OSI-Schichten von der untersten (physikalischen) bis zur obersten (Anwendungsschicht):
 
-1. Physikalische Schicht (Physical)
-2. Sicherungsschicht (Data Link)
-3. Netzwerkschicht (Network)
-4. Transportschicht (Transport)
-5. Sitzungsschicht (Session)
-6. Darstellungsschicht (Presentation)
-7. Anwendungsschicht (Application)
-
-[Image of 7 layer OSI model diagram]
+1. **Physikalische Schicht** (Physical)
+2. **Sicherungsschicht** (Data Link)
+3. **Netzwerkschicht** (Network)
+4. **Transportschicht** (Transport)
+5. **Sitzungsschicht** (Session)
+6. **Darstellungsschicht** (Presentation)
+7. **Anwendungsschicht** (Application)
 
 ---
 
-### Frage 13
+### Frage 5
 
 Wofür steht **WAN**?
 **Wide Area Network**
 
 ---
 
-### Frage 14
+### Frage 6
 
 Die Netzwerkschicht (Layer 3) im OSI-Modell ist für die Wegfindung (Routing) und die logische Adressierung von Datenpaketen zuständig.
 **Wahr**
 
 ---
 
-### Frage 15
+### Frage 7
 
 Beim Subnetting wird die Standard-Subnetzmaske eines IP-Netzwerks verändert, indem Bits aus dem Host-Anteil für die Netzadresse verwendet werden, wodurch die Anzahl der verfügbaren Hostadressen pro Subnetz abnimmt.
 **Wahr**
+
+---
+
+### Frage 8
+
+Ordne den folgenden Aussagen zu, ob sie eher für die IT im Krankenhaus oder in einem herkömmlichen Unternehmen typisch sind:
+
+- Starke Abhängigkeit vom Datenschutz wg. der Verarbeitung von Patientendaten. → **Krankenhaus**
+- Muss Medizingeräte wie MRT oder Blutdruckmessgeräte in IT-Systeme integrieren. → **Krankenhaus**
+- Primär auf wirtschaftliche Effizienz und Kostensenkung fokussiert. → **Herkömmliches Unternehmen**
+- IT-Abteilung betreut hauptsächlich klassische Büroarbeitsplätze und Server. → **Herkömmliches Unternehmen**
+- Nutzung von ERP-Systemen für Lager, Logistik und Buchhaltung. → **Herkömmliches Unternehmen**
+
+---
+
+### Frage 9
+
+Ordne jedem Konzept die passende Beschreibung zu:
+
+- Bezieht sich auf die Prüfung von Identitäten und die anschließende Zuweisung von Berechtigungen. → **Authentifizierung und Autorisierung**
+- Wandelt Informationen in ein Format um, das ohne speziellen Schlüssel unverständlich bleibt. → **Verschlüsselung von Daten**
+- Regelt den Übergang von Informationen zwischen unterschiedlichen Systemen und entscheidet, welche Verbindungen zulässig sind. → **Firewall**
+- Dient dazu, unerwünschte oder schädliche Programme zu erkennen und deren Wirkung einzudämmen. → **Antivirus-Software**
+- Verringert bekannte Schwachstellen in Systemen durch kontinuierliche Anpassungen. → **Regelmäßige Updates**
+
+---
+
+### Frage 10
+
+Ordne die folgenden Aussagen der richtigen Kategorie (richtig oder falsch) bezogen auf die IT-Sicherheit in Krankenhäusern zu:
+
+- Nicht genutzte Netzwerkdosen (-anschlüsse) sollten keinen Netzwerkzugang haben. → **richtig**
+- IT-Sicherheit in Krankenhäusern betrifft keine medizinischen Geräte wie z. B. Infusionspumpen. → **falsch**
+- Krankenhäuser sind attraktive Ziele für Cyberangriffe. → **richtig**
+- Wenn das Medizinische Personal private Laptops ans Firmennetzwerk anschließt, ist das für die IT-Sicherheit unkritisch. → **falsch**
+- Ein für Patienten zugängliches (offenes) WLAN sollte nicht mit dem hausinternen Netzwerk verbunden sein. → **richtig**
+- Regelmäßige Schulungen des Personals sind entscheidend für die IT-Sicherheit. → **richtig**
+- Patientendaten unterliegen keinen besonders strengen Datenschutzvorgaben (z. B. DSGVO). → **falsch**
+- Ein erfolgreicher Hackerangriff kann den Klinikbetrieb nicht lahmlegen. → **falsch**
+
+---
+
+### Frage 11
+
+Ordne die Begriffe den richtigen Erklärungen zu:
+
+- Inhalte öfter lesen oder üben, damit man sie sich merkt. → **Wiederholen**
+- Eine klare Aussage, was man am Ende alles wissen will. → **Lernziel**
+- Längere Inhalte zusammenfassen, um sie besser zu behalten. → **Notizen machen**
+- Kleinere Lerninhalte getrennt aufschreiben. → **Lernkarten anfertigen**
+
+---
+
+### Frage 12
+
+Was beschreibt Cloud-Computing am besten?
+
+- **a. Bereitstellung von IT-Diensten über das Internet**
+- **b. Zugriff von überall auf Dienste und Daten**
+- **d. Skalierbarkeit und flexible Anpassung an den Bedarf**
+
+---
+
+### Frage 13
+
+Welche Begriffe bzw. Eigenschaften stehen im Zusammenhang mit dem Arbeitsspeicher?
+
+- **a. SDRAM**
+- **e. Random Access Memory (RAM)**
+- **g. Flüchtiger Speicher**
+- **i. DDR4**
+- **j. DDR5**
+
+---
+
+### Frage 14
+
+Was zählt zu den kritischen Infrastrukturen?
+
+- **a. Strom- und Energieversorgungssysteme**
+- **b. Notfall- und Rettungsdienste**
+- **d. Wasserversorgungsanlagen**
+- **e. Telekommunikations- und IT-Systeme**
+
+---
+
+### Frage 15
+
+Das Grundgesetz enthält detaillierte Regelungen zur Digitalisierung.
+**Falsch**
 
 ---
 
@@ -157,12 +155,12 @@ Beim Subnetting wird die Standard-Subnetzmaske eines IP-Netzwerks verändert, in
 
 Ordne die folgenden Programme der jeweils richtigen Softwareart zu:
 
-- Google Chrome → **Anwendungssoftware**
 - Adobe Photoshop → **Anwendungssoftware**
-- Microsoft Word → **Anwendungssoftware**
-- Linux (Ubuntu) → **Systemsoftware**
+- Google Chrome → **Anwendungssoftware**
 - BIOS → **Systemsoftware**
 - Windows 11 → **Systemsoftware**
+- Linux (Ubuntu) → **Systemsoftware**
+- Microsoft Word → **Anwendungssoftware**
 
 ---
 
@@ -170,13 +168,13 @@ Ordne die folgenden Programme der jeweils richtigen Softwareart zu:
 
 Ordne die folgenden Programme der jeweils richtigen Softwareart zu:
 
-- Paint → **Anwendungssoftware**
 - Microsoft OneNote → **Anwendungssoftware**
-- WhatsApp → **Anwendungssoftware**
-- Treiber → **Systemsoftware**
-- macOS → **Systemsoftware**
 - BIOS → **Systemsoftware**
+- Treiber → **Systemsoftware**
 - Windows Server 2022 → **Systemsoftware**
+- Paint → **Anwendungssoftware**
+- WhatsApp → **Anwendungssoftware**
+- macOS → **Systemsoftware**
 
 ---
 
@@ -185,9 +183,9 @@ Ordne die folgenden Programme der jeweils richtigen Softwareart zu:
 Ordnen Sie Zahlensystem und Basis korrekt zu:
 
 - Hexadezimalsystem → **Basis 16**
-- Dezimalsystem → **Basis 10**
-- Binärsystem → **Basis 2**
 - Oktalsystem → **Basis 8**
+- Binärsystem → **Basis 2**
+- Dezimalsystem → **Basis 10**
 
 ---
 
@@ -283,11 +281,11 @@ Begriffe wie **[optischer Zoom]**, **[GPU‑Taktfrequenz]** und **[Touchscreenst
 
 Ordnen Sie die folgenden Beispiele der passenden Cloud-Art zu:
 
-- Ein Unternehmen betreibt ein eigenes Rechenzentrum nur für den internen Gebrauch. → **Privat Cloud**
-- Eine Universität betreibt eine Cloud nur für ihre Forschungsabteilungen. → **Privat Cloud**
 - Ein Konzern nutzt Microsoft Azure für allgemeine Anwendungen, behält sensible Daten aber lokal. → **Hybrid Cloud**
+- Ein Unternehmen betreibt ein eigenes Rechenzentrum nur für den internen Gebrauch. → **Privat Cloud**
 - Ein Mittelstandsunternehmen kombiniert Google Cloud mit einem eigenen Server im Büro. → **Hybrid Cloud**
-- Ein Startup nutzt Amazon Web Services (AWS) für seine gesamte IT-Infrastruktur. → **Public Cloud**
+- Eine Universität betreibt eine Cloud nur für ihre Forschungsabteilungen. → **Privat Cloud**
+- Ein Startup nutzt Amazon Web Services (AWS) for seine gesamte IT-Infrastruktur. → **Public Cloud**
 
 ---
 
@@ -295,11 +293,11 @@ Ordnen Sie die folgenden Beispiele der passenden Cloud-Art zu:
 
 Ordnen Sie die folgenden Softwareprodukte der Kategorie SaaS oder Nicht SaaS zu:
 
-- Microsoft Office (Desktop) → **Nicht SaaS**
-- Windows 10 → **Nicht SaaS**
-- Adobe Creative Cloud → **SaaS**
 - Google Docs → **SaaS**
+- Adobe Creative Cloud → **SaaS**
+- Windows 10 → **Nicht SaaS**
 - Dropbox → **SaaS**
+- Microsoft Office (Desktop) → **Nicht SaaS**
 
 ---
 
@@ -307,9 +305,9 @@ Ordnen Sie die folgenden Softwareprodukte der Kategorie SaaS oder Nicht SaaS zu:
 
 Welche Aufgabe umfasst die IT-Systemadministration im Rechenzentrum?
 
-- a. Installation und Konfiguration von Servern
-- b. Überwachung der Netzwerkinfrastruktur
-- d. Durchführung von Datensicherungen
+- **a. Installation und Konfiguration von Servern**
+- **b. Überwachung der Netzwerkinfrastruktur**
+- **d. Durchführung von Datensicherungen**
 
 ---
 
@@ -317,10 +315,10 @@ Welche Aufgabe umfasst die IT-Systemadministration im Rechenzentrum?
 
 Was sind Charakteristika von Platform-as-a-Service (PaaS)?
 
-- a. Benötigt eine IT-Infrastruktur für die Speicherung und Rechenleistung
-- b. Zugriff auf PaaS-Ressourcen: via Internet oder Intranet
-- c. Häufig IaaS als Grundlage
-- d. Nutzung und Konfiguration über Programmschnittstellen (APIs)
+- **a. Benötigt eine IT-Infrastruktur für die Speicherung und Rechenleistung**
+- **b. Zugriff auf PaaS-Ressourcen: via Internet oder Intranet**
+- **c. Häufig IaaS als Grundlage**
+- **d. Nutzung und Konfiguration über Programmschnittstellen (APIs)**
 
 ---
 
@@ -328,9 +326,9 @@ Was sind Charakteristika von Platform-as-a-Service (PaaS)?
 
 Welche Leistungen können mit Infrastructure-as-a-Service (IaaS) gemietet werden?
 
-- a. Hardwarekomponenten wie Server, Rechenleistung, Netzkapazitäten
-- b. Kommunikationsgeräte wie Router oder Switche
-- d. Speicher- und Archivierungssysteme
+- **a. Hardwarekomponenten wie Server, Rechenleistung, Netzkapazitäten**
+- **b. Kommunikationsgeräte wie Router oder Switche**
+- **d. Speicher- und Archivierungssysteme**
 
 ---
 
@@ -338,10 +336,10 @@ Welche Leistungen können mit Infrastructure-as-a-Service (IaaS) gemietet werden
 
 Was sind charakteristische Merkmale eines Tier-1-Rechenzentrums?
 
-- a. Ein einziger Versorgungsweg für Energie und Kälteverteilung
-- b. Systeme sind nicht fehlertolerant und können im Betrieb nicht gewartet werden
-- c. Erfordert die geringste Entwärmungsleistung = 220-320 Watt pro qm
-- d. Jährliche Ausfallzeit ca. 28 h = 99,67 % Verfügbarkeit
+- **a. Ein einziger Versorgungsweg für Energie und Kälteverteilung**
+- **b. Systeme sind nicht fehlertolerant und können im Betrieb nicht gewartet werden**
+- **c. Erfordert die geringste Entwärmungsleistung = 220-320 Watt pro qm**
+- **d. Jährliche Ausfallzeit ca. 28 h = 99,67 % Verfügbarkeit**
 
 ---
 
@@ -349,8 +347,8 @@ Was sind charakteristische Merkmale eines Tier-1-Rechenzentrums?
 
 Was sind die beiden Lösungen von Microsoft für Desktop-as-a-Service?
 
-- a. Windows 365
-- b. Azure Virtual Desktop (AVD)
+- **a. Windows 365**
+- **b. Azure Virtual Desktop (AVD)**
 
 ---
 
@@ -393,5 +391,3 @@ Ein Rechenzentrum besteht ausschließlich aus vernetzten Servern.
 
 Die Stromversorgung eines Rechenzentrums kann mit USV in Form von Akkus gesichert werden.
 **Wahr**
-
----
