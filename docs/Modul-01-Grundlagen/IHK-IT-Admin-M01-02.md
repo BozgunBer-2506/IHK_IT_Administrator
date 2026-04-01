@@ -153,7 +153,7 @@ Eigenschaften von TCP oder UDP:
 
 Was beschreibt das Internet korrekt?
 
-**c. Ein riesiges Netzwerk aus vielen kleineren Netzwerken mit weltweiter Verbindung.**
+**Ein riesiges Netzwerk aus vielen kleineren Netzwerken mit weltweiter Verbindung.**
 
 ---
 
@@ -161,7 +161,7 @@ Was beschreibt das Internet korrekt?
 
 Was macht Network Address Translation (NAT)?
 
-**d. Ersetzt Quell- oder Ziel-IP-Adressen durch andere IP-Adressen am Router/Firewall.**
+**Ersetzt Quell- oder Ziel-IP-Adressen durch andere IP-Adressen am Router/Firewall.**
 
 ---
 
@@ -169,7 +169,7 @@ Was macht Network Address Translation (NAT)?
 
 Welche Aufgabe gehört zur Vermittlungsschicht (Schicht 3)?
 
-**a. Routing und Adressierung mit IP, Weg über mehrere Netzknoten finden.**
+**Routing und Adressierung mit IP, Weg über mehrere Netzknoten finden.**
 
 ---
 
@@ -177,7 +177,7 @@ Welche Aufgabe gehört zur Vermittlungsschicht (Schicht 3)?
 
 Welcher Bereich ist als privates Klasse-C-Netz angegeben?
 
-**a. 192.168.0.0 (bis 192.168.255.255)**
+**192.168.0.0 (bis 192.168.255.255)**
 
 ---
 
@@ -185,7 +185,7 @@ Welcher Bereich ist als privates Klasse-C-Netz angegeben?
 
 Welche Aussage ist richtig?
 
-**c. TCP ist zuverlässig und verbindungsorientiert, UDP ist schneller, aber ohne Sicherung.**
+**TCP ist zuverlässig und verbindungsorientiert, UDP ist schneller, aber ohne Sicherung.**
 
 ---
 
@@ -234,7 +234,7 @@ r → Read, w → Write, x → **[execute]** (oder **[ausführen]**)
 
 Was versteht man unter einem Betriebssystem?
 
-**a. Die Software, die die Hardware steuert und den Benutzern eine Schnittstelle zur Verfügung stellt.**
+**Die Software, die die Hardware steuert und den Benutzern eine Schnittstelle zur Verfügung stellt.**
 
 ---
 
@@ -258,7 +258,7 @@ Welche Betriebssysteme sind bei PC-Endanwender allgemein gebräuchlich?
 
 Was bildet das Grundkonzept des Linux Betriebssystems?
 
-**a. Der Kernel**
+**Der Kernel**
 
 ---
 
@@ -282,7 +282,7 @@ Bezeichnungen für Sekundärspeicher:
 
 Auf welchen Rechnern ist das Betriebssystem macOS verfügbar?
 
-**a. Nur auf Rechnern von Apple**
+**Nur auf Rechnern von Apple**
 
 ---
 
