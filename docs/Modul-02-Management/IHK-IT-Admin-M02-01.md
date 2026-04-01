@@ -28,13 +28,13 @@ Die **[Prozessverantwortlichen]** sind für die Steuerung und Zielerreichung des
 
 ### Frage 4
 
-Schritte der Prozessoptimierung:
+Ordnen Sie die folgenden Schritte der Prozessoptimierung den passenden Beschreibungen zu:
 
-- Es wird geprüft, ob die Maßnahmen den gewünschten Effekt erzielen. → **Kontrolle / Monitoring**
-- Bestehende Abläufe werden untersucht, um Schwachstellen und Verbesserungspotenziale zu erkennen. → **Prozessanalyse**
-- Konkrete Veränderungen und Verbesserungen werden geplant. → **Maßnahmenentwicklung**
 - Die geplanten Maßnahmen werden im Prozess implementiert. → **Umsetzung**
-- Es wird festgelegt, was durch die Optimierung erreicht werden soll. → **Zieldefinition**
+- Es wird geprüft, ob die Maßnahmen den gewünschten Effekt erzielen. → **Kontrolle / Monitoring**
+- Konkrete Veränderungen und Verbesserungen werden geplant. → **Maßnahmenentwicklung**
+- Bestehende Abläufe werden untersucht, um Schwachstellen und Verbesserungspotenziale zu erkennen. → **Prozessanalyse**
+- Es wird festgelegt, what durch die Optimierung erreicht werden soll. → **Zieldefinition**
 
 ---
 
@@ -42,10 +42,10 @@ Schritte der Prozessoptimierung:
 
 Welche Aufgaben umfasst Prozessmanagement?
 
-- Identifikation von Prozessen
-- Gestaltung von Prozessen
-- Implementierung von Prozessen
-- Optimierung von Prozessen
+- **a. Identifikation von Prozessen**
+- **b. Gestaltung von Prozessen**
+- **c. Implementierung von Prozessen**
+- **d. Optimierung von Prozessen**
 
 ---
 
@@ -53,10 +53,10 @@ Welche Aufgaben umfasst Prozessmanagement?
 
 Welche Phasen sind Bestandteil des BPM Lebenszyklus?
 
-- Process Identification
-- Process Discovery
-- Process Monitoring & Controlling
-- Process Implementation Redesign
+- **a. Process Identification**
+- **b. Process Discovery**
+- **c. Process Monitoring & Controlling**
+- **d. Process Implementation Redesign**
 
 ---
 
@@ -64,8 +64,8 @@ Welche Phasen sind Bestandteil des BPM Lebenszyklus?
 
 Was kennzeichnet ein ereignisbasiertes Gateway in BPMN?
 
-- Es prüft, ob ein bestimmtes Ereignis eingetreten ist
-- Es ermöglicht die Verzweigung des Prozessflusses basierend auf Ereignissen
+- **a. Es prüft, ob ein bestimmtes Ereignis eingetreten ist**
+- **d. Es ermöglicht die Verzweigung des Prozessflusses basierend auf Ereignissen**
 
 ---
 
@@ -73,9 +73,9 @@ Was kennzeichnet ein ereignisbasiertes Gateway in BPMN?
 
 Welche Aussagen zu Prozessen allgemein sind richtig?
 
-- Ein Prozess ist eine wiederkehrende logische Abfolge von Tätigkeiten, die aus einem definierten Input ein definiertes Arbeitsergebnis (Output) erzeugen.
-- Jeder Prozess hat einen Anfang und ein Ende.
-- Jeder Prozess bringt einen messbaren Nutzen.
+- **a. Jeder Prozess hat einen Anfang und ein Ende.**
+- **c. Jeder Prozess bringt einen messbaren Nutzen.**
+- **e. Ein Prozess ist eine wiederkehrende logische Abfolge von Tätigkeiten, die aus einem definierten Input ein definiertes Arbeitsergebnis (Output) erzeugen.**
 
 ---
 
@@ -83,9 +83,9 @@ Welche Aussagen zu Prozessen allgemein sind richtig?
 
 Was können Pools und Lanes repräsentieren?
 
-- Eine Organisation
-- Eine Abteilung
-- Eine Rolle
+- **a. Eine Organisation**
+- **b. Eine Abteilung**
+- **c. Eine Rolle**
 
 ---
 
@@ -93,8 +93,8 @@ Was können Pools und Lanes repräsentieren?
 
 Welche Artefakte kommen in der Praxis selten zum Einsatz?
 
-- Rollen
-- Norm
+- **a. Rollen**
+- **c. Norm**
 
 ---
 
@@ -102,7 +102,7 @@ Welche Artefakte kommen in der Praxis selten zum Einsatz?
 
 Was versteht man unter einem Prozess?
 
-- Eine wiederkehrende logische Abfolge von Aktivitäten
+- **a. Eine wiederkehrende logische Abfolge von Aktivitäten**
 
 ---
 
@@ -110,73 +110,82 @@ Was versteht man unter einem Prozess?
 
 Was sind wichtige Aspekte, die bei Verbesserungen berücksichtigt werden sollten?
 
-- Feedback einholen
-- Vorschläge sammeln
-- Automatisierung des Prozesses
-- Unsicherheiten des Prozesses klären
+- **a. Feedback einholen**
+- **b. Vorschläge sammeln**
+- **c. Automatisierung des Prozesses**
+- **e. Unsicherheiten des Prozesses klären**
 
 ---
 
 ### Frage 13
 
 Ein Gateway in einem BPMN-Diagramm führt immer zu einem anderen Gateway.
-Antwort: Falsch
+
+**Falsch**
 
 ---
 
 ### Frage 14
 
 BPMN wird primär zur Messung von Leistungskennzahlen (KPIs) eingesetzt, während KPIs hauptsächlich der grafischen Darstellung von Geschäftsprozessen dienen.
-Antwort: Falsch
+
+**Falsch**
 
 ---
 
 ### Frage 15
 
 BPMN-Gateways können den Prozessfluss unter bestimmten Bedingungen verändern, darunter zählen unter anderem exklusive, inklusive, parallele und ereignisbasierte Gateways.
-Antwort: Wahr
+
+**Wahr**
 
 ---
 
 ### Frage 16
 
 Ein Prozess sollte nie der Realität entsprechen.
-Antwort: Falsch
+
+**Falsch**
 
 ---
 
 ### Frage 17
 
 Das Fischgrätendiagramm, auch als Ishikawa-Diagramm bekannt, dient zur Visualisierung eines Problemlösungsprozesses und zur Identifikation von Ursachen des Problems.
-Antwort: Wahr
+
+**Wahr**
 
 ---
 
 ### Frage 18
 
 Führungsprozesse sind die operativen unternehmerischen Geschäftsprozesse.
-Antwort: Falsch
+
+**Falsch**
 
 ---
 
 ### Frage 19
 
 Der kontinuierliche Verbesserungsprozess beschreibt sprunghafte Veränderungen zur Performance-Steigerung.
-Antwort: Falsch
+
+**Falsch**
 
 ---
 
 ### Frage 20
 
 KPIs zeigen, wie gut ein Prozess läuft.
-Antwort: Wahr
+
+**Wahr**
 
 ---
 
 ### Frage 21
 
 Im ersten Schritt des Prozessmanagements geht es darum, Prozesse und deren Abhängigkeiten zu ermitteln.
-Antwort: Wahr
+
+**Wahr**
 
 ---
 
@@ -250,8 +259,8 @@ Der **[Second]**-Level- und Third-Level-**[Support]** hat normalerweise **[Zugri
 
 Welche Aussagen zu Helpdesks generell sind korrekt?
 
-- Laut ITIL ist der Servicedesk die zentrale Anlaufstelle, die den Serviceanbieter mit allen Anwendern verbindet.
-- Der Servicedesk ist ein wesentlicher Bestandteil des IT-Servicemanagements.
+- **c. Laut ITIL ist der Servicedesk die zentrale Anlaufstelle, die den Serviceanbieter mit allen Anwendern verbindet.**
+- **d. Der Servicedesk ist ein wesentlicher Bestandteil des IT-Servicemanagements.**
 
 ---
 
@@ -259,9 +268,9 @@ Welche Aussagen zu Helpdesks generell sind korrekt?
 
 Warum ist IT-Security für IT-Helpdesk-Mitarbeitende wichtig?
 
-- Jeder ist für die Sicherheit im Unternehmen verantwortlich
-- IT-Helpdesks können IT-Security Nachrichten an Benutzer weitergeben
-- IT-Helpdesks spielen eine wichtige Rolle beim Management von Sicherheitsvorfällen
+- **a. Jeder ist für die Sicherheit im Unternehmen verantwortlich**
+- **d. IT-Helpdesks können IT-Security Nachrichten an Benutzer weitergeben**
+- **e. IT-Helpdesks spielen eine wichtige Rolle beim Management von Sicherheitsvorfällen**
 
 ---
 
@@ -269,8 +278,8 @@ Warum ist IT-Security für IT-Helpdesk-Mitarbeitende wichtig?
 
 Was versteht man unter Fernwartung und Troubleshooting?
 
-- Fernwartung ist die Möglichkeit, ein Computersystem über das Internet aus der Ferne zu steuern.
-- Troubleshooting bezeichnet die systematische Fehlersuche und -behebung bei technischen Problemen.
+- **a. Fernwartung ist die Möglichkeit, ein Computersystem über das Internet aus der Ferne zu steuern.**
+- **b. Troubleshooting bezeichnet die systematische Fehlersuche und -behebung bei technischen Problemen.**
 
 ---
 
@@ -278,9 +287,9 @@ Was versteht man unter Fernwartung und Troubleshooting?
 
 Was ist ein möglicher Inhalt einer Checkliste zur Problemlösung bei Soft- und Hardwareproblemen?
 
-- Überprüfen der Verbindungskabel
-- Aktualisierung der Treiber
-- Überprüfen der Stromversorgung
+- **a. Überprüfen der Verbindungskabel**
+- **c. Aktualisierung der Treiber**
+- **d. Überprüfen der Stromversorgung**
 
 ---
 
@@ -288,55 +297,60 @@ Was ist ein möglicher Inhalt einer Checkliste zur Problemlösung bei Soft- und 
 
 Was versteht man unter Spear-Phishing?
 
-- Ein zielgerichteter Phishing-Angriff
+- **a. Ein zielgerichteter Phishing-Angriff**
 
 ---
 
 ### Frage 34
 
 Soft Skills sind nicht wichtig im IT-Helpdesk.
-Antwort: Falsch
+
+**Falsch**
 
 ---
 
 ### Frage 35
 
 Fernwartung ermöglicht es, Systeme aus der Ferne zu überwachen, konfigurieren, steuern, updaten und administrieren.
-Antwort: Wahr
+
+**Wahr**
 
 ---
 
 ### Frage 36
 
 Ein IT-Helpdesk ist eine Software, die es Unternehmen ermöglicht, den Support für IT-Anfragen effizient zu verwalten.
-Antwort: Falsch
+
+**Falsch**
 
 ---
 
 ### Frage 37
 
 Beim Troubleshooting ist es ausreichend, das Problem nur grob zu beschreiben, eine genaue Erfassung ist nicht notwendig.
-Antwort: Falsch
+
+**Falsch**
 
 ---
 
 ### Frage 38
 
 Die Reaktionszeit wird in einem Ticket erfasst, um die Qualitätssicherung zu kontrollieren.
-Antwort: Wahr
+
+**Wahr**
 
 ---
 
 ### Frage 39
 
 Reproduzierbare Fehler sind oft leichter zu lösen als nicht reproduzierbare Fehler.
-Antwort: Wahr
+
+**Wahr**
 
 ---
 
 ### Frage 40
 
 Der First-Level-Support hat Zugriff auf alle Unternehmensbereiche.
-Antwort: Falsch
 
----
+**Falsch**
