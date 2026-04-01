@@ -152,6 +152,7 @@ Ein Ping ist eine einfache **[Möglichkeit]** die verwendet werden kann, um die 
 ### Frage 17
 
 **Was beschreibt das Internet korrekt?**
+
 **c. Ein riesiges Netzwerk aus vielen kleineren Netzwerken mit weltweiter Verbindung.**
 
 ---
@@ -159,6 +160,7 @@ Ein Ping ist eine einfache **[Möglichkeit]** die verwendet werden kann, um die 
 ### Frage 18
 
 **Was macht Network Address Translation (NAT)?**
+
 **d. Ersetzt Quell- oder Ziel-IP-Adressen durch andere IP-Adressen am Router/Firewall.**
 
 ---
@@ -166,6 +168,7 @@ Ein Ping ist eine einfache **[Möglichkeit]** die verwendet werden kann, um die 
 ### Frage 19
 
 **Welche Aufgabe gehört zur Vermittlungsschicht (Schicht 3)?**
+
 **a. Routing und Adressierung mit IP, Weg über mehrere Netzknoten finden.**
 
 ---
@@ -173,6 +176,7 @@ Ein Ping ist eine einfache **[Möglichkeit]** die verwendet werden kann, um die 
 ### Frage 20
 
 **Welcher Bereich ist als privates Klasse-C-Netz angegeben?**
+
 **a. 192.168.0.0 (bis 192.168.255.255)**
 
 ---
@@ -180,6 +184,7 @@ Ein Ping ist eine einfache **[Möglichkeit]** die verwendet werden kann, um die 
 ### Frage 21
 
 **Welche Aussage ist richtig?**
+
 **c. TCP ist zuverlässig und verbindungsorientiert, UDP ist schneller, aber ohne Sicherung.**
 
 ---
