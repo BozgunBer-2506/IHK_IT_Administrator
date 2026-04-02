@@ -89,20 +89,27 @@ Krankenhäuser nutzen spezialisierte IT-Systeme zur digitalen Verwaltung von Pat
 
 ## 1.6 OSI-Modell
 
-Das OSI-Modell (Open Systems Interconnection) beschreibt Netzwerkkommunikation in 7 Schichten.
+Das OSI-Modell (**Open Systems Interconnection**) beschreibt Netzwerkkommunikation in 7 Schichten.
 
-| Layer | Name (DE)              | Protokolle/Geräte     | Funktion                             |
-| ----- | ---------------------- | --------------------- | ------------------------------------ |
-| 7     | Anwendungsschicht      | HTTP, FTP, SMTP, DNS  | Schnittstelle zu Anwendungen         |
-| 6     | Darstellungsschicht    | SSL/TLS, JPEG, ASCII  | Formatierung, Verschlüsselung        |
-| 5     | Sitzungsschicht        | NetBIOS, RPC          | Auf-/Abbau von Sitzungen             |
-| 4     | Transportschicht       | TCP, UDP              | Ende-zu-Ende, Ports, Fehlerkorrektur |
-| 3     | Vermittlungsschicht    | IP, ICMP, Router      | Routing, IP-Adressen                 |
-| 2     | Sicherungsschicht      | Ethernet, MAC, Switch | Lokale Übertragung, MAC-Adressen     |
-| 1     | Bitübertragungsschicht | Kabel, Hubs, Repeater | Physikalische Übertragung von Bits   |
+| Layer | Name (DE / EN)                         | Protokolle / Geräte         | Funktion                                     |
+| :---- | :------------------------------------- | :-------------------------- | :------------------------------------------- |
+| **7** | **Anwendungsschicht (Application)**    | HTTP, HTTPS, FTP, SMTP, DNS | Schnittstelle zu Anwendungen & Diensten      |
+| **6** | **Darstellungsschicht (Presentation)** | SSL/TLS, JPEG, ASCII, MPEG  | Formatierung, Verschlüsselung, Kompression   |
+| **5** | **Sitzungsschicht (Session)**          | NetBIOS, RPC, NFS           | Steuerung & Synchronisation von Sitzungen    |
+| **4** | **Transportschicht (Transport)**       | TCP, UDP                    | Segmentierung, Ports, Ende-zu-Ende Kontrolle |
+| **3** | **Vermittlungsschicht (Network)**      | IP, ICMP, Router            | Routing, logische Adressierung (IP)          |
+| **2** | **Sicherungsschicht (Data Link)**      | Ethernet, MAC, Switch       | Lokale Übertragung, physik. Adressen (MAC)   |
+| **1** | **Bitübertragungsschicht (Physical)**  | Kabel, Hubs, Repeater       | Physikalische Übertragung von Bits (Signale) |
 
-📌 Merksatz (Layer 7→1): "Alle Menschen Suchen Täglich Nette Daten Partys"
-TCP/IP-Modell hat nur 4 Schichten: Anwendung, Transport, Internet, Netzzugang.
+- **"All People Seem To Need Data Processing"**
+  _(**A**pplication, **P**resentation, **S**ession, **T**ransport, **N**etwork, **D**ata Link, **P**hysical)_
+
+TCP/IP-Modell ist die praxisorientierte Variante und fasst die OSI-Schichten zusammen:
+
+- **Anwendung (Application):** (entspricht OSI 5, 6, 7)
+- **Transport:** (entspricht OSI 4)
+- **Internet:** (entspricht OSI 3)
+- **Netzzugang (Network Access):** (entspricht OSI 1, 2)
 
 ---
 
@@ -636,4 +643,4 @@ Empfehlung: 45–60 Minuten pro Tag
 
 ---
 
-- Viel Erfolg bei der IHK-Prüfung 2026!
+- Viel Erfolg bei der IHK-Prüfung!
