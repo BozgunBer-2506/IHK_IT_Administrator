@@ -55,7 +55,32 @@ export default function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
   const scrollRef = useRef(null);
 
-  useEffect(() => setGuides(getGuides()), []);
+  useEffect(() => {
+    const loaded = getGuides();
+    setGuides(loaded);
+    const hash = decodeURIComponent(window.location.hash.slice(1));
+    if (hash) {
+      const found = loaded.find(g => g.title === hash);
+      if (found) setSelected(found);
+    }
+  }, []);
+
+  useEffect(() => {
+    const onHashChange = () => {
+      const hash = decodeURIComponent(window.location.hash.slice(1));
+      if (!hash) {
+        setSelected(null);
+      } else {
+        setGuides(prev => {
+          const found = prev.find(g => g.title === hash);
+          if (found) setSelected(found);
+          return prev;
+        });
+      }
+    };
+    window.addEventListener('hashchange', onHashChange);
+    return () => window.removeEventListener('hashchange', onHashChange);
+  }, []);
 
   useEffect(() => {
     const el = scrollRef.current;
@@ -66,10 +91,18 @@ export default function App() {
   }, []);
 
   const scrollToTop = () => scrollRef.current?.scrollTo({ top: 0, behavior: 'smooth' });
+
   const handleSelect = (guide) => {
+    window.location.hash = encodeURIComponent(guide.title);
     setSelected(guide);
     setSidebarOpen(false);
     scrollRef.current?.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleHome = () => {
+    window.location.hash = '';
+    setSelected(null);
+    setSidebarOpen(false);
   };
 
   return (
@@ -84,7 +117,7 @@ export default function App() {
 
       <aside className={`fixed md:relative z-30 md:z-auto w-72 md:w-80 h-full bg-[#00000f] flex flex-col transition-transform duration-300 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}`}>
         <div className="h-20 px-6 border-b-2 border-blue-500/40 flex items-center gap-3 cursor-pointer shrink-0 hover:bg-blue-500/5 transition-all"
-          onClick={() => { setSelected(null); setSidebarOpen(false); }}>
+          onClick={handleHome}>
           <Terminal className="text-blue-500 shrink-0" size={24} />
           <div className="min-w-0">
             <h1 className="text-white font-bold tracking-tighter text-lg uppercase truncate">IT-Administrator (IHK)</h1>
