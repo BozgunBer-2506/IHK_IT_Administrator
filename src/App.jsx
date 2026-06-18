@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { getGuides } from './data';
-import { Terminal, Cpu, ChevronRight, Hash, Activity, Menu, ArrowUp, Zap } from 'lucide-react';
+import { Terminal, Cpu, ChevronRight, Hash, Activity, Menu, ArrowUp, Zap, Search, X, PanelLeft } from 'lucide-react';
 
 const MODULE_INFO = {
   'Modul-01': { title: 'Modul 1 – Grundlagen', topics: ['Teamarbeit', 'Konfliktmanagement', 'Aufbau eines Computers', 'Betriebssysteme', 'Digitalisierung im Krankenhaus', 'Sicherheitsaspekte', 'KIS und RIS', 'OSI-Modell', 'Netzwerk-Grundlagen', 'Speicherarten', 'Binärsystem', 'Server', 'Client-Server-Beziehung', 'Cloud', 'MS 365'] },
@@ -52,8 +52,14 @@ export default function App() {
   const [guides, setGuides] = useState([]);
   const [selected, setSelected] = useState(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [showScrollTop, setShowScrollTop] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+  const [searchOpen, setSearchOpen] = useState(false);
   const scrollRef = useRef(null);
+  const searchInputRef = useRef(null);
+  const searchContainerRef = useRef(null);
 
   useEffect(() => {
     const loaded = getGuides();
@@ -90,6 +96,59 @@ export default function App() {
     return () => el.removeEventListener('scroll', onScroll);
   }, []);
 
+  useEffect(() => {
+    if (!searchQuery.trim()) {
+      setSearchResults([]);
+      return;
+    }
+    const q = searchQuery.toLowerCase();
+    const results = [];
+    for (const g of guides) {
+      const title = g.title.replace(/_/g, ' ');
+      if (title.toLowerCase().includes(q)) {
+        results.push({ guide: g, type: 'title', preview: null });
+      } else {
+        const lines = g.content.split('\n');
+        for (const line of lines) {
+          const cleaned = line.replace(/[#*`[\]|]/g, '').trim();
+          if (cleaned.toLowerCase().includes(q) && cleaned.length > 5) {
+            results.push({ guide: g, type: 'content', preview: cleaned.slice(0, 72) });
+            break;
+          }
+        }
+      }
+    }
+    setSearchResults(results.slice(0, 8));
+  }, [searchQuery, guides]);
+
+  useEffect(() => {
+    const onKey = (e) => {
+      if ((e.ctrlKey && e.key === 'k') || (e.key === '/' && document.activeElement.tagName !== 'INPUT')) {
+        e.preventDefault();
+        setSearchOpen(true);
+        setTimeout(() => searchInputRef.current?.focus(), 50);
+      }
+      if (e.key === 'Escape') {
+        setSearchOpen(false);
+        setSearchQuery('');
+        searchInputRef.current?.blur();
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, []);
+
+  useEffect(() => {
+    const onClickOutside = (e) => {
+      if (searchContainerRef.current && !searchContainerRef.current.contains(e.target)) {
+        setSearchOpen(false);
+        setSearchQuery('');
+      }
+    };
+    document.addEventListener('mousedown', onClickOutside);
+    return () => document.removeEventListener('mousedown', onClickOutside);
+  }, []);
+
   const scrollToTop = () => scrollRef.current?.scrollTo({ top: 0, behavior: 'smooth' });
 
   const handleSelect = (guide) => {
@@ -105,17 +164,28 @@ export default function App() {
     setSidebarOpen(false);
   };
 
+  const handleSearchSelect = (guide) => {
+    setSearchOpen(false);
+    setSearchQuery('');
+    handleSelect(guide);
+  };
+
   return (
     <div className="flex h-screen bg-[#020617] font-mono overflow-hidden text-white">
       <div className="absolute inset-0 opacity-[0.04] pointer-events-none"
         style={{ backgroundImage: `linear-gradient(to right, #3b82f6 1px, transparent 1px), linear-gradient(to bottom, #3b82f6 1px, transparent 1px)`, backgroundSize: '40px 40px' }}
       />
 
-      <div className="fixed left-[320px] top-0 h-full w-[2px] hidden md:block z-20"
-        style={{ background: 'linear-gradient(to bottom, transparent, rgba(59,130,246,0.7) 20%, rgba(59,130,246,0.7) 80%, transparent)', boxShadow: '0 0 10px 2px rgba(59,130,246,0.35)' }}
-      />
+      {!sidebarCollapsed && (
+        <div className="fixed left-[320px] top-0 h-full w-[2px] hidden md:block z-20"
+          style={{ background: 'linear-gradient(to bottom, transparent, rgba(59,130,246,0.7) 20%, rgba(59,130,246,0.7) 80%, transparent)', boxShadow: '0 0 10px 2px rgba(59,130,246,0.35)' }}
+        />
+      )}
 
-      <aside className={`fixed md:relative z-30 md:z-auto w-72 md:w-80 h-full bg-[#00000f] flex flex-col transition-transform duration-300 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}`}>
+      <aside className={`fixed md:relative z-30 md:z-auto w-72 md:w-80 h-full bg-[#00000f] flex flex-col transition-all duration-300
+        ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}
+        ${sidebarCollapsed ? 'md:hidden' : 'md:translate-x-0'}
+      `}>
         <div className="h-20 px-6 border-b-2 border-blue-500/40 flex items-center gap-3 cursor-pointer shrink-0 hover:bg-blue-500/5 transition-all"
           onClick={handleHome}>
           <Terminal className="text-blue-500 shrink-0" size={24} />
@@ -127,6 +197,7 @@ export default function App() {
             </div>
           </div>
         </div>
+
         <nav className="flex-1 overflow-y-auto p-3 custom-scrollbar space-y-2">
           {["Modul-01","Modul-02","Modul-03","Modul-04"].map(modName => (
             <div key={modName} className="space-y-0.5">
@@ -146,10 +217,8 @@ export default function App() {
               ))}
             </div>
           ))}
-
         </nav>
 
-        {/* Cheat Sheet - sabit alt buton */}
         {guides.filter(g => g.folder === 'Cheat-Sheet').map(g => (
           <button key={g.id} onClick={() => handleSelect(g)}
             className={`mx-4 mb-2 flex items-center gap-3 p-2.5 rounded-md transition-all border ${
@@ -174,22 +243,75 @@ export default function App() {
       </aside>
 
       <main className="flex-1 flex flex-col min-w-0 relative">
-        <header className="h-14 border-b border-blue-500/20 bg-black/40 backdrop-blur-md flex items-center justify-between px-4 md:px-8 shrink-0">
-          <div className="flex items-center gap-2 min-w-0">
-            <button className="md:hidden text-slate-400 hover:text-white mr-2" onClick={() => setSidebarOpen(true)}>
+        <header className="h-14 border-b border-blue-500/20 bg-black/40 backdrop-blur-md flex items-center px-4 md:px-6 shrink-0 gap-3">
+          {/* Left: mobile menu + focus toggle + breadcrumb */}
+          <div className="flex items-center gap-2 shrink-0">
+            <button className="md:hidden text-slate-400 hover:text-white" onClick={() => setSidebarOpen(true)}>
               <Menu size={20}/>
             </button>
-            <div className="flex items-center gap-2 text-[11px] font-bold uppercase tracking-widest text-slate-500 min-w-0">
+            <button
+              className="hidden md:flex items-center justify-center w-7 h-7 rounded text-slate-500 hover:text-blue-400 hover:bg-blue-500/10 transition-all"
+              onClick={() => setSidebarCollapsed(v => !v)}
+              title={sidebarCollapsed ? 'Sidebar öffnen' : 'Focus Mode'}>
+              <PanelLeft size={16} />
+            </button>
+            <div className="flex items-center gap-2 text-[11px] font-bold uppercase tracking-widest text-slate-500">
               <span className="shrink-0">root</span>
               <ChevronRight size={12} className="shrink-0" />
               {selected ? <>
-                <span className="text-blue-500 truncate">{selected.folder}</span>
+                <span className="text-blue-500 truncate max-w-[80px] sm:max-w-none">{selected.folder}</span>
                 <ChevronRight size={12} className="shrink-0 hidden sm:block"/>
-                <span className="text-slate-300 truncate hidden sm:block">{selected.title.replace(/_/g, ' ')}</span>
+                <span className="text-slate-300 truncate hidden sm:block max-w-[160px]">{selected.title.replace(/_/g, ' ')}</span>
               </> : <span className="text-blue-500">Home</span>}
             </div>
           </div>
-          <Activity size={18} className="text-green-500"/>
+
+          {/* Center: Search */}
+          <div ref={searchContainerRef} className="relative flex-1 max-w-md mx-auto">
+            <div
+              className={`flex items-center gap-2 bg-white/5 border rounded-md px-3 py-1.5 cursor-text transition-all ${searchOpen ? 'border-blue-500/60 bg-blue-500/5' : 'border-white/10 hover:border-white/20'}`}
+              onClick={() => { setSearchOpen(true); searchInputRef.current?.focus(); }}>
+              <Search size={13} className="text-slate-500 shrink-0" />
+              <input
+                ref={searchInputRef}
+                type="text"
+                value={searchQuery}
+                onChange={e => { setSearchQuery(e.target.value); setSearchOpen(true); }}
+                onFocus={() => setSearchOpen(true)}
+                placeholder="Suchen...  Ctrl+K"
+                className="bg-transparent text-[12px] text-white placeholder-slate-600 outline-none w-full"
+              />
+              {searchQuery && (
+                <button onClick={(e) => { e.stopPropagation(); setSearchQuery(''); searchInputRef.current?.focus(); }}>
+                  <X size={12} className="text-slate-500 hover:text-white transition-colors" />
+                </button>
+              )}
+            </div>
+
+            {searchOpen && searchResults.length > 0 && (
+              <div className="absolute top-full mt-1 left-0 right-0 bg-[#0a0f1e] border border-blue-500/20 rounded-md shadow-2xl z-50 overflow-hidden">
+                {searchResults.map((r, i) => (
+                  <button key={i} onClick={() => handleSearchSelect(r.guide)}
+                    className="w-full flex flex-col px-3 py-2.5 hover:bg-blue-500/10 transition-all text-left border-b border-white/5 last:border-0">
+                    <span className="text-[12px] text-blue-300 font-bold truncate">
+                      {r.guide.title.replace(/_/g, ' ')}
+                    </span>
+                    {r.type === 'content' && r.preview && (
+                      <span className="text-[11px] text-slate-500 truncate mt-0.5">{r.preview}</span>
+                    )}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {searchOpen && searchQuery.trim() && searchResults.length === 0 && (
+              <div className="absolute top-full mt-1 left-0 right-0 bg-[#0a0f1e] border border-blue-500/20 rounded-md shadow-2xl z-50 px-3 py-2.5">
+                <span className="text-[12px] text-slate-500">Keine Ergebnisse für „{searchQuery}"</span>
+              </div>
+            )}
+          </div>
+
+          <Activity size={18} className="text-green-500 shrink-0"/>
         </header>
 
         <div ref={scrollRef} className="flex-1 overflow-y-auto p-4 md:p-10">
