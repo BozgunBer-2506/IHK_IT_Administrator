@@ -11,6 +11,60 @@ const MODULE_INFO = {
   'Modul-04': { title: 'Modul 4 – Spezialisierung', topics: ['Schnittstellen', 'API / HL7 / LDT / GDT', 'Unix / Linux', 'IT Monitoring', 'Docker', 'IT Security', 'Angriffsvektoren', 'Sicherheitsrichtlinien', 'Kryptographie', 'Vulnerability Scan', 'Penetrationstest', 'MS Tier Modell', 'Firewall', 'Relationale Datenbanken / SQL', 'Lizenzmanagement'] },
 };
 
+function escapeRegex(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function applyHighlights(container, query) {
+  if (!container || !query.trim()) return;
+  // clear previous highlights
+  container.querySelectorAll('mark.search-hl').forEach(m => {
+    const parent = m.parentNode;
+    parent.replaceChild(document.createTextNode(m.textContent), m);
+    parent.normalize();
+  });
+  if (!query.trim()) return;
+
+  const regex = new RegExp(`(${escapeRegex(query)})`, 'gi');
+  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, null);
+  const textNodes = [];
+  let node;
+  while ((node = walker.nextNode())) textNodes.push(node);
+
+  textNodes.forEach(textNode => {
+    if (!regex.test(textNode.textContent)) return;
+    regex.lastIndex = 0;
+    const parts = textNode.textContent.split(regex);
+    if (parts.length <= 1) return;
+    const frag = document.createDocumentFragment();
+    parts.forEach(part => {
+      if (regex.test(part)) {
+        regex.lastIndex = 0;
+        const mark = document.createElement('mark');
+        mark.className = 'search-hl';
+        mark.textContent = part;
+        frag.appendChild(mark);
+      } else {
+        regex.lastIndex = 0;
+        frag.appendChild(document.createTextNode(part));
+      }
+    });
+    textNode.parentNode.replaceChild(frag, textNode);
+  });
+
+  const first = container.querySelector('mark.search-hl');
+  first?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function clearHighlights(container) {
+  if (!container) return;
+  container.querySelectorAll('mark.search-hl').forEach(m => {
+    const parent = m.parentNode;
+    parent.replaceChild(document.createTextNode(m.textContent), m);
+    parent.normalize();
+  });
+}
+
 function HomePage() {
   return (
     <div className="px-8 py-6 relative z-10">
@@ -57,10 +111,14 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [highlightQuery, setHighlightQuery] = useState('');
+
   const scrollRef = useRef(null);
+  const articleRef = useRef(null);
   const searchInputRef = useRef(null);
   const searchContainerRef = useRef(null);
 
+  // Load guides + hash routing
   useEffect(() => {
     const loaded = getGuides();
     setGuides(loaded);
@@ -88,6 +146,7 @@ export default function App() {
     return () => window.removeEventListener('hashchange', onHashChange);
   }, []);
 
+  // Scroll tracking
   useEffect(() => {
     const el = scrollRef.current;
     if (!el) return;
@@ -96,6 +155,20 @@ export default function App() {
     return () => el.removeEventListener('scroll', onScroll);
   }, []);
 
+  // Apply highlights after content renders
+  useEffect(() => {
+    if (!selected) return;
+    if (!highlightQuery) {
+      clearHighlights(articleRef.current);
+      return;
+    }
+    const timer = setTimeout(() => {
+      applyHighlights(articleRef.current, highlightQuery);
+    }, 150);
+    return () => clearTimeout(timer);
+  }, [selected, highlightQuery]);
+
+  // Search logic
   useEffect(() => {
     if (!searchQuery.trim()) {
       setSearchResults([]);
@@ -107,20 +180,21 @@ export default function App() {
       const title = g.title.replace(/_/g, ' ');
       if (title.toLowerCase().includes(q)) {
         results.push({ guide: g, type: 'title', preview: null });
-      } else {
-        const lines = g.content.split('\n');
-        for (const line of lines) {
-          const cleaned = line.replace(/[#*`[\]|]/g, '').trim();
-          if (cleaned.toLowerCase().includes(q) && cleaned.length > 5) {
-            results.push({ guide: g, type: 'content', preview: cleaned.slice(0, 72) });
-            break;
-          }
+        continue;
+      }
+      const lines = g.content.split('\n');
+      for (const line of lines) {
+        const cleaned = line.replace(/[#*`[\]|]/g, '').trim();
+        if (cleaned.toLowerCase().includes(q) && cleaned.length > 4) {
+          results.push({ guide: g, type: 'content', preview: cleaned.slice(0, 80) });
+          break;
         }
       }
     }
-    setSearchResults(results.slice(0, 8));
+    setSearchResults(results.slice(0, 9));
   }, [searchQuery, guides]);
 
+  // Keyboard: Ctrl+K focuses search, Escape closes
   useEffect(() => {
     const onKey = (e) => {
       if ((e.ctrlKey && e.key === 'k') || (e.key === '/' && document.activeElement.tagName !== 'INPUT')) {
@@ -138,6 +212,7 @@ export default function App() {
     return () => window.removeEventListener('keydown', onKey);
   }, []);
 
+  // Click outside search closes dropdown
   useEffect(() => {
     const onClickOutside = (e) => {
       if (searchContainerRef.current && !searchContainerRef.current.contains(e.target)) {
@@ -154,6 +229,7 @@ export default function App() {
   const handleSelect = (guide) => {
     window.location.hash = encodeURIComponent(guide.title);
     setSelected(guide);
+    setHighlightQuery('');
     setSidebarOpen(false);
     scrollRef.current?.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -161,13 +237,19 @@ export default function App() {
   const handleHome = () => {
     window.location.hash = '';
     setSelected(null);
+    setHighlightQuery('');
     setSidebarOpen(false);
   };
 
   const handleSearchSelect = (guide) => {
+    const q = searchQuery;
     setSearchOpen(false);
     setSearchQuery('');
-    handleSelect(guide);
+    setHighlightQuery(q);
+    window.location.hash = encodeURIComponent(guide.title);
+    setSelected(guide);
+    setSidebarOpen(false);
+    scrollRef.current?.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -182,10 +264,12 @@ export default function App() {
         />
       )}
 
+      {/* Sidebar */}
       <aside className={`fixed md:relative z-30 md:z-auto w-72 md:w-80 h-full bg-[#00000f] flex flex-col transition-all duration-300
         ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}
         ${sidebarCollapsed ? 'md:hidden' : 'md:translate-x-0'}
       `}>
+        {/* Logo */}
         <div className="h-20 px-6 border-b-2 border-blue-500/40 flex items-center gap-3 cursor-pointer shrink-0 hover:bg-blue-500/5 transition-all"
           onClick={handleHome}>
           <Terminal className="text-blue-500 shrink-0" size={24} />
@@ -198,6 +282,7 @@ export default function App() {
           </div>
         </div>
 
+        {/* Nav */}
         <nav className="flex-1 overflow-y-auto p-3 custom-scrollbar space-y-2">
           {["Modul-01","Modul-02","Modul-03","Modul-04"].map(modName => (
             <div key={modName} className="space-y-0.5">
@@ -219,6 +304,7 @@ export default function App() {
           ))}
         </nav>
 
+        {/* Cheat Sheet */}
         {guides.filter(g => g.folder === 'Cheat-Sheet').map(g => (
           <button key={g.id} onClick={() => handleSelect(g)}
             className={`mx-4 mb-2 flex items-center gap-3 p-2.5 rounded-md transition-all border ${
@@ -233,6 +319,52 @@ export default function App() {
           </button>
         ))}
 
+        {/* Search */}
+        <div ref={searchContainerRef} className="relative mx-4 mb-2">
+          {/* Results panel — opens upward */}
+          {searchOpen && searchResults.length > 0 && (
+            <div className="absolute bottom-full mb-1 left-0 right-0 bg-[#0a0f1e] border border-blue-500/30 rounded-md shadow-2xl z-50 overflow-hidden max-h-72 overflow-y-auto">
+              {searchResults.map((r, i) => (
+                <button key={i} onClick={() => handleSearchSelect(r.guide)}
+                  className="w-full flex flex-col px-3 py-2 hover:bg-blue-500/10 transition-all text-left border-b border-white/5 last:border-0">
+                  <span className="text-[12px] text-blue-300 font-bold truncate">
+                    {r.guide.title.replace(/_/g, ' ')}
+                  </span>
+                  {r.type === 'content' && r.preview && (
+                    <span className="text-[11px] text-slate-400 mt-0.5 leading-relaxed line-clamp-2">{r.preview}</span>
+                  )}
+                </button>
+              ))}
+            </div>
+          )}
+          {searchOpen && searchQuery.trim() && searchResults.length === 0 && (
+            <div className="absolute bottom-full mb-1 left-0 right-0 bg-[#0a0f1e] border border-blue-500/20 rounded-md shadow-2xl z-50 px-3 py-2">
+              <span className="text-[12px] text-slate-500">Keine Ergebnisse für „{searchQuery}"</span>
+            </div>
+          )}
+
+          <div
+            className={`flex items-center gap-2 bg-white/5 border rounded-md px-3 py-2 cursor-text transition-all ${searchOpen ? 'border-blue-500/60 bg-blue-500/5' : 'border-white/10 hover:border-white/20'}`}
+            onClick={() => { setSearchOpen(true); searchInputRef.current?.focus(); }}>
+            <Search size={13} className="text-slate-500 shrink-0" />
+            <input
+              ref={searchInputRef}
+              type="text"
+              value={searchQuery}
+              onChange={e => { setSearchQuery(e.target.value); setSearchOpen(true); }}
+              onFocus={() => setSearchOpen(true)}
+              placeholder="Suchen...  Ctrl+K"
+              className="bg-transparent text-[12px] text-white placeholder-slate-600 outline-none w-full"
+            />
+            {searchQuery && (
+              <button onClick={e => { e.stopPropagation(); setSearchQuery(''); searchInputRef.current?.focus(); }}>
+                <X size={12} className="text-slate-500 hover:text-white transition-colors" />
+              </button>
+            )}
+          </div>
+        </div>
+
+        {/* GitHub footer */}
         <div className="p-4 border-t border-blue-500/20 flex justify-center">
           <a href="https://github.com/BozgunBer-2506" target="_blank" rel="noopener noreferrer"
             className="flex items-center gap-2 group transition-all duration-300">
@@ -242,11 +374,11 @@ export default function App() {
         </div>
       </aside>
 
+      {/* Main */}
       <main className="flex-1 flex flex-col min-w-0 relative">
-        <header className="h-14 border-b border-blue-500/20 bg-black/40 backdrop-blur-md flex items-center px-4 md:px-6 shrink-0 gap-3">
-          {/* Left: mobile menu + focus toggle + breadcrumb */}
-          <div className="flex items-center gap-2 shrink-0">
-            <button className="md:hidden text-slate-400 hover:text-white" onClick={() => setSidebarOpen(true)}>
+        <header className="h-14 border-b border-blue-500/20 bg-black/40 backdrop-blur-md flex items-center justify-between px-4 md:px-6 shrink-0 gap-3">
+          <div className="flex items-center gap-2 min-w-0">
+            <button className="md:hidden text-slate-400 hover:text-white mr-1" onClick={() => setSidebarOpen(true)}>
               <Menu size={20}/>
             </button>
             <button
@@ -255,69 +387,32 @@ export default function App() {
               title={sidebarCollapsed ? 'Sidebar öffnen' : 'Focus Mode'}>
               <PanelLeft size={16} />
             </button>
-            <div className="flex items-center gap-2 text-[11px] font-bold uppercase tracking-widest text-slate-500">
+            <div className="flex items-center gap-2 text-[11px] font-bold uppercase tracking-widest text-slate-500 min-w-0">
               <span className="shrink-0">root</span>
               <ChevronRight size={12} className="shrink-0" />
               {selected ? <>
-                <span className="text-blue-500 truncate max-w-[80px] sm:max-w-none">{selected.folder}</span>
+                <span className="text-blue-500 truncate">{selected.folder}</span>
                 <ChevronRight size={12} className="shrink-0 hidden sm:block"/>
-                <span className="text-slate-300 truncate hidden sm:block max-w-[160px]">{selected.title.replace(/_/g, ' ')}</span>
+                <span className="text-slate-300 truncate hidden sm:block">{selected.title.replace(/_/g, ' ')}</span>
               </> : <span className="text-blue-500">Home</span>}
             </div>
           </div>
-
-          {/* Center: Search */}
-          <div ref={searchContainerRef} className="relative flex-1 max-w-md mx-auto">
-            <div
-              className={`flex items-center gap-2 bg-white/5 border rounded-md px-3 py-1.5 cursor-text transition-all ${searchOpen ? 'border-blue-500/60 bg-blue-500/5' : 'border-white/10 hover:border-white/20'}`}
-              onClick={() => { setSearchOpen(true); searchInputRef.current?.focus(); }}>
-              <Search size={13} className="text-slate-500 shrink-0" />
-              <input
-                ref={searchInputRef}
-                type="text"
-                value={searchQuery}
-                onChange={e => { setSearchQuery(e.target.value); setSearchOpen(true); }}
-                onFocus={() => setSearchOpen(true)}
-                placeholder="Suchen...  Ctrl+K"
-                className="bg-transparent text-[12px] text-white placeholder-slate-600 outline-none w-full"
-              />
-              {searchQuery && (
-                <button onClick={(e) => { e.stopPropagation(); setSearchQuery(''); searchInputRef.current?.focus(); }}>
-                  <X size={12} className="text-slate-500 hover:text-white transition-colors" />
-                </button>
-              )}
+          {/* Show active highlight query badge */}
+          {highlightQuery && (
+            <div className="flex items-center gap-1.5 bg-yellow-500/10 border border-yellow-500/30 rounded px-2 py-0.5">
+              <span className="text-[11px] text-yellow-400">„{highlightQuery}"</span>
+              <button onClick={() => setHighlightQuery('')}>
+                <X size={10} className="text-yellow-500/60 hover:text-yellow-400" />
+              </button>
             </div>
-
-            {searchOpen && searchResults.length > 0 && (
-              <div className="absolute top-full mt-1 left-0 right-0 bg-[#0a0f1e] border border-blue-500/20 rounded-md shadow-2xl z-50 overflow-hidden">
-                {searchResults.map((r, i) => (
-                  <button key={i} onClick={() => handleSearchSelect(r.guide)}
-                    className="w-full flex flex-col px-3 py-2.5 hover:bg-blue-500/10 transition-all text-left border-b border-white/5 last:border-0">
-                    <span className="text-[12px] text-blue-300 font-bold truncate">
-                      {r.guide.title.replace(/_/g, ' ')}
-                    </span>
-                    {r.type === 'content' && r.preview && (
-                      <span className="text-[11px] text-slate-500 truncate mt-0.5">{r.preview}</span>
-                    )}
-                  </button>
-                ))}
-              </div>
-            )}
-
-            {searchOpen && searchQuery.trim() && searchResults.length === 0 && (
-              <div className="absolute top-full mt-1 left-0 right-0 bg-[#0a0f1e] border border-blue-500/20 rounded-md shadow-2xl z-50 px-3 py-2.5">
-                <span className="text-[12px] text-slate-500">Keine Ergebnisse für „{searchQuery}"</span>
-              </div>
-            )}
-          </div>
-
+          )}
           <Activity size={18} className="text-green-500 shrink-0"/>
         </header>
 
         <div ref={scrollRef} className="flex-1 overflow-y-auto p-4 md:p-10">
           {selected ? (
             <div className="max-w-4xl mx-auto">
-              <article className="prose prose-invert prose-blue max-w-none prose-strong:text-blue-400 prose-code:text-blue-400">
+              <article ref={articleRef} className="prose prose-invert prose-blue max-w-none prose-strong:text-blue-400 prose-code:text-blue-400">
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>
                   {selected.content}
                 </ReactMarkdown>

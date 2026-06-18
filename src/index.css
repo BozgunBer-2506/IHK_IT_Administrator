@@ -8,6 +8,14 @@
   }
 }
 
+/* Search highlight */
+mark.search-hl {
+  background: rgba(250, 204, 21, 0.35);
+  color: #fde68a;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 5px;
